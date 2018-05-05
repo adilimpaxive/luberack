@@ -375,6 +375,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
                         JSONArray jsonObject = temp.getJSONArray("results");
                         // Toast.makeText(getContext(), "LNG"+session.getLongitude(), Toast.LENGTH_SHORT).show();
                         //Toast.makeText(getContext(), "LAT"+session.getLatitude(), Toast.LENGTH_SHORT).show();
+
                         Log.d("Response", response);
                         SetProperties(jsonObject);
                     }
