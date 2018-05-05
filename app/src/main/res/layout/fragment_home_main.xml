@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.luberack.Fragments.HomeMain">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:padding="8dp"
+            android:background="@drawable/background"
+            android:textColorHint="@color/hint"
+            android:hint="Enter zip code"
+            android:drawableRight="@drawable/ic_search_black_24dp"
+            android:id="@+id/et_home_search"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/heading"
+            android:layout_below="@id/et_home_search"
+            android:text="Welcome to LubeRack"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/first_lin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/oil_change"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                android:src="@drawable/oil_change" />
+
+            <ImageView
+                android:id="@+id/brakes"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/brakes" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first_lin"
+            android:id="@+id/Second_lin"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                android:src="@drawable/alignment"
+                android:id="@+id/alignment"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                android:src="@drawable/estimate"
+                android:id="@+id/repair_estimate"
+                android:layout_marginLeft="20dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
+</FrameLayout>
+

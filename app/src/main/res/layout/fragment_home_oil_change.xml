@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/et_make"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:hint="Make"
+                android:inputType="text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/background"
+                android:textAlignment="center"
+                android:textColorHint="@color/hint" />
+
+            <EditText
+                android:id="@+id/et_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Year"
+                android:inputType="text"
+                android:layout_below="@id/et_make"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/background"
+                android:textAlignment="center"
+                android:textColorHint="@color/hint" />
+
+            <EditText
+                android:id="@+id/et_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_year"
+                android:hint="Model"
+                android:inputType="text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/background"
+                android:textAlignment="center"
+                android:textColorHint="@color/hint" />
+
+            <EditText
+                android:id="@+id/et_engine_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_model"
+                android:hint="Engine Size"
+                android:inputType="text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/background"
+                android:textAlignment="center"
+                android:textColorHint="@color/hint" />
+
+            <EditText
+                android:id="@+id/et_fra_wd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_engine_size"
+                android:hint="FWD/RWD/AWD"
+                android:inputType="text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/background"
+                android:textAlignment="center"
+                android:textColorHint="@color/hint" />
+
+            <Button
+                android:id="@+id/buttonPanel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_fra_wd"
+                android:background="@drawable/button_background"
+                android:src="@drawable/edittext_background"
+                android:text="Next"
+                android:textColor="#fff"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:textColorHint="@color/hint"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

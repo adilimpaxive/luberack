@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.luberack.Fragments.Shops">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Vehicle_details"
+            android:orientation="vertical">
+
+            <!--<android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize"
+                android:background="@drawable/button_background">
+            </android.support.v7.widget.Toolbar>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/vegicle_detail_car_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/car"/>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/vehivle_details_done"
+                    android:paddingLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:drawableLeft="@drawable/ic_keyboard_arrow_down_black_24dp"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="Done"
+                    android:background="@drawable/edittext_background"
+                    android:drawablePadding="170dp"
+                    />
+
+                <TextView
+                    android:id="@+id/anymake_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Any Make"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#b6b3b3"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/acura_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Acura"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#b6b3b3"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/honda_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Honda"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#b6b3b3"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/toyota_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Toyota"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#b6b3b3"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

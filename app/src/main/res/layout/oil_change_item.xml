@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_oil_shop"
+        android:src="@drawable/splash_logo"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_shop_name"
+            android:text="Jimenez bros"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_shop_address"
+            android:text="4.3km from taukis square"
+            android:textColor="@color/hint"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_review"
+                android:text="354"
+                android:gravity="bottom"
+                android:textColor="@color/black"
+               />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Reviews"
+                android:gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+            />
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:textSize="14sp"
+              android:padding="10dp"
+              android:layout_height="wrap_content"
+              android:text="View Shop"
+              android:layout_marginLeft="5dp"
+              android:textColor="@color/white"
+              android:id="@+id/btn_view_shop"
+              android:background="@drawable/button_background"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
