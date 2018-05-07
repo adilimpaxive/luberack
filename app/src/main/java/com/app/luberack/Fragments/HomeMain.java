@@ -37,6 +37,31 @@ public class HomeMain extends Fragment {
 
            }
        });
+        im_brakes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Fragment f1=new brakes_frag();
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();;
+                fragmentTransaction.replace(R.id.home_frame, f1, null);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+
+
+            }
+        });
+        im_alignment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Fragment f1=new brakes_frag();
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();;
+                fragmentTransaction.replace(R.id.home_frame, f1, null);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+
+
+            }
+        });
+
 
 
         im_getestmimate.setOnClickListener(new View.OnClickListener() {

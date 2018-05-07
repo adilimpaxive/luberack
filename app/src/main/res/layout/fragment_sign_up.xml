@@ -24,7 +24,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:src="@drawable/ic_mail_outline_black_24dp"/>
+                    android:src="@drawable/user"/>
 
                 <LinearLayout
                     android:padding="10dp"
@@ -137,7 +137,7 @@
                     android:textColor="@color/black"
                     android:textColorHint="@color/hint"
                     android:backgroundTint="@color/background"
-                    android:hint="Password"/>
+                    android:hint="Confirm Password"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -153,7 +153,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:src="@drawable/ic_lock_outline_black_24dp"/>
+                    android:src="@drawable/location"/>
 
                 <LinearLayout
                     android:padding="10dp"

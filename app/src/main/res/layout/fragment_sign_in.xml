@@ -94,12 +94,12 @@
             android:layout_marginRight="20dp"
             android:background="@drawable/background">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="10dp"
-                android:src="@drawable/google"/>
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:padding="10dp"-->
+                <!--android:src="@drawable/google"/>-->
 
             <LinearLayout
                 android:padding="10dp"
@@ -107,7 +107,7 @@
                 android:layout_height="match_parent"
                 android:background="@color/hint" />
 
-            <TextView
+            <com.google.android.gms.common.SignInButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/gmail_connect"
@@ -117,7 +117,7 @@
                 android:textColor="@color/hint"
                 android:layout_gravity="center"
                 android:backgroundTint="@color/background"
-               android:text="Connect via Gmail"/>
+                android:text="Connect via Gmail" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

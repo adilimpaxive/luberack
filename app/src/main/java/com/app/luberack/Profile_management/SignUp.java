@@ -65,6 +65,14 @@ public class SignUp extends Fragment {
             container.removeAllViews();
         }
 
+        Bundle bundle = getArguments();
+        if (bundle != null) {
+            String getGEmail = bundle.getString("email");
+            String GetGName = bundle.getString("name");
+            username.setText(GetGName);
+            email.setText(getGEmail);
+        }
+
         et_city.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

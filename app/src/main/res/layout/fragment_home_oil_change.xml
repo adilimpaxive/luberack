@@ -16,7 +16,7 @@
             android:layout_gravity="center"
             android:gravity="center">
 
-            <EditText
+            <Spinner
                 android:id="@+id/et_make"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -30,9 +30,10 @@
                 android:autoSizeTextType="uniform"
                 android:background="@drawable/background"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint" />
+                android:textColorHint="@color/hint"
+                android:entries="@array/oil_change_make"/>
 
-            <EditText
+            <Spinner
                 android:id="@+id/et_year"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -45,9 +46,10 @@
                 android:autoSizeTextType="uniform"
                 android:background="@drawable/background"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint" />
+                android:textColorHint="@color/hint"
+                android:entries="@array/oil_change_year"/>
 
-            <EditText
+            <Spinner
                 android:id="@+id/et_model"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -60,7 +62,8 @@
                 android:autoSizeTextType="uniform"
                 android:background="@drawable/background"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint" />
+                android:textColorHint="@color/hint"
+                android:entries="@array/oil_change_make_Honda"/>
 
             <EditText
                 android:id="@+id/et_engine_size"

@@ -29,6 +29,12 @@ import com.app.luberack.R;
 import com.app.luberack.utility.AlertDialogManager;
 import com.app.luberack.utility.Config;
 import com.app.luberack.utility.Utility;
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.auth.api.signin.GoogleSignInResult;
+import com.google.android.gms.common.SignInButton;
+import com.google.android.gms.common.api.GoogleApiClient;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -45,6 +51,11 @@ public class SignIn extends Fragment {
     private AlertDialogManager alert;
     SessionManager session;
     String Uemail,Upassword;
+    private static final String TAG = "google_sign_in";
+    private static final int RC_SIGN_IN = 007;
+    private GoogleApiClient mGoogleApiClient;
+    private SignInButton btn_signin;
+    String GetGoogleName, GetGoogleEmail;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -54,6 +65,7 @@ public class SignIn extends Fragment {
         email=view.findViewById(R.id.et_email);
         passsword=view.findViewById(R.id.et_password);
         login=view.findViewById(R.id.btn_login);
+        btn_signin = view.findViewById(R.id.gmail_connect);
         session = new SessionManager(getContext());
         alert = new AlertDialogManager();
         sweetProgressDialog = new ProgressDialog(getActivity(), R.style.MyAlertDialogStyle);
@@ -84,8 +96,78 @@ public class SignIn extends Fragment {
                startActivity(in);
             }
         });
+        /////////////////////////////
+        ////////////////Google Sign In Start
+        //////////////////////////////////
+
+        btn_signin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                signIn();
+            }
+        });
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+
+        mGoogleApiClient = new GoogleApiClient.Builder(getContext())
+                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+                .build();
+
+        // Customizing G+ button
+        btn_signin.setSize(SignInButton.SIZE_STANDARD);
+        btn_signin.setScopes(gso.getScopeArray());
+
+        //////////////////////
+        //////////end
+        /////////////////////
+
         return view;
     }
+    /////////////////////////////
+    ////////////////Google Sign In Start Ahmad JAvid
+    //////////////////////////////////
+    private void signIn() {
+        Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
+        startActivityForResult(signInIntent, RC_SIGN_IN);
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == RC_SIGN_IN) {
+            GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
+            handleSignInResult(result);
+        }
+    }
+    private void handleSignInResult(GoogleSignInResult result) {
+        Log.d(TAG, "handleSignInResult:" + result.isSuccess());
+        if (result.isSuccess()) {
+            // Signed in successfully, show authenticated UI.
+            GoogleSignInAccount acct = result.getSignInAccount();
+
+            Log.e(TAG, "display name: " + acct.getDisplayName());
+
+            GetGoogleName = acct.getDisplayName();
+            GetGoogleEmail = acct.getEmail();
+            Log.e(TAG, "Name: " + GetGoogleName + ", email: " + GetGoogleEmail
+            );
+            SignUp signUpPrivate = new SignUp();
+            Bundle send_data_to_signUp = new Bundle();
+            send_data_to_signUp.putString("name", GetGoogleName);
+            send_data_to_signUp.putString("email", GetGoogleEmail);
+            signUpPrivate.setArguments(send_data_to_signUp);
+            getActivity().getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.frame_profile, signUpPrivate)
+                    .addToBackStack("customtag")
+                    .commit();
+        }
+    }
+
+    //////////////////////
+    //////////end
+    /////////////////////
 
     //Validating data
     private boolean validate() {

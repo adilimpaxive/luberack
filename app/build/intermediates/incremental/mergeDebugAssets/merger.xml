@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="F:\coding campus\LubeRack\app\src\main\assets"/><source path="F:\coding campus\LubeRack\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\coding campus\LubeRack\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\src\main\assets"/><source path="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\src\debug\assets"/></dataSet></merger>
