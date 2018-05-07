@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/linear1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/et_make"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerVertical="true"
+                        android:hint="Make"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/background"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint"
+                        android:entries="@array/oil_change_make"/>
+
+                    <EditText
+                        android:id="@+id/et_year"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Year"
+                        android:layout_below="@id/et_make"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/background"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint"/>
+
+                    <EditText
+                        android:id="@+id/et_model"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_year"
+                        android:hint="Model"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/background"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint"
+                        android:entries="@array/oil_change_make_Honda"/>
+                    <EditText
+                        android:id="@+id/et_need_for_car"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_engine_size"
+                        android:hint="Describe  what you need for your sar."
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/background"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint" />
+                    <EditText
+                        android:id="@+id/et_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_engine_size"
+                        android:hint="Choose a date"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/background"
+                        android:textAlignment="center"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:textColorHint="@color/hint" />
+                    <EditText
+                        android:id="@+id/et_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_engine_size"
+                        android:hint="Choose a Time"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/background"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint" />
+                    <EditText
+                        android:id="@+id/user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_engine_size"
+                        android:hint="UserName"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/background"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint" />
+                    <EditText
+                        android:id="@+id/USer_Email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_engine_size"
+                        android:hint="Enter your Mail"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/background"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint" />
+                    <EditText
+                        android:id="@+id/data_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_engine_size"
+                        android:hint="Enter your data_phone"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/background"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint" />
+
+                    <Button
+                        android:id="@+id/buttonPanel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_fra_wd"
+                        android:background="@drawable/button_background"
+                        android:src="@drawable/edittext_background"
+                        android:text="Continue"
+                        android:textColor="#fff"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
