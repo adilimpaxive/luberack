@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "188593945599",
+    "firebase_url": "https://luberack-3b59b.firebaseio.com",
+    "project_id": "luberack-3b59b",
+    "storage_bucket": "luberack-3b59b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188593945599:android:77b8a0ebe5b960e1",
+        "android_client_info": {
+          "package_name": "com.app.luberack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188593945599-8qk03o8s0v7m6hnrqogu4h00c8br8s3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.luberack",
+            "certificate_hash": "a6deb654297d34893e88fb9575bf0a2055d03fb7"
+          }
+        },
+        {
+          "client_id": "188593945599-2q9tpmrpni723jr4v3b6cdqflijl14mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwcvsRdtt04izY1fqR8OId2oqGmRpnSyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188593945599-2q9tpmrpni723jr4v3b6cdqflijl14mv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

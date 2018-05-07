@@ -56,10 +56,10 @@
                 android:background="@drawable/edittext_background"
                 android:gravity="center"
                 android:layout_weight="1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:hint="Fisrname"/>
-            <EditText
+                android:hint="Name"/>
+            <!--<EditText
                 android:id="@+id/last_name_et"
                 android:textColor="@color/edittext_vofnt_color"
                 android:padding="10dp"
@@ -68,7 +68,7 @@
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="50sp"
-                android:hint="LastName"/>
+                android:hint="LastName"/>-->
 
         </LinearLayout>
 
@@ -97,6 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="Change Password"
+                android:inputType="textWebPassword"
                 android:gravity="center"/>
         </LinearLayout>
         <LinearLayout
@@ -133,15 +134,15 @@
         </LinearLayout>
 
 
-        <TextView
+        <!--<TextView
             android:textColor="@color/edittext_vofnt_color"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="Location"/>
+            android:text="Location"/>-->
 
-        <LinearLayout
+        <!--<LinearLayout
             android:layout_margin="10dp"
             android:weightSum="2"
             android:orientation="horizontal"
@@ -161,7 +162,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 />
-        </LinearLayout>
+        </LinearLayout>-->
 
         <LinearLayout
             android:layout_margin="10dp"
@@ -177,9 +178,10 @@
                 android:background="@drawable/edittext_background"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:hint="Street Address"/>
+                android:focusableInTouchMode="false"
+                android:hint="Address"/>
 
-            <EditText
+            <!--<EditText
                 android:id="@+id/city_et"
                 android:textColor="#595959"
                 android:layout_marginTop="10dp"
@@ -207,10 +209,10 @@
                 android:background="@drawable/edittext_background"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:hint="Zip"/>
+                android:hint="Zip"/>-->
 
             <Button
-                android:id="@+id/save_byn"
+                android:id="@+id/save_btn"
                 android:textColor="#fff"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/button_background"

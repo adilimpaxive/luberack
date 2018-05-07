@@ -218,9 +218,9 @@ public class SessionManager {
         return pref.getString(KEY_EMAIL, null);
     }
 
-//    public String getPassword() {
-//        return pref.getString(KEY_PASSWORD, null);
-//    }
+    public String getPassword() {
+        return pref.getString(KEY_PASSWORD, null);
+    }
     public String getUserID() {
         return pref.getString(KEY_USERID, null);
     }

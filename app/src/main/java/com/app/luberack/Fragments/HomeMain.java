@@ -23,6 +23,8 @@ public class HomeMain extends Fragment {
 
        im_oil_change=view.findViewById(R.id.oil_change);
        im_getestmimate=view.findViewById(R.id.repair_estimate);
+        im_brakes=view.findViewById(R.id.brakes);
+        im_alignment=view.findViewById(R.id.alignment);
        im_oil_change.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -49,7 +51,30 @@ public class HomeMain extends Fragment {
 
             }
         });
-
+//        im_alignment.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Fragment f1=new HomeOilChange();
+//                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();;
+//                fragmentTransaction.replace(R.id.home_frame, f1, null);
+//                fragmentTransaction.addToBackStack(null);
+//                fragmentTransaction.commit();
+//
+//
+//            }
+//        });
+//        im_brakes.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Fragment f1=new History_Data();
+//                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();;
+//                fragmentTransaction.replace(R.id.home_frame, f1, null);
+//                fragmentTransaction.addToBackStack(null);
+//                fragmentTransaction.commit();
+//
+//
+//            }
+//        });
        return  view;
     }
 
