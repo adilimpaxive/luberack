@@ -33,7 +33,8 @@
         <item>RDX</item>
         <item>RLX</item>
     </string-array>
-    <string-array name="oil_change_year">
+    <string-array name="oil_change_year"
+        >
         <item>2010</item>
         <item>2011</item>
         <item>2012</item>

@@ -23,6 +23,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerVertical="true"
                 android:hint="Make"
+                android:color="#000"
                 android:inputType="text"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
@@ -47,6 +48,7 @@
                 android:background="@drawable/background"
                 android:textAlignment="center"
                 android:textColorHint="@color/hint"
+                android:textColor="#000"
                 android:entries="@array/oil_change_year"/>
 
             <Spinner
@@ -63,6 +65,7 @@
                 android:background="@drawable/background"
                 android:textAlignment="center"
                 android:textColorHint="@color/hint"
+                android:textColor="#000"
                 android:entries="@array/oil_change_make_Honda"/>
 
             <EditText
@@ -70,30 +73,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/et_model"
-                android:hint="Engine Size"
+                android:hint="Service"
                 android:inputType="text"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
+                android:focusable="false"
+                android:textColor="#000"
                 android:autoSizeTextType="uniform"
                 android:background="@drawable/background"
                 android:textAlignment="center"
                 android:textColorHint="@color/hint" />
 
-            <EditText
-                android:id="@+id/et_fra_wd"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/et_engine_size"
-                android:hint="FWD/RWD/AWD"
-                android:inputType="text"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginTop="10dp"
-                android:autoSizeTextType="uniform"
-                android:background="@drawable/background"
-                android:textAlignment="center"
-                android:textColorHint="@color/hint" />
+            <!--<EditText-->
+                <!--android:id="@+id/et_fra_wd"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/et_engine_size"-->
+                <!--android:hint="FWD/RWD/AWD"-->
+                <!--android:inputType="text"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:autoSizeTextType="uniform"-->
+                <!--android:background="@drawable/background"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textColorHint="@color/hint" />-->
 
             <Button
                 android:id="@+id/buttonPanel"

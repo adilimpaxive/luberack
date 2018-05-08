@@ -5,7 +5,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <?xml version="1.0" encoding="utf-8"?>
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -22,7 +21,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <Spinner
+                    <EditText
                         android:id="@+id/et_make"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -32,6 +31,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginTop="10dp"
+                        android:textColor="#000"
                         android:autoSizeTextType="uniform"
                         android:background="@drawable/background"
                         android:textAlignment="center"
@@ -40,6 +40,7 @@
 
                     <EditText
                         android:id="@+id/et_year"
+                        android:textColor="#000"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Year"
@@ -58,6 +59,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/et_year"
                         android:hint="Model"
+                        android:textColor="#000"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginTop="10dp"
@@ -71,16 +73,18 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/et_engine_size"
-                        android:hint="Describe  what you need for your sar."
+                        android:hint="Service"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginTop="10dp"
                         android:autoSizeTextType="uniform"
                         android:background="@drawable/background"
                         android:textAlignment="center"
-                        android:textColorHint="@color/hint" />
+                        android:textColorHint="@color/hint"
+                        android:textColor="#000"/>
                     <EditText
                         android:id="@+id/et_date"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/et_engine_size"
@@ -89,6 +93,7 @@
                         android:layout_marginRight="20dp"
                         android:layout_marginTop="10dp"
                         android:autoSizeTextType="uniform"
+                        android:textColor="#000"
                         android:background="@drawable/background"
                         android:textAlignment="center"
                         android:focusable="false"
@@ -96,10 +101,12 @@
                         android:textColorHint="@color/hint" />
                     <EditText
                         android:id="@+id/et_time"
+                        android:textColor="#000"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/et_engine_size"
                         android:hint="Choose a Time"
+                        android:focusableInTouchMode="false"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginTop="10dp"
@@ -119,13 +126,16 @@
                         android:autoSizeTextType="uniform"
                         android:background="@drawable/background"
                         android:textAlignment="center"
+                        android:textColor="#000"
                         android:textColorHint="@color/hint" />
                     <EditText
-                        android:id="@+id/USer_Email"
+                        android:id="@+id/user_email"
+                        android:textColor="#000"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/et_engine_size"
                         android:hint="Enter your Mail"
+                        android:inputType="textWebEmailAddress"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginTop="10dp"
@@ -143,18 +153,20 @@
                         android:layout_marginRight="20dp"
                         android:layout_marginTop="10dp"
                         android:autoSizeTextType="uniform"
+                        android:inputType="number"
                         android:background="@drawable/background"
                         android:textAlignment="center"
-                        android:textColorHint="@color/hint" />
+                        android:textColorHint="@color/hint"
+                        android:textColor="#000"/>
 
                     <Button
-                        android:id="@+id/buttonPanel"
+                        android:id="@+id/btn_appoint"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/et_fra_wd"
                         android:background="@drawable/button_background"
                         android:src="@drawable/edittext_background"
-                        android:text="Continue"
+                        android:text="Appointment"
                         android:textColor="#fff"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
