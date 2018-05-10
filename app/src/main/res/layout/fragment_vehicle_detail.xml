@@ -1,16 +1,16 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.app.luberack.Fragments.Shops">
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".Vehicle_details"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:context=".Vehicle_details">
 
             <!--<android.support.v7.widget.Toolbar
                 android:layout_width="match_parent"
@@ -21,95 +21,109 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="0dp"
+                android:layout_weight="0.3">
+
                 <ImageView
                     android:id="@+id/vegicle_detail_car_iv"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/car"/>
+                    android:src="@drawable/car" />
             </LinearLayout>
+
             <LinearLayout
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <TextView
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:orientation="vertical">
+
+                <Button
                     android:id="@+id/vehivle_details_done"
-                    android:paddingLeft="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="65dp"
-                    android:drawableLeft="@drawable/ic_keyboard_arrow_down_black_24dp"
-                    android:textSize="18sp"
-                    android:gravity="center"
-                    android:text="Done"
                     android:background="@drawable/edittext_background"
+                    android:drawableLeft="@drawable/ic_keyboard_arrow_down_black_24dp"
                     android:drawablePadding="170dp"
-                    />
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:text="Done"
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/anymake_tv"
                     android:layout_width="match_parent"
-                    android:layout_height="65dp"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/anymake_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background"
+                    android:gravity="center"
+                    android:padding="15dp"
                     android:text="Any Make"
-                    android:gravity="center"
-                    android:textSize="18sp"
                     android:textColor="@color/black"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0.7dp"
-                    android:background="#b6b3b3"
-                    android:textColor="@color/black"/>
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/acura_tv"
                     android:layout_width="match_parent"
-                    android:layout_height="65dp"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/acura_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background"
+                    android:gravity="center"
+                    android:padding="15dp"
                     android:text="Acura"
-                    android:gravity="center"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0.7dp"
-                    android:background="#b6b3b3"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/honda_tv"
                     android:layout_width="match_parent"
-                    android:layout_height="65dp"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/honda_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background"
+                    android:gravity="center"
+                    android:padding="15dp"
                     android:text="Honda"
-                    android:gravity="center"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0.7dp"
-                    android:background="#b6b3b3"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/toyota_tv"
                     android:layout_width="match_parent"
-                    android:layout_height="65dp"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/toyota_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background"
+                    android:gravity="center"
+                    android:padding="15dp"
                     android:text="Toyota"
-                    android:gravity="center"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="0.7dp"
-                    android:background="#b6b3b3"
-                    android:textColor="@color/black"/>
-
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:textColor="@color/black" />
 
             </LinearLayout>
-
-
         </LinearLayout>
-    </ScrollView>
-
-
-</FrameLayout>
+</ScrollView>

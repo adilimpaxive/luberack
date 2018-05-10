@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.Patterns;
@@ -17,6 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -53,6 +55,7 @@ public class ProfileUpdate extends Fragment {
     SessionManager sessionManager;
     String user_name,u_address,u_email;
     String password;
+    TextView click_to_full_view_btn;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -75,7 +78,17 @@ public class ProfileUpdate extends Fragment {
         lng=sessionManager.getLng();
         Log.i("getData","  "+sessionManager.getUserEmail()+"  "+sessionManager.getAddress());
 
-
+        click_to_full_view_btn=(TextView)view.findViewById(R.id.click_to_full_view_btn);
+        click_to_full_view_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
+                Fragment f3 = new VehicleDetail();
+                fragmentTransaction3.replace(R.id.home_frame, f3, null);
+                fragmentTransaction3.addToBackStack(null);
+                fragmentTransaction3.commit();
+            }
+        });
         search_address_et.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

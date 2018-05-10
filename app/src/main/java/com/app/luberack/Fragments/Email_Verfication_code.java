@@ -76,7 +76,7 @@ public class Email_Verfication_code extends Fragment {
 
 
 
-        if (text_code.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(text_code).matches()) {
+        if (text_code.isEmpty() ) {
             et_code.setError("Please Enter Code");
             valid = false;
         } else {

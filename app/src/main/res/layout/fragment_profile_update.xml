@@ -8,21 +8,17 @@
     android:background="#fff"
     android:orientation="vertical">
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <android.support.v7.widget.Toolbar
-            android:minHeight="?attr/actionBarSize"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/background"
-            android:id="@+id/toolbar">
 
-        </android.support.v7.widget.Toolbar
-            >
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:minHeight="?attr/actionBarSize"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/background"-->
+            <!--android:id="@+id/toolbar" />-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,7 +28,7 @@
                 android:id="@+id/cra_iv"
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:src="@drawable/car"/>
             <Button
                 android:id="@+id/upload_image_iv"
@@ -43,48 +39,34 @@
         </LinearLayout>
 
         <LinearLayout
-            android:background="@drawable/background"
-            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:weightSum="2">
             <EditText
                 android:id="@+id/first_name_et"
                 android:textColor="@color/edittext_vofnt_color"
                 android:padding="10dp"
+                android:background="@drawable/background"
                 android:gravity="center"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:hint="Name"/>
-            <!--<EditText
-                android:id="@+id/last_name_et"
-                android:textColor="@color/edittext_vofnt_color"
-                android:padding="10dp"
-                android:background="@drawable/edittext_background"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="50sp"
-                android:hint="LastName"/>-->
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_margin="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
 
             <EditText
                 android:id="@+id/emial_et"
                 android:textColor="@color/edittext_vofnt_color"
-                android:background="@drawable/edittext_background"
+                android:background="@drawable/background"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:hint="Email"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
                 android:gravity="center"/>
 
 
@@ -92,10 +74,12 @@
                 android:id="@+id/change_passwrod_et"
                 android:textColor="@color/edittext_vofnt_color"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/edittext_background"
+                android:background="@drawable/background"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:hint="Change Password"
+                android:padding="10dp"
+                android:textColorHint="@color/hint"
                 android:inputType="textWebPassword"
                 android:gravity="center"/>
         </LinearLayout>
@@ -112,15 +96,14 @@
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <Button
+            <TextView
                 android:id="@+id/click_to_full_view_btn"
                 android:textColor="@color/edittext_vofnt_color"
                 android:textAlignment="textStart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#fff"
                 android:textAllCaps="false"
-                android:text="Click to fill Vehicle deatils"
+                android:text="Click to update Vehicle details"
                 android:gravity="start" />
         </LinearLayout>
 
@@ -164,19 +147,23 @@
         </LinearLayout>-->
 
         <LinearLayout
-            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
 
             <EditText
                 android:id="@+id/search_address_et"
                 android:textColor="#595959"
-                android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:background="@drawable/edittext_background"
+                android:singleLine="true"
+                android:padding="10dp"
+                android:background="@drawable/background"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:focusableInTouchMode="false"
                 android:hint="Address"/>
 
@@ -214,6 +201,8 @@
                 android:id="@+id/save_btn"
                 android:textColor="#fff"
                 android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:textSize="17sp"
                 android:background="@drawable/button_background"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
