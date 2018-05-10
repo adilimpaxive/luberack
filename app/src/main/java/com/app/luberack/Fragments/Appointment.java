@@ -25,6 +25,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.app.luberack.Profile_management.SessionManager;
 import com.app.luberack.R;
 import com.app.luberack.utility.Config;
 
@@ -43,40 +44,44 @@ import java.util.Map;
 
 public class Appointment extends Fragment {
 
-    EditText et_make,et_year,et_model,et_need_for_car,et_date,et_time,et_user_name,et_user_email,et_data_phone,et_estimate;
-    String make,m_year,model,need_for_car,m_date,time,user_name,user_email,data_phone;
+    EditText et_make, et_year, et_model, et_need_for_car, et_date, et_time, et_user_name, et_user_email, et_data_phone, et_estimate;
+    String make, m_year, model, need_for_car, m_date, time, user_name, user_email, data_phone;
     Button btn_appoint;
     private DatePicker datePicker;
     private Calendar calendar;
     private int year, month, day;
     DatePickerDialog.OnDateSetListener date;
+    SessionManager sessionManager;
+    String app_id;
 
     @Override
-    public View onCreateView(LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_appointment, container, false);
-        et_make=view.findViewById(R.id.et_make);
-        et_year=view.findViewById(R.id.et_year);
-        et_model=view.findViewById(R.id.et_model);
-        et_need_for_car=view.findViewById(R.id.et_need_for_car);
-        et_date=view.findViewById(R.id.et_date);
-        et_time=view.findViewById(R.id.et_time);
-        et_user_name=view.findViewById(R.id.user_name);
-        et_user_email=view.findViewById(R.id.user_email);
-        et_data_phone=view.findViewById(R.id.data_phone);
-        et_estimate=view.findViewById(R.id.et_estimate);
+        et_make = view.findViewById(R.id.et_make);
+        et_year = view.findViewById(R.id.et_year);
+        et_model = view.findViewById(R.id.et_model);
+        et_need_for_car = view.findViewById(R.id.et_need_for_car);
+        et_date = view.findViewById(R.id.et_date);
+        et_time = view.findViewById(R.id.et_time);
+        et_user_name = view.findViewById(R.id.user_name);
+        et_user_email = view.findViewById(R.id.user_email);
+        et_data_phone = view.findViewById(R.id.data_phone);
+        et_estimate = view.findViewById(R.id.et_estimate);
 
-        btn_appoint=view.findViewById(R.id.btn_appoint);
+        btn_appoint = view.findViewById(R.id.btn_appoint);
 
         ///////////////////
         ////////Get Bundle data
         /////////////////////
+        sessionManager=new SessionManager(getContext());
 
+        et_user_name.setText(sessionManager.getUserName());
+        et_user_email.setText(sessionManager.getUserEmail());
 
 
         ///////////////
         ///////End
         //////////////////
-
 
 
         ////////////////////
@@ -85,32 +90,30 @@ public class Appointment extends Fragment {
         calendar = Calendar.getInstance();
 
 
-        Bundle b=getArguments();
-        if(b != null){
+        Bundle b = getArguments();
+        if (b != null) {
             // handle your code here.
 
-            String oil_code=b.getString("oil_code");
+            String oil_code = b.getString("oil_code");
 
-            if(oil_code.equals("10002"))
-            {
-                String oilModel=b.getString("oil_model");
-                String oilMake=b.getString("oil_make");
-                String oilYear=b.getString("oil_year");
-                String min_price=b.getString("min_price");
-                String max_price=b.getString("max_price");
-                String oil_change_service=b.getString("oil_change");
+            if (oil_code.equals("10002")) {
+                String oilModel = b.getString("oil_model");
+                String oilMake = b.getString("oil_make");
+                String oilYear = b.getString("oil_year");
+                String min_price = b.getString("min_price");
+                String max_price = b.getString("max_price");
+                String oil_change_service = b.getString("oil_change");
                 et_make.setText(oilMake);
                 et_year.setText(oilYear);
                 et_model.setText(oilModel);
                 et_need_for_car.setText(oil_change_service);
-                et_estimate.setText(min_price+"$-"+max_price+"$");
-                Log.i("tag",oil_code+"  "+oilModel+"   "+oilMake+"  "+oilYear);
+                et_estimate.setText(min_price + "$-" + max_price + "$");
 
 
             }
 
         }
-         date = new DatePickerDialog.OnDateSetListener() {
+        date = new DatePickerDialog.OnDateSetListener() {
 
             @Override
             public void onDateSet(DatePicker view, int year, int monthOfYear,
@@ -151,7 +154,7 @@ public class Appointment extends Fragment {
                     @Override
                     public void onTimeSet(TimePicker timePicker, int selectedHour, int selectedMinute) {
 
-                        et_time.setText( selectedHour + ":" + selectedMinute);
+                        et_time.setText(selectedHour + ":" + selectedMinute);
                     }
                 }, hour, minute, true);
                 mTimePicker.setTitle("Select Time");
@@ -169,15 +172,15 @@ public class Appointment extends Fragment {
         btn_appoint.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                make=et_make.getText().toString();
-                model=et_model.getText().toString();
-                m_year=et_year.getText().toString();
-                m_date=et_date.getText().toString();
-                time=et_time.getText().toString();
-                need_for_car=et_need_for_car.getText().toString();
-                user_name=et_user_name.getText().toString();
-                user_email=et_user_email.getText().toString();
-                data_phone=et_data_phone.getText().toString();
+                make = et_make.getText().toString();
+                model = et_model.getText().toString();
+                m_year = et_year.getText().toString();
+                m_date = et_date.getText().toString();
+                time = et_time.getText().toString();
+                need_for_car = et_need_for_car.getText().toString();
+                user_name = et_user_name.getText().toString();
+                user_email = et_user_email.getText().toString();
+                data_phone = et_data_phone.getText().toString();
 
                 SaveDate();
 
@@ -185,12 +188,9 @@ public class Appointment extends Fragment {
         });
 
 
-
-
-
-
         return view;
     }
+
     ///////////////////
     //////////Date Picker method
     ////////////////
@@ -204,8 +204,7 @@ public class Appointment extends Fragment {
     ///////////end
     ///////////////////////////
 
-    private void SaveDate()
-    {
+    private void SaveDate() {
         RequestQueue queue = Volley.newRequestQueue(getContext());
 
         StringRequest myReq = new StringRequest(Request.Method.POST,
@@ -225,17 +224,17 @@ public class Appointment extends Fragment {
 
 //                    Log.d("fname", EmailHolder);
                     if (success == 1) {
-//                        JSONObject temp = jObj.getJSONObject("user");
-//                        Log.e("tag", "" + temp);
-                        //    Boolean restricted = temp.getBoolean("restricted");
+//                        JSONObject temp = jObj.getJSONObject("service");
+////                        Log.e("tag", "" + temp);
+//                            String restricted = temp.getString("app_id");
                         Toast.makeText(getContext(), "Appointment Registered.", Toast.LENGTH_SHORT).show();
-
+//                        Log.i("if","asd"+restricted);
 
 //                        sessionManager.savePassword(PasswordHolder);
 //                        sessionManager.saveUserEmail(EmailHolder);
                         onSigninSuccess();
 
-                    }  else {
+                    } else {
                         // Error occurred in registration. Get the error
                         // message
                         String errorMsg = jObj.getString("error_msg");
@@ -276,9 +275,10 @@ public class Appointment extends Fragment {
                 params.put("date", m_date);
                 params.put("time", time);
                 params.put("name", user_name);
-                params.put("email", user_email);
                 params.put("phone", data_phone);
+                params.put("email", user_email);
                 params.put("service", need_for_car);
+                params.put("user_id",sessionManager.getUserID());
                 return params;
             }
         };
@@ -290,17 +290,9 @@ public class Appointment extends Fragment {
         queue.add(myReq);
 //        progressDialog.show();
     }
+
     private void onSigninSuccess() {
-//        if (progressDialog.isShowing()) {
-//            progressDialog.dismiss();
-//        }
-//        Intent intent = new Intent(getApplicationContext(), Login.class);
-//        // Add new Flag to start new Activity
-//        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-//        startActivity(intent);
-//        getApplication().finish();
-        Toast.makeText(getContext(), "Thanks!. -You will get notification soon about your appointment", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), "Thanks!. You will get notification soon about your appointment", Toast.LENGTH_SHORT).show();
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
         Fragment f1 = new HomeMain();
         fragmentTransaction.replace(R.id.home_frame, f1, null);
@@ -308,13 +300,13 @@ public class Appointment extends Fragment {
         fragmentTransaction.commit();
 
 
-
     }
+
     private void onSigninFailed(String errorMsg) {
 //        if (progressDialog.isShowing()) {
 //            progressDialog.dismiss();
 //        }
-        Toast.makeText(getContext(), ""+errorMsg, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), "Something is missing!" + errorMsg, Toast.LENGTH_SHORT).show();
     }
 
 }
