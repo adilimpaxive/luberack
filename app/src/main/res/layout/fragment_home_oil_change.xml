@@ -23,16 +23,17 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerVertical="true"
                 android:hint="Make"
-                android:color="#000"
+                android:textColor="#000"
                 android:inputType="text"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
                 android:autoSizeTextType="uniform"
-                android:background="@drawable/background"
+                android:background="@drawable/spinner_back"
                 android:textAlignment="center"
                 android:textColorHint="@color/hint"
-                android:entries="@array/oil_change_make"/>
+                android:entries="@array/oil_change_make"
+                />
 
             <Spinner
                 android:id="@+id/et_year"
@@ -45,7 +46,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
                 android:autoSizeTextType="uniform"
-                android:background="@drawable/background"
+                android:background="@drawable/spinner_back"
                 android:textAlignment="center"
                 android:textColorHint="@color/hint"
                 android:textColor="#000"
@@ -62,7 +63,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
                 android:autoSizeTextType="uniform"
-                android:background="@drawable/background"
+                android:background="@drawable/spinner_back"
                 android:textAlignment="center"
                 android:textColorHint="@color/hint"
                 android:textColor="#000"

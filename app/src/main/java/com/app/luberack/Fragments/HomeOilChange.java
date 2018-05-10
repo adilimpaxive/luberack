@@ -38,10 +38,12 @@ public class HomeOilChange extends Fragment {
     EditText et_engine_size, et_fra_wd;
     Button panel_Pluin;
     SessionManager sessionManager;
-    String service="Oil Change Service";
+    String service="Oil Change";
 
 
     String Make,Year,Model, engine,FRA;
+    String min_price;
+    String max_price;
 
     @Override
 
@@ -62,11 +64,12 @@ public class HomeOilChange extends Fragment {
 
 
 
+
         et_make.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                  Make= String.valueOf(parent.getItemAtPosition(position));
-                Toast.makeText(getContext(), "dddsfsdffsf"+Make, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getContext(), "dddsfsdffsf"+Make, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -78,7 +81,7 @@ public class HomeOilChange extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Year= String.valueOf(parent.getItemAtPosition(position));
-               Toast.makeText(getContext(), Year, Toast.LENGTH_SHORT).show();
+//               Toast.makeText(getContext(), Year, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -90,7 +93,7 @@ public class HomeOilChange extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Model= String.valueOf(parent.getItemAtPosition(position));
-                Toast.makeText(getContext(), Model, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getContext(), Model, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -108,9 +111,9 @@ public class HomeOilChange extends Fragment {
             public void onClick(View v) {
 
 
-//                SaveDate();
+                SaveDate();
 
-                onSigninSuccess();
+//                onSigninSuccess();
 
             }
         });
@@ -129,37 +132,20 @@ public class HomeOilChange extends Fragment {
                 Config.URL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
+                Log.i("res",response);
 //                if (progressDialog.isShowing()) {
 //                    progressDialog.dismiss();
 //                }
                 try {
-                    Log.e("tag", "response " + response);
                     JSONObject jObj = new JSONObject(response);
                     int success = jObj.getInt("success");
-//                    jsonArray.length();
-//                    jsonArray.getJSONObject(0).getString("user_name");
-
-
-//                    Log.d("fname", EmailHolder);
                     if (success == 1) {
-//                        JSONObject temp = jObj.getJSONObject("user");
-//                        Log.e("tag", "" + temp);
-                        //    Boolean restricted = temp.getBoolean("restricted");
-                        Toast.makeText(getContext(), "User Successfully registered ,now login.", Toast.LENGTH_SHORT).show();
+                        JSONObject temp = jObj.getJSONObject("charges");
+                        min_price = temp.getString("min_price");
+                        max_price = temp.getString("max_price");
+//                        Toast.makeText(getContext(), "" + min_price + "" + max_price, Toast.LENGTH_SHORT).show();
 
-
-//                        sessionManager.savePassword(PasswordHolder);
-//                        sessionManager.saveUserEmail(EmailHolder);
                         onSigninSuccess();
-
-                    } else if (success == 0) {
-                        Toast.makeText(getContext(), "User already exist.", Toast.LENGTH_SHORT).show();
-
-                    } else {
-                        // Error occurred in registration. Get the error
-                        // message
-                        String errorMsg = jObj.getString("error_msg");
-                        onSigninFailed(errorMsg);
                     }
 
                 } catch (JSONException e) {
@@ -177,7 +163,7 @@ public class HomeOilChange extends Fragment {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Log.i("myTag", error.toString());
+                        Log.e("myTag", error.toString());
 //                        if (progressDialog.isShowing()) {
 //                            progressDialog.dismiss();
 //                        }
@@ -189,12 +175,11 @@ public class HomeOilChange extends Fragment {
             protected Map<String, String> getParams() {
                 // Posting params to register url
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("tag", "register");
-                params.put("first_name", Make);
-                params.put("second_name", Year);
-                params.put("email", Model);
-                params.put("password", engine);
-                params.put("password", FRA);
+                params.put("tag", "costEstimate");
+                params.put("cmp_name", Make);
+                params.put("year", Year);
+                params.put("model", Model);
+                params.put("service", "Oil Change");
                 return params;
             }
         };
@@ -215,6 +200,8 @@ public class HomeOilChange extends Fragment {
         bundle.putString("oil_make",Make);
         bundle.putString("oil_model",Model);
         bundle.putString("oil_year",Year);
+        bundle.putString("min_price",min_price);
+        bundle.putString("max_price",max_price);
         bundle.putString("oil_code","10002");
         f.setArguments(bundle);
 
@@ -227,11 +214,5 @@ public class HomeOilChange extends Fragment {
 
 
 
-    }
-    private void onSigninFailed(String errorMsg) {
-//        if (progressDialog.isShowing()) {
-//            progressDialog.dismiss();
-//        }
-        Toast.makeText(getContext(), ""+errorMsg, Toast.LENGTH_SHORT).show();
     }
 }

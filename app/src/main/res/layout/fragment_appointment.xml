@@ -83,6 +83,20 @@
                         android:textColorHint="@color/hint"
                         android:textColor="#000"/>
                     <EditText
+                        android:id="@+id/et_estimate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_need_for_car"
+                        android:hint="Estimate"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/background"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint"
+                        android:textColor="#000"/>
+                    <EditText
                         android:id="@+id/et_date"
 
                         android:layout_width="match_parent"

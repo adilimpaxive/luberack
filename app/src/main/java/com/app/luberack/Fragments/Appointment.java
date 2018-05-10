@@ -43,7 +43,7 @@ import java.util.Map;
 
 public class Appointment extends Fragment {
 
-    EditText et_make,et_year,et_model,et_need_for_car,et_date,et_time,et_user_name,et_user_email,et_data_phone;
+    EditText et_make,et_year,et_model,et_need_for_car,et_date,et_time,et_user_name,et_user_email,et_data_phone,et_estimate;
     String make,m_year,model,need_for_car,m_date,time,user_name,user_email,data_phone;
     Button btn_appoint;
     private DatePicker datePicker;
@@ -63,6 +63,7 @@ public class Appointment extends Fragment {
         et_user_name=view.findViewById(R.id.user_name);
         et_user_email=view.findViewById(R.id.user_email);
         et_data_phone=view.findViewById(R.id.data_phone);
+        et_estimate=view.findViewById(R.id.et_estimate);
 
         btn_appoint=view.findViewById(R.id.btn_appoint);
 
@@ -95,11 +96,14 @@ public class Appointment extends Fragment {
                 String oilModel=b.getString("oil_model");
                 String oilMake=b.getString("oil_make");
                 String oilYear=b.getString("oil_year");
+                String min_price=b.getString("min_price");
+                String max_price=b.getString("max_price");
                 String oil_change_service=b.getString("oil_change");
                 et_make.setText(oilMake);
                 et_year.setText(oilYear);
                 et_model.setText(oilModel);
                 et_need_for_car.setText(oil_change_service);
+                et_estimate.setText(min_price+"$-"+max_price+"$");
                 Log.i("tag",oil_code+"  "+oilModel+"   "+oilMake+"  "+oilYear);
 
 
@@ -296,6 +300,7 @@ public class Appointment extends Fragment {
 //        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
 //        startActivity(intent);
 //        getApplication().finish();
+        Toast.makeText(getContext(), "Thanks!. -You will get notification soon about your appointment", Toast.LENGTH_SHORT).show();
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
         Fragment f1 = new HomeMain();
         fragmentTransaction.replace(R.id.home_frame, f1, null);

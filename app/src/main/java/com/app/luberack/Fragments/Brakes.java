@@ -51,10 +51,8 @@ public class Brakes extends Fragment {
         sweetProgressDialog.setMessage(String.format(getResources().getString(R.string.retr)));
         sweetProgressDialog.setCancelable(false);
         oilChangeDataList=new ArrayList<>();
-
         recyclerViewFeatured = view.findViewById(R.id.oil_change_recycler);
         recyclerViewFeatured.setLayoutManager(new LinearLayoutManager(getContext()));
-
         retrieveOilShops();
         return  view;
     }

@@ -69,7 +69,7 @@ public class SignIn extends Fragment {
         session = new SessionManager(getContext());
         alert = new AlertDialogManager();
         sweetProgressDialog = new ProgressDialog(getActivity(), R.style.MyAlertDialogStyle);
-        sweetProgressDialog.setMessage(String.format(getResources().getString(R.string.signup)));
+        sweetProgressDialog.setMessage(String.format(getResources().getString(R.string.signin)));
         sweetProgressDialog.setCancelable(false);
         if (container != null) {
             container.removeAllViews();
