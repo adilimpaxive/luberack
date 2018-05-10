@@ -23,12 +23,14 @@
     <string name="searching_data">Searching data...</string>
 
     <string-array name="oil_change_make">
+        <item>Select make</item>
         <item>Honda</item>
         <item>Aura</item>
         <item>Audi</item>
         <item>Ford</item>
     </string-array>
     <string-array name="oil_change_make_Honda">
+        <item>Select model</item>
         <item>ILX</item>
         <item>MDX</item>
         <item>RDX</item>
@@ -36,6 +38,7 @@
     </string-array>
     <string-array name="oil_change_year"
         >
+        <item>Select year</item>
         <item>2010</item>
         <item>2011</item>
         <item>2012</item>

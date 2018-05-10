@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "F:\\codingcampus\\luberacknew\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2bb58f9d49341566f4f09174c396033d\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Farid Mushtaq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\9c84b5fea679f1fa08594e3eede592a2\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

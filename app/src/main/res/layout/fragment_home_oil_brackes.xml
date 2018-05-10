@@ -1,88 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <LinearLayout
             android:id="@+id/linear1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
             android:layout_gravity="center"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
-            <Spinner
-                android:id="@+id/et_make"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_centerVertical="true"
-                android:hint="Make"
-                android:color="#000"
-                android:inputType="text"
+                android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
-                android:autoSizeTextType="uniform"
-                android:background="@drawable/spinner_back"
-                android:textAlignment="center"
-                android:textColorHint="@color/hint"
-                android:entries="@array/oil_change_make"/>
+                android:background="@drawable/background"
+                android:gravity="center">
 
-            <Spinner
-                android:id="@+id/et_year"
+                <Spinner
+                    android:id="@+id/et_make"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:autoSizeTextType="uniform"
+                    android:entries="@array/oil_change_make"
+                    android:hint="Make"
+                    android:inputType="text"
+                    android:popupBackground="@color/white"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/hint"
+                    android:theme="@style/Spinner"
+                    tools:targetApi="lollipop" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Year"
-                android:inputType="text"
-                android:layout_below="@id/et_make"
+                android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
-                android:autoSizeTextType="uniform"
-                android:background="@drawable/spinner_back"
-                android:textAlignment="center"
-                android:textColorHint="@color/hint"
-                android:textColor="#000"
-                android:entries="@array/oil_change_year"/>
+                android:background="@drawable/background"
+                android:gravity="center">
 
-            <Spinner
-                android:id="@+id/et_model"
+                <Spinner
+                    android:id="@+id/et_model"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_year"
+                    android:autoSizeTextType="uniform"
+                    android:entries="@array/oil_change_make_Honda"
+                    android:hint="Model"
+                    android:inputType="text"
+                    android:popupBackground="@color/white"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/hint"
+                    android:theme="@style/Spinner"
+                    tools:targetApi="lollipop" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/et_year"
-                android:hint="Model"
-                android:inputType="text"
+                android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
-                android:autoSizeTextType="uniform"
-                android:background="@drawable/spinner_back"
-                android:textAlignment="center"
-                android:textColorHint="@color/hint"
-                android:textColor="#000"
-                android:entries="@array/oil_change_make_Honda"/>
+                android:background="@drawable/background"
+                android:gravity="center">
+
+                <Spinner
+                    android:id="@+id/et_year"
+                    style="@android:style/Widget.Material.Light.DropDownItem.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_make"
+                    android:autoSizeTextType="uniform"
+                    android:entries="@array/oil_change_year"
+                    android:hint="Year"
+                    android:theme="@style/Spinner"
+                    android:popupBackground="@color/white"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/hint"
+                    tools:targetApi="lollipop" />
+            </LinearLayout>
 
             <EditText
                 android:id="@+id/et_engine_size"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/et_model"
-                android:hint="Service"
-                android:inputType="text"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
-                android:focusable="false"
-                android:textColor="#000"
                 android:autoSizeTextType="uniform"
                 android:background="@drawable/background"
+                android:focusable="false"
+                android:hint="Service"
+                android:inputType="text"
                 android:textAlignment="center"
+                android:textColor="#000"
                 android:textColorHint="@color/hint" />
 
             <!--<EditText-->
@@ -105,16 +134,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/et_fra_wd"
-                android:background="@drawable/button_background"
-                android:src="@drawable/edittext_background"
-                android:text="Next"
-                android:textColor="#fff"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
-                android:textSize="16sp"
+                android:background="@drawable/button_background"
+                android:src="@drawable/edittext_background"
+                android:text="Next"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint"/>
+                android:textColor="#fff"
+                android:textColorHint="@color/hint"
+                android:textSize="16sp" />
         </LinearLayout>
 
     </LinearLayout>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "outputFile": "F:\\codingcampus\\luberacknew\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\34171d4f4303606c4bd1b7d05f020155\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "C:\\Users\\Farid Mushtaq\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\fab290d84547aefcc17c632219c249db\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
