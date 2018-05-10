@@ -71,6 +71,8 @@ public class ProfileUpdate extends Fragment {
         emial_et.setText(sessionManager.getUserEmail());
         search_address_et.setText(sessionManager.getAddress());
         change_passwrod_et.setText(sessionManager.getPassword());
+        lat=sessionManager.getLat();
+        lng=sessionManager.getLng();
         Log.i("getData","  "+sessionManager.getUserEmail()+"  "+sessionManager.getAddress());
 
 

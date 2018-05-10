@@ -292,6 +292,10 @@
         "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-11.8.0.aar\\760a1ab94259ab2609a638d94f5270be\\res\\drawable-xxhdpi-v4\\quantum_ic_skip_next_grey600_36.png"
     },
     {
+        "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email_black_24dp.xml.flat",
+        "source": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\src\\main\\res\\drawable\\ic_email_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_12_dark.png.flat",
         "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\34171d4f4303606c4bd1b7d05f020155\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_12_dark.png"
     },
@@ -552,6 +556,10 @@
         "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\34171d4f4303606c4bd1b7d05f020155\\res\\drawable-xxxhdpi-v4\\ic_group_collapse_01.png"
     },
     {
+        "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable_place.png.flat",
+        "source": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\src\\main\\res\\drawable\\place.png"
+    },
+    {
         "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_quantum_ic_cast_white_36.png.flat",
         "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-11.8.0.aar\\760a1ab94259ab2609a638d94f5270be\\res\\drawable-xxhdpi-v4\\quantum_ic_cast_white_36.png"
     },
@@ -566,6 +574,10 @@
     {
         "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
         "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2bb58f9d49341566f4f09174c396033d\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loc.png.flat",
+        "source": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\src\\main\\res\\drawable\\loc.png"
     },
     {
         "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -3508,12 +3520,12 @@
         "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2bb58f9d49341566f4f09174c396033d\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cast_ic_notification_rewind30.xml.flat",
-        "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-11.8.0.aar\\760a1ab94259ab2609a638d94f5270be\\res\\drawable\\cast_ic_notification_rewind30.xml"
-    },
-    {
         "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_spinner_back.xml.flat",
         "source": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\src\\main\\res\\drawable-xhdpi\\spinner_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cast_ic_notification_rewind30.xml.flat",
+        "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-11.8.0.aar\\760a1ab94259ab2609a638d94f5270be\\res\\drawable\\cast_ic_notification_rewind30.xml"
     },
     {
         "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_01_dark.png.flat",
@@ -4448,6 +4460,10 @@
         "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2bb58f9d49341566f4f09174c396033d\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
+        "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_on_black_24dp.xml.flat",
+        "source": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\src\\main\\res\\drawable\\ic_location_on_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
         "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2bb58f9d49341566f4f09174c396033d\\res\\color\\abc_primary_text_material_dark.xml"
     },
@@ -4778,6 +4794,10 @@
     {
         "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2bb58f9d49341566f4f09174c396033d\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
         "merged": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\res\\merged\\debug\\layout_get_estimate_data.xml.flat",

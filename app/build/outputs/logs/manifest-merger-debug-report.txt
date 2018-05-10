@@ -5,6 +5,7 @@ INJECTED from C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\src\
 INJECTED from C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\src\main\AndroidManifest.xml:2:1-45:12
 INJECTED from C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\55feb1991644e4122bc82e2a8390110e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\4c371b065e24e325444abcbf85e245a0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3d54466126d2baf3e012b89b0ffb347d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\jackson-android-networking-1.0.1.aar\a162d05bf5cb7bfeafedc0d1b73d63f3\AndroidManifest.xml:20:1-29:12
 MERGED from [com.amitshekhar.android:android-networking:1.0.1] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\android-networking-1.0.1.aar\49c9632cb287e96393be799184f6a844\AndroidManifest.xml:18:1-27:12
@@ -486,6 +487,8 @@ INJECTED from C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\src\
 INJECTED from C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\src\main\AndroidManifest.xml
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\55feb1991644e4122bc82e2a8390110e\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\55feb1991644e4122bc82e2a8390110e\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\4c371b065e24e325444abcbf85e245a0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\4c371b065e24e325444abcbf85e245a0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:design:26.1.0] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3d54466126d2baf3e012b89b0ffb347d\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3d54466126d2baf3e012b89b0ffb347d\AndroidManifest.xml:21:5-23:62
 MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] C:\Users\ahmad\.gradle\caches\transforms-1\files-1.1\jackson-android-networking-1.0.1.aar\a162d05bf5cb7bfeafedc0d1b73d63f3\AndroidManifest.xml:25:5-27:41
