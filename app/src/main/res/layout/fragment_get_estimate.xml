@@ -31,8 +31,9 @@
                 android:layout_centerVertical="true"
                 android:hint="Make"
                 android:autoSizeTextType="uniform"
-                android:background="@drawable/background"
                 android:textAlignment="center"
+                android:theme="@style/Spinner"
+                android:popupBackground="@color/white"
                 android:textColorHint="@color/hint"
                 android:entries="@array/oil_change_make"/>
         </LinearLayout>

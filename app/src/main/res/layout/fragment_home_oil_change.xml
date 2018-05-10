@@ -31,7 +31,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerVertical="true"
                 android:hint="Make"
-                android:textColor="#000"
+                android:theme="@style/Spinner"
+                android:popupBackground="@color/white"
                 android:inputType="text"
                 android:autoSizeTextType="uniform"
                 android:textAlignment="center"
@@ -58,7 +59,8 @@
                 android:autoSizeTextType="uniform"
                 android:textAlignment="center"
                 android:textColorHint="@color/hint"
-                android:textColor="#000"
+                android:theme="@style/Spinner"
+                android:popupBackground="@color/white"
                 android:entries="@array/oil_change_year"/>
             </LinearLayout>
             <LinearLayout
@@ -79,8 +81,8 @@
                 android:inputType="text"
                 android:autoSizeTextType="uniform"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint"
-                android:textColor="#000"
+                android:theme="@style/Spinner"
+                android:popupBackground="@color/white"
                 android:entries="@array/oil_change_make_Honda"/>
             </LinearLayout>
             <EditText
