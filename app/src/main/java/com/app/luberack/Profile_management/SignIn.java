@@ -24,6 +24,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.app.luberack.Fragments.Activity_Vehicles_Details;
 import com.app.luberack.Home;
 import com.app.luberack.R;
 import com.app.luberack.utility.AlertDialogManager;
@@ -291,10 +292,6 @@ public class SignIn extends Fragment {
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
             getActivity().finish();
-
-
-
-
     }
 
     private void onSigninFailed(String errorMsg) {

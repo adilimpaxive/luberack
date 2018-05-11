@@ -1,4 +1,4 @@
-#Thu May 10 17:24:16 PKT 2018
-base.0=F\:\\codingcampus\\luberacknew\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+#Thu May 10 21:32:50 PKT 2018
+base.0=C\:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.0=classes.dex
 renamed.0=classes.dex

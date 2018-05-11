@@ -31,6 +31,9 @@
         <activity
             android:name=".Profile_management.Profile"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <!--<activity-->
+            <!--android:name=".Fragments.Activity_Vehicles_Details"-->
+            <!--android:theme="@style/Theme.AppCompat.NoActionBar" />-->
         <activity
             android:name=".Home"
             android:theme="@style/Theme.AppCompat.NoActionBar"

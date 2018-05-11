@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\codingcampus\\luberacknew\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be-rBY\\values-be-rBY.xml",
+            "outputFile": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be-rBY\\values-be-rBY.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Farid Mushtaq\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\fab290d84547aefcc17c632219c249db\\res\\values-be-rBY\\values-be-rBY.xml",
+                    "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\34171d4f4303606c4bd1b7d05f020155\\res\\values-be-rBY\\values-be-rBY.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

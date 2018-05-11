@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\codingcampus\\luberacknew\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+            "outputFile": "C:\\Users\\ahmad\\Desktop\\CCProjects\\Luberack\\final\\luberack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Farid Mushtaq\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-11.8.0.aar\\9bc256f6019874fdfd38f6c3538bc333\\res\\values-en-rSG\\values.xml",
+                    "source": "C:\\Users\\ahmad\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-11.8.0.aar\\325c80b9946185fe086439293aeaee27\\res\\values-en-rSG\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

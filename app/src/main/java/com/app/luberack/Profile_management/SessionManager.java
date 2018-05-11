@@ -18,8 +18,10 @@ public class SessionManager {
     private static final String PREF_NAME = "UserPref";
     // All Shared Preferences Keys
     private static final String IS_LOGIN = "IsLoggedIn";
+    private static final String IS_ENTER = "IsEnter";
     // email (make variable public to access from outside)
     public static final String KEY_EMAIL = "email";
+    public static final String KEY_COMP = "comp";
     // Name (make variable public to access from outside)
     public static final String KEY_NAME = "name";
     public static final String KEY_USERNAME = "username";
@@ -44,6 +46,10 @@ public class SessionManager {
     public static final String KEY_CARD_NO = "cardnumber";
     public static final String KEY_CARD_MONTH = "expmonth";
     public static final String KEY_CARD_YEAR = "expyear";
+    public static final String KEY_CMP_NAME = "comp_name";
+    public static final String KEY_YEAR = "year";
+    public static final String KEY_MODLE = "model";
+
     // Constructor
     public SessionManager(Context context) {
         this._context = context;
@@ -64,15 +70,32 @@ public class SessionManager {
         // commit changes
         editor.commit();
     }
+    public void createVehiclesDetailsSession(String detail) {
+        // Storing login value as TRUE
+        editor.putBoolean(IS_ENTER, true);
+        // Storing password in pref
+        // Storing email in pref
+        editor.putString(KEY_COMP, detail);
+        // commit changes
+        editor.commit();
+    }
 
-    /**
-     * Check login method wil check user login status
-     * If false it will redirect user to login page
-     * Else won't do anything
-     */
+
+        /**
+         * Check login method wil check user login status
+         * If false it will redirect user to login page
+         * Else won't do anything
+         */
     public boolean checkLogin() {
         // Check login status
         if (this.isLoggedIn()) {
+            return true;
+        }
+        return false;
+    }
+    public boolean checkSave() {
+        // Check login status
+        if (this.isSavedIn()) {
             return true;
         }
         return false;
@@ -104,6 +127,9 @@ public class SessionManager {
     private boolean isLoggedIn() {
         return pref.getBoolean(IS_LOGIN, false);
     }
+    private boolean isSavedIn() {
+        return pref.getBoolean(IS_ENTER, false);
+    }
 
     public void saveUserID(String id) {
         editor.putString(KEY_USERID, id);
@@ -129,6 +155,7 @@ public class SessionManager {
         editor.putString(KEY_LNG, lng);
         editor.commit();
     }
+
     public void saveCurrentLat(String lat) {
         editor.putString(KEY_CUR_LAT, lat);
         editor.commit();
@@ -138,6 +165,7 @@ public class SessionManager {
         editor.putString(KEY_CUR_LNG, lng);
         editor.commit();
     }
+
     public void saveAddress(String address) {
         editor.putString(KEY_ADDRESS, address);
         editor.commit();
@@ -177,8 +205,24 @@ public class SessionManager {
         editor.putString(KEY_CARD_MONTH, card);
         editor.commit();
     }
+
     public void saveCardYear(String card) {
         editor.putString(KEY_CARD_YEAR, card);
+        editor.commit();
+    }
+
+    public void saveCompName(String compName) {
+        editor.putString(KEY_CMP_NAME, compName);
+        editor.commit();
+    }
+
+    public void saveYear(String year) {
+        editor.putString(KEY_YEAR, year);
+        editor.commit();
+    }
+
+    public void saveModel(String model) {
+        editor.putString(KEY_MODLE, model);
         editor.commit();
     }
 
@@ -210,6 +254,7 @@ public class SessionManager {
     public String getAddress() {
         return pref.getString(KEY_ADDRESS, null);
     }
+
     public String getCity() {
         return pref.getString(KEY_CITY, null);
     }
@@ -221,12 +266,15 @@ public class SessionManager {
     public String getPassword() {
         return pref.getString(KEY_PASSWORD, null);
     }
+
     public String getUserID() {
         return pref.getString(KEY_USERID, null);
     }
+
     public String getUserType() {
         return pref.getString(KEY_TYPE, null);
     }
+
     public String getBalance() {
         return pref.getString(KEY_BALANCE, null);
     }
@@ -234,10 +282,25 @@ public class SessionManager {
     public String getCardNo() {
         return pref.getString(KEY_CARD_NO, null);
     }
+
     public String getCardMonth() {
         return pref.getString(KEY_CARD_MONTH, null);
     }
+
     public String getCardYear() {
         return pref.getString(KEY_CARD_YEAR, null);
+    }
+
+
+    public String getCompName() {
+        return pref.getString(KEY_CMP_NAME, null);
+    }
+
+    public String getYear() {
+        return pref.getString(KEY_YEAR, null);
+    }
+
+    public String getModel() {
+        return pref.getString(KEY_MODLE, null);
     }
 }
