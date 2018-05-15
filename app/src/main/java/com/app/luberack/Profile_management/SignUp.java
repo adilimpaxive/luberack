@@ -22,6 +22,7 @@ import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.StringRequestListener;
 import com.androidnetworking.interfaces.UploadProgressListener;
+import com.app.luberack.Fragments.Email_Verfication_code;
 import com.app.luberack.R;
 import com.app.luberack.map.SignupMapFragment;
 import com.app.luberack.utility.AlertDialogManager;
@@ -204,7 +205,7 @@ public class SignUp extends Fragment {
                                 JSONArray jsonArray=new JSONArray();
                                 int success = jObj.getInt("success");
                                 if (success == 1) {
-                                    Toast.makeText(getContext(), "User successfully registered. Login now", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getContext(), "Please check the code to verify your mail", Toast.LENGTH_LONG).show();
 
                                     // session.saveUserID(temp.getString("user_id"));
                                     //          session.createLoginSession(email,contact,password);
@@ -244,20 +245,27 @@ public class SignUp extends Fragment {
         if (sweetProgressDialog.isShowing()) {
             sweetProgressDialog.dismiss();
         }
-
-        Toast.makeText(getContext(), "Successfully SignUp!", Toast.LENGTH_SHORT).show();
 //        Intent intent = new Intent(getActivity(), Home.class);
 //        // Add new Flag to start new Activity
 //        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 //        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
 //        startActivity(intent);
 //        getActivity().finish();
-
         FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
-        Fragment f1 = new SignIn();
+        Fragment f1 = new Email_Verfication_code();
+        Bundle b=new Bundle();
+        b.putString("Email",Uemail);
+
+        f1.setArguments(b);
         fragmentTransaction.replace(R.id.frame_profile, f1, null);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
+
+//        FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
+//        Fragment f1 = new SignIn();
+//        fragmentTransaction.replace(R.id.frame_profile, f1, null);
+//        fragmentTransaction.addToBackStack(null);
+//        fragmentTransaction.commit();
     }
 
     private void onSignupFailed(String errorMsg) {

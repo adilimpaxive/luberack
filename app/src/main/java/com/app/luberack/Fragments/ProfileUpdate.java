@@ -56,6 +56,7 @@ public class ProfileUpdate extends Fragment {
     String user_name,u_address,u_email;
     String password;
     TextView click_to_full_view_btn;
+    Button logout_btn;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -69,6 +70,7 @@ public class ProfileUpdate extends Fragment {
         change_passwrod_et=view.findViewById(R.id.change_passwrod_et);
         search_address_et=view.findViewById(R.id.search_address_et);
         save_btn=view.findViewById(R.id.save_btn);
+        logout_btn=view.findViewById(R.id.logout_btn);
 
         first_name_et.setText(sessionManager.getUserName());
         emial_et.setText(sessionManager.getUserEmail());
@@ -87,6 +89,12 @@ public class ProfileUpdate extends Fragment {
                 fragmentTransaction3.replace(R.id.home_frame, f3, null);
                 fragmentTransaction3.addToBackStack(null);
                 fragmentTransaction3.commit();
+            }
+        });
+        logout_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sessionManager.logoutUser();
             }
         });
         search_address_et.setOnClickListener(new View.OnClickListener() {

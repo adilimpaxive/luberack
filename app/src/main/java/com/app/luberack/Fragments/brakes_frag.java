@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -47,6 +48,7 @@ public class brakes_frag extends Fragment {
     String Make,Year,Model, engine,FRA;
     String min_price;
     String max_price;
+    int pos;
     @Override
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -68,6 +70,7 @@ public class brakes_frag extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Make= String.valueOf(parent.getItemAtPosition(position));
+                pos= parent.getSelectedItemPosition();
                // Toast.makeText(getContext(), "dddsfsdffsf"+Make, Toast.LENGTH_SHORT).show();
             }
 
@@ -76,6 +79,21 @@ public class brakes_frag extends Fragment {
 
             }
         });
+        if(pos==1)
+        {
+            ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),
+                    R.array.oil_change_make_Honda, android.R.layout.simple_spinner_item);
+// Specify the layout to use when the list of choices appears
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+// Apply the adapter to the spinner
+            et_model.setAdapter(adapter);
+        }else if(pos==2)
+        {
+            ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),
+                    R.array.oil_change_make_Acura, android.R.layout.simple_spinner_item);
+// Apply the adapter to the spinner
+            et_model.setAdapter(adapter);
+        }
         et_year.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -179,7 +197,7 @@ public class brakes_frag extends Fragment {
                 params.put("cmp_name", Make);
                 params.put("year", Year);
                 params.put("model", Model);
-                params.put("service", "Brakes service");
+                params.put("service", "Brakes");
                 return params;
             }
         };
@@ -196,13 +214,13 @@ public class brakes_frag extends Fragment {
 
         Bundle bundle=new Bundle();
         Fragment f=new Appointment();
-        bundle.putString("oil_change",service);
-        bundle.putString("oil_make",Make);
-        bundle.putString("oil_model",Model);
-        bundle.putString("oil_year",Year);
+        bundle.putString("brakes",service);
+        bundle.putString("brakes_make",Make);
+        bundle.putString("brakes_model",Model);
+        bundle.putString("brakes_year",Year);
         bundle.putString("min_price",min_price);
         bundle.putString("max_price",max_price);
-        bundle.putString("oil_code","10002");
+        bundle.putString("oil_code","10003");
         f.setArguments(bundle);
 
 

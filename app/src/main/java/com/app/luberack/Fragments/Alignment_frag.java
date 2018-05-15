@@ -197,13 +197,13 @@ public class Alignment_frag extends Fragment {
 
         Bundle bundle=new Bundle();
         Fragment f=new Appointment();
-        bundle.putString("oil_change",service);
-        bundle.putString("oil_make",Make);
-        bundle.putString("oil_model",Model);
-        bundle.putString("oil_year",Year);
+        bundle.putString("ali_change",service);
+        bundle.putString("ali_make",Make);
+        bundle.putString("ali_model",Model);
+        bundle.putString("ali_year",Year);
         bundle.putString("min_price",min_price);
         bundle.putString("max_price",max_price);
-        bundle.putString("oil_code","10002");
+        bundle.putString("oil_code","10004");
         f.setArguments(bundle);
 
 

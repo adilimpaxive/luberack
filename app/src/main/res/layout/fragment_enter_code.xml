@@ -10,6 +10,14 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_code_text"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/background"
+                android:gravity="center"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -25,18 +33,19 @@
                     android:padding="10dp"
                     android:src="@drawable/ic_code_black_24dp"/>
 
+
                 <LinearLayout
                     android:padding="10dp"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:background="@color/hint" />
 
+
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/et_code"
                     android:hint="Enter Code"
-                    android:inputType="textEmailAddress"
                     android:textColorHint="@color/hint"
                     android:textColor="@color/black"
                     android:backgroundTint="@color/background"

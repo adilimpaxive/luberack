@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/splash_logo"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/btncolor"
+            android:text="askhdasdksh"
+            android:layout_below="@id/image"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/text"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/dialogButtoncancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Cancel"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/btncolor"
+        android:layout_marginRight="5dp"
+        android:layout_toStartOf="@id/dialogButtonOK"
+        android:layout_toLeftOf="@id/dialogButtonOK"
+        android:layout_below="@+id/text"
+        />
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="wrap_content"
+        android:textColor="@color/btncolor"
+        android:layout_height="wrap_content"
+        android:text=" Confirm Payment "
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

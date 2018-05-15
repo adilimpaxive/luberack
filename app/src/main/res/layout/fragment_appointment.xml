@@ -86,7 +86,7 @@
                         android:textAlignment="center"
                         android:textColorHint="@color/hint"
                         android:textColor="#000"/>
-                    <EditText
+                    <!--<EditText
                         android:id="@+id/et_estimate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                         android:background="@drawable/background"
                         android:textAlignment="center"
                         android:textColorHint="@color/hint"
-                        android:textColor="#000"/>
+                        android:textColor="#000"/>-->
                     <EditText
                         android:id="@+id/et_date"
 

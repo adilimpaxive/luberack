@@ -15,6 +15,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
@@ -46,12 +48,14 @@ public class Appointment extends Fragment {
 
     EditText et_make, et_year, et_model, et_need_for_car, et_date, et_time, et_user_name, et_user_email, et_data_phone, et_estimate;
     String make, m_year, model, need_for_car, m_date, time, user_name, user_email, data_phone;
-    Button btn_appoint;
+    Button btn_appoint,dialogButtoncancel;
     private DatePicker datePicker;
     private Calendar calendar;
     private int year, month, day;
     DatePickerDialog.OnDateSetListener date;
     SessionManager sessionManager;
+    String min_price;
+    String max_price;
     String app_id;
 
     @Override
@@ -66,7 +70,7 @@ public class Appointment extends Fragment {
         et_user_name = view.findViewById(R.id.user_name);
         et_user_email = view.findViewById(R.id.user_email);
         et_data_phone = view.findViewById(R.id.data_phone);
-        et_estimate = view.findViewById(R.id.et_estimate);
+//        et_estimate = view.findViewById(R.id.et_estimate);
 
         btn_appoint = view.findViewById(R.id.btn_appoint);
 
@@ -100,14 +104,44 @@ public class Appointment extends Fragment {
                 String oilModel = b.getString("oil_model");
                 String oilMake = b.getString("oil_make");
                 String oilYear = b.getString("oil_year");
-                String min_price = b.getString("min_price");
-                String max_price = b.getString("max_price");
+                min_price = b.getString("min_price");
+                max_price = b.getString("max_price");
                 String oil_change_service = b.getString("oil_change");
                 et_make.setText(oilMake);
                 et_year.setText(oilYear);
                 et_model.setText(oilModel);
                 et_need_for_car.setText(oil_change_service);
-                et_estimate.setText(min_price + "$-" + max_price + "$");
+//                et_estimate.setText(min_price + "$-" + max_price + "$");
+
+
+            }
+           else if (oil_code.equals("10003")) {
+                String oilModel = b.getString("brakes_model");
+                String oilMake = b.getString("brakes_make");
+                String oilYear = b.getString("brakes_year");
+                min_price = b.getString("min_price");
+                max_price = b.getString("max_price");
+                String oil_change_service = b.getString("oil_change");
+                et_make.setText(oilMake);
+                et_year.setText(oilYear);
+                et_model.setText(oilModel);
+                et_need_for_car.setText(b.getString("brakes"));
+//                et_estimate.setText(min_price + "$-" + max_price + "$");
+
+
+            }
+           else if (oil_code.equals("10004")) {
+                String oilModel = b.getString("ali_model");
+                String oilMake = b.getString("ali_make");
+                String oilYear = b.getString("ali_year");
+                min_price = b.getString("min_price");
+                max_price = b.getString("max_price");
+                String oil_change_service = b.getString("oil_change");
+                et_make.setText(oilMake);
+                et_year.setText(oilYear);
+                et_model.setText(oilModel);
+                et_need_for_car.setText(b.getString("ali_change"));
+//                et_estimate.setText(min_price + "$-" + max_price + "$");
 
 
             }
@@ -182,8 +216,33 @@ public class Appointment extends Fragment {
                 user_email = et_user_email.getText().toString();
                 data_phone = et_data_phone.getText().toString();
 
-                SaveDate();
+                final Dialog dialog = new Dialog(getContext());
+                dialog.setContentView(R.layout.custom_dialougebox_fragment);
+                dialog.setTitle("Title...");
 
+                // set the custom dialog components - text, image and button
+                TextView text = (TextView) dialog.findViewById(R.id.text);
+                text.setText("Your expected price is "+min_price + "$-" + max_price + "$");
+                ImageView image = (ImageView) dialog.findViewById(R.id.image);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
+                Button dialogButtoncancel=dialog.findViewById(R.id.dialogButtoncancel);
+                // if button is clicked, close the custom dialog
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                        SaveDate();
+                    }
+                });
+                dialogButtoncancel.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
             }
         });
 

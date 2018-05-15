@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -20,6 +21,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.app.luberack.Profile_management.SignIn;
 import com.app.luberack.Profile_management.SignUp;
 import com.app.luberack.R;
 import com.app.luberack.utility.AlertDialogManager;
@@ -38,16 +40,19 @@ import java.util.Map;
 
 public class Email_Verfication_code extends Fragment {
     EditText et_code;
+    TextView et_code_text;
     Button btn_code_verify;
     String text_code;
     private ProgressDialog sweetProgressDialog;
     private AlertDialogManager alert;
+    String email;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_enter_code, container, false);
         et_code=view.findViewById(R.id.et_code);
+        et_code_text=view.findViewById(R.id.et_code_text);
         btn_code_verify=view.findViewById(R.id.btn_code_verify);
 
         btn_code_verify.setOnClickListener(new View.OnClickListener() {
@@ -56,7 +61,7 @@ public class Email_Verfication_code extends Fragment {
                 if (validate()) {
                     //Save in database
                     if (Utility.isNetworkAvailable(getActivity())) {
-                        onSigninSuccess();
+                        sendCode();
                     } else {
                         alert.showAlertDialog(getContext(), "No Network Available", "Please turn on Internet Connectivity", false);
                     }
@@ -64,6 +69,10 @@ public class Email_Verfication_code extends Fragment {
                 }
             }
         });
+        Bundle b=getArguments();
+        email = b.getString("Email");
+        et_code_text.setText(email);
+
 
 
 
@@ -98,42 +107,18 @@ public class Email_Verfication_code extends Fragment {
                 try {
                     Log.e("tag", "response " + response);
                     JSONObject jObj = new JSONObject(response);
-                    int success = jObj.getInt("success");
+                    String success = jObj.getString("success");
                    /*// jsonArray.length();
                     jsonArray.getJSONObject(0).getString("user_name");*/
-                    if (success == 1) {
-                        JSONObject temp = jObj.getJSONObject("user");
-                        Log.e("tag", "" + temp);
-                        //    Boolean restricted = temp.getBoolean("restricted");
-
-
-                        String user_id = temp.getString("user_id");
-                        String email = temp.getString("email");
-                        //  String password= temp.getString("user_password");
-                        //    session.savePassword(password);
-                        // saving user details in preferences
-//                        session.saveUserID(user_id);
-//                        session.saveUserName(temp.getString("name"));
-//                        session.saveAddress(temp.getString("address"));
-//                        session.saveCity(temp.getString("address"));
-//                        session.saveLat(temp.getString("lat"));
-//                        session.saveLng(temp.getString("lng"));
-//                        session.createLoginSession(email);
-
-                        //Opening map
+                    if (success.equals("Sign up successfully.")) {
                         onSigninSuccess();
                         //}
                     } else {
-                        // Error occurred in registration. Get the error
-                        // message
                         String errorMsg = jObj.getString("error_msg");
                         onCodeFailed(errorMsg);
                     }
 
                 } catch (JSONException e) {
-//                    if (sweetProgressDialog.isShowing()) {
-//                        sweetProgressDialog.dismiss();
-//                    }
                     Log.i("myTag", e.toString());
                     Toast.makeText(getContext(), "" + e.toString(), Toast.LENGTH_SHORT).show();
 
@@ -146,9 +131,6 @@ public class Email_Verfication_code extends Fragment {
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         Log.i("myTag", error.toString());
-//                        if (sweetProgressDialog.isShowing()) {
-//                            sweetProgressDialog.dismiss();
-//                        }
                         Toast.makeText(getContext(), "" + error.toString(), Toast.LENGTH_SHORT).show();
                     }
                 }) {
@@ -157,7 +139,10 @@ public class Email_Verfication_code extends Fragment {
             protected Map<String, String> getParams() {
                 // Posting params to register url
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("tag", "verifyEmail");
+                params.put("tag", "confirmCode");
+                params.put("email", email);
+                params.put("code", text_code);
+
                 return params;
             }
         };
@@ -170,22 +155,9 @@ public class Email_Verfication_code extends Fragment {
 //        sweetProgressDialog.show();
     }
     private void onSigninSuccess() {
-//        if (sweetProgressDialog.isShowing()) {
-//            sweetProgressDialog.dismiss();
-//        }
-//
-//        Intent intent = new Intent(getActivity(), Home.class);
-//        // Add new Flag to start new Activity
-//        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-//        startActivity(intent);
-//        getActivity().finish();
 
         FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
-        Fragment f1 = new SignUp();
-        Bundle b=new Bundle();
-        b.putString("email","");
-
+        Fragment f1 = new SignIn();
         fragmentTransaction.replace(R.id.frame_profile, f1, null);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
@@ -196,6 +168,7 @@ public class Email_Verfication_code extends Fragment {
     }
 
     private void onCodeFailed(String errorMsg) {
+        Toast.makeText(getContext(), "Code doesn not match or server error!", Toast.LENGTH_SHORT).show();
 //        if (sweetProgressDialog.isShowing()) {
 //            sweetProgressDialog.dismiss();
 //        }

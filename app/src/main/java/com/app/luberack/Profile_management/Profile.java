@@ -62,7 +62,7 @@ public class Profile extends AppCompatActivity {
                 changing_text.setText("Sign up to enjoy this service");
                 linearsignin.setTextColor(Color.parseColor("#979797"));
                 FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                Fragment f1 = new Email_Verification();
+                Fragment f1 = new SignUp();
                 fragmentTransaction.replace(R.id.frame_profile, f1, null);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
