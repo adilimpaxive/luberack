@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -28,7 +29,9 @@ import com.app.luberack.utility.Config;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -63,6 +66,26 @@ public class brakes_frag extends Fragment {
 
         et_engine_size.setText(service);
 
+//////////////////////////
+        ///////////////Honda
+        /////////////////////////
+        final List<String> honda = new ArrayList<String>();
+        honda.add("Select model");
+        honda.add("Accord");
+        honda.add("Civic");
+        honda.add("Civic Del Sol");
+        honda.add("Prelude");
+
+        //////////////////////////
+        ///////////////Acura
+        /////////////////////////
+        final List<String> acura = new ArrayList<String>();
+        acura.add("Select model");
+        acura.add("Integra");
+        acura.add("Legend");
+        acura.add("Vigor");
+
+
 
 
 
@@ -70,8 +93,23 @@ public class brakes_frag extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Make= String.valueOf(parent.getItemAtPosition(position));
-                pos= parent.getSelectedItemPosition();
-               // Toast.makeText(getContext(), "dddsfsdffsf"+Make, Toast.LENGTH_SHORT).show();
+                if(Make.equals("Acura"))
+                {
+                    et_model.setEnabled(true);
+                    ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),
+                            android.R.layout.simple_spinner_item,acura);
+                    adapter.setDropDownViewResource(R.layout.spinner_item);
+                    et_model.setAdapter(adapter);
+                }
+                if(Make.equals("Honda"))
+                {
+                    et_model.setEnabled(true);
+                    ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),
+                            android.R.layout.simple_spinner_item,honda);
+                    adapter.setDropDownViewResource(R.layout.spinner_item);
+                    et_model.setAdapter(adapter);
+                }
+//                Toast.makeText(getContext(), "dddsfsdffsf"+Make, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -79,21 +117,6 @@ public class brakes_frag extends Fragment {
 
             }
         });
-        if(pos==1)
-        {
-            ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),
-                    R.array.oil_change_make_Honda, android.R.layout.simple_spinner_item);
-// Specify the layout to use when the list of choices appears
-            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-// Apply the adapter to the spinner
-            et_model.setAdapter(adapter);
-        }else if(pos==2)
-        {
-            ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),
-                    R.array.oil_change_make_Acura, android.R.layout.simple_spinner_item);
-// Apply the adapter to the spinner
-            et_model.setAdapter(adapter);
-        }
         et_year.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -111,6 +134,7 @@ public class brakes_frag extends Fragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Model= String.valueOf(parent.getItemAtPosition(position));
                // Toast.makeText(getContext(), Model, Toast.LENGTH_SHORT).show();
+                ((TextView) et_model.getSelectedView()).setTextColor(getResources().getColor(R.color.black));
             }
 
             @Override

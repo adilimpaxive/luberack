@@ -83,7 +83,10 @@
                 android:textAlignment="center"
                 android:theme="@style/Spinner"
                 android:popupBackground="@color/white"
-                android:entries="@array/oil_change_make_Honda"/>
+                android:entries="@array/oil_change_make_Honda"
+
+                style="@style/MySpinnerLook"
+                />
             </LinearLayout>
             <EditText
                 android:id="@+id/et_engine_size"
@@ -100,7 +103,8 @@
                 android:autoSizeTextType="uniform"
                 android:background="@drawable/background"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint" />
+                android:textColorHint="@color/hint"
+                />
 
             <!--<EditText-->
                 <!--android:id="@+id/et_fra_wd"-->

@@ -1,5 +1,6 @@
 package com.app.luberack.Fragments;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -11,9 +12,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -30,7 +33,9 @@ import com.app.luberack.utility.Config;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class HomeOilChange extends Fragment {
@@ -61,6 +66,25 @@ public class HomeOilChange extends Fragment {
 
         et_engine_size.setText(service);
 
+        //////////////////////////
+        ///////////////Honda
+        /////////////////////////
+        final List<String> honda = new ArrayList<String>();
+        honda.add("Select model");
+        honda.add("Accord");
+        honda.add("Civic");
+        honda.add("Civic Del Sol");
+        honda.add("Prelude");
+
+        //////////////////////////
+        ///////////////Acura
+        /////////////////////////
+        final List<String> acura = new ArrayList<String>();
+        acura.add("Select model");
+        acura.add("Integra");
+        acura.add("Legend");
+        acura.add("Vigor");
+
 
 
 
@@ -69,6 +93,22 @@ public class HomeOilChange extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                  Make= String.valueOf(parent.getItemAtPosition(position));
+                 if(Make.equals("Acura"))
+                 {
+                     et_model.setEnabled(true);
+                      ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),
+                             android.R.layout.simple_spinner_item,acura);
+                     adapter.setDropDownViewResource(R.layout.spinner_item);
+                     et_model.setAdapter(adapter);
+                 }
+                if(Make.equals("Honda"))
+                {
+                    et_model.setEnabled(true);
+                    ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),
+                            android.R.layout.simple_spinner_item,honda);
+                    adapter.setDropDownViewResource(R.layout.spinner_item);
+                    et_model.setAdapter(adapter);
+                }
 //                Toast.makeText(getContext(), "dddsfsdffsf"+Make, Toast.LENGTH_SHORT).show();
             }
 
@@ -94,6 +134,7 @@ public class HomeOilChange extends Fragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Model= String.valueOf(parent.getItemAtPosition(position));
 //                Toast.makeText(getContext(), Model, Toast.LENGTH_SHORT).show();
+                ((TextView) et_model.getSelectedView()).setTextColor(getResources().getColor(R.color.black));
             }
 
             @Override
