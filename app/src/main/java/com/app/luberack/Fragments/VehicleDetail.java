@@ -24,11 +24,11 @@ public class VehicleDetail extends Fragment {
         click_to_full_view_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
-                Fragment f3 = new VehicleDetail();
-                fragmentTransaction3.replace(R.id.home_frame, f3, null);
-                fragmentTransaction3.addToBackStack(null);
-                fragmentTransaction3.commit();
+//                FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
+//                Fragment f3 = new VehicleDetail();
+//                fragmentTransaction3.replace(R.id.home_frame, f3, null);
+//                fragmentTransaction3.addToBackStack(null);
+//                fragmentTransaction3.commit();
             }
         });
         return  view;

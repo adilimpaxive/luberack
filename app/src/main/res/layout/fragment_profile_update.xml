@@ -87,7 +87,8 @@
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="0.3dp"
-            android:background="#c7c6c6">
+            android:background="#c7c6c6"
+            android:visibility="gone">
 
         </LinearLayout>
 
@@ -95,7 +96,8 @@
 
             android:layout_margin="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:visibility="gone">
             <TextView
                 android:id="@+id/click_to_full_view_btn"
                 android:textColor="@color/edittext_vofnt_color"
@@ -104,14 +106,16 @@
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
                 android:text="Click to update Vehicle details"
-                android:gravity="start" />
+                android:gravity="start"
+                android:visibility="gone"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="0.3dp"
-            android:background="#c7c6c6">
+            android:background="#c7c6c6"
+            android:visibility="gone">
 
         </LinearLayout>
 

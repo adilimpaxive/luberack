@@ -14,53 +14,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/background"
-            android:gravity="center">
-            <Spinner
-                android:id="@+id/et_make"
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_centerVertical="true"
-                android:hint="Make"
-                android:autoSizeTextType="uniform"
-                android:textAlignment="center"
-                android:theme="@style/Spinner"
-                android:popupBackground="@color/white"
-                android:textColorHint="@color/hint"
-                android:entries="@array/oil_change_make"/>
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/background"
-            android:gravity="center">
-            <Spinner
-                android:id="@+id/et_model"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/et_year"
-                android:hint="Model"
-                android:autoSizeTextType="uniform"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/background"
-                android:textAlignment="center"
-                android:textColorHint="@color/hint"
-                android:entries="@array/oil_change_make_Honda"/>
-        </LinearLayout>
-
+                android:gravity="center">
+                <Spinner
+                    android:id="@+id/et_make"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:hint="Make"
+                    android:theme="@style/Spinner"
+                    android:popupBackground="@color/white"
+                    android:inputType="text"
+                    android:autoSizeTextType="uniform"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/hint"
+                    android:entries="@array/oil_change_make"
+                    />
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -75,57 +54,83 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Year"
+                    android:inputType="text"
                     android:layout_below="@id/et_make"
                     android:autoSizeTextType="uniform"
-                    android:background="@drawable/background"
                     android:textAlignment="center"
-                    android:textColorHint="@color/hint"
+                    android:popupBackground="@color/white"
+                    android:theme="@style/Spinner"
                     android:entries="@array/oil_change_year"/>
-
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background"
+                android:gravity="center">
+                <Spinner
+                    android:id="@+id/et_model"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_year"
+                    android:hint="Model"
+                    android:inputType="text"
+                    android:autoSizeTextType="uniform"
+                    android:textAlignment="center"
+                    android:theme="@style/Spinner"
+                    android:entries="@array/oil_change_make_Honda"
+                    android:popupBackground="@color/white"
+                    />
+            </LinearLayout>
+
             <EditText
                 android:id="@+id/et_engine_size"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/et_model"
-                android:hint="Engine Size"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
                 android:autoSizeTextType="uniform"
                 android:background="@drawable/background"
+                android:hint="Engine Size"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint" />
+                android:textColorHint="@color/hint"
+                android:visibility="invisible"/>
 
             <EditText
                 android:id="@+id/et_fra_wd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/et_engine_size"
-                android:hint="FWD/RWD/AWD"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
                 android:autoSizeTextType="uniform"
                 android:background="@drawable/background"
+                android:hint="FWD/RWD/AWD"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint" />
+                android:textColorHint="@color/hint"
+                android:visibility="invisible"/>
 
             <Button
                 android:id="@+id/buttonPanel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/et_fra_wd"
-                android:background="@drawable/button_background"
-                android:src="@drawable/edittext_background"
-                android:text="Continue"
-                android:textColor="#fff"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
-                android:textSize="16sp"
+                android:background="@drawable/button_background"
+                android:src="@drawable/edittext_background"
+                android:text="Continue"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint"/>
+                android:textColor="#fff"
+                android:textColorHint="@color/hint"
+                android:textSize="16sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -147,7 +152,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
                     android:text="Common Pair Estimate"
-                    android:textColor="#000"/>
+                    android:textColor="#000" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -155,17 +160,17 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="30dp"
                     android:text="View History"
-                    android:textColor="#000"/>
+                    android:textColor="#000" />
 
 
             </RelativeLayout>
 
             <android.support.v7.widget.RecyclerView
-                android:textColor="#000"
                 android:id="@+id/RecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/largeLabel" />
+                android:layout_below="@id/largeLabel"
+                android:textColor="#000" />
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>

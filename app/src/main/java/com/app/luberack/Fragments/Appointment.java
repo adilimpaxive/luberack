@@ -9,6 +9,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
+import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -225,31 +226,66 @@ public class Appointment extends Fragment {
                 text.setText("Your expected price is "+min_price + "$-" + max_price + "$");
                 ImageView image = (ImageView) dialog.findViewById(R.id.image);
 
-                Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
-                Button dialogButtoncancel=dialog.findViewById(R.id.dialogButtoncancel);
-                // if button is clicked, close the custom dialog
-                dialogButton.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        dialog.dismiss();
-                        SaveDate();
-                    }
-                });
-                dialogButtoncancel.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        dialog.dismiss();
-                    }
-                });
+                if(validate()) {
+                    Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
+                    Button dialogButtoncancel = dialog.findViewById(R.id.dialogButtoncancel);
+                    // if button is clicked, close the custom dialog
+                    dialogButton.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            dialog.dismiss();
+                            SaveDate();
+                        }
+                    });
+                    dialogButtoncancel.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            dialog.dismiss();
+                        }
+                    });
 
-                dialog.show();
+                    dialog.show();
+                }
             }
         });
+
 
 
         return view;
     }
 
+    ////////////////////////
+    ///////////
+    /////////////////////////
+    private boolean validate() {
+        boolean valid = true;
+
+        if (m_date.isEmpty()) {
+            et_date.setError("Please Enter Data");
+
+            valid = false;
+        } else {
+            et_date.setError(null);
+        }
+
+        if (time.isEmpty()) {
+            et_time.setError("Please Enter Time");
+
+            valid = false;
+        } else {
+            et_time.setError(null);
+        }
+        if (data_phone.isEmpty()) {
+            et_data_phone.setError("Please Enter Phone");
+
+            valid = false;
+        } else {
+            et_data_phone.setError(null);
+        }
+
+
+        return valid;
+    }
     ///////////////////
     //////////Date Picker method
     ////////////////

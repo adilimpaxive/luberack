@@ -6,42 +6,33 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1526368911691"
+    timestamp="1526380539312"
     token="-408819973420108388"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="2198" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="124" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="234" />
+        duration="0" />
     <task
         name="verifier"
-        duration="81" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         build-mode="FULL"
-        timestamp="1526368481370"
+        timestamp="1526378489274"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -53,13 +44,19 @@
             location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -67,10 +64,13 @@
         <artifact
             location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1526368550812"
+        timestamp="1526380451610"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\outputs\apk\debug\app-debug.apk"
@@ -78,22 +78,11 @@
     </build>
     <build
         build-mode="HOT_WARM"
-        timestamp="1526368825891"
+        timestamp="1526380539312"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-        <artifact
-            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\builds\debug\1526368825891\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1526368911691"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\ahmad\Desktop\CCProjects\Luberack\final\luberack\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
