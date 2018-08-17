@@ -1,9 +1,6 @@
 package com.app.luberack.Adapter;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -12,16 +9,13 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.app.luberack.ModelClasses.OilChangeData;
 import com.app.luberack.R;
 import com.app.luberack.map.MapFragment;
 import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Target;
 
 import java.util.Collections;
 import java.util.List;
@@ -58,6 +52,9 @@ public  class OilChangeAdapter extends RecyclerView.Adapter<OilChangeAdapter.MyV
         holder.shopName.setText(data.getName());
         holder.reviews.setText(data.getReviews());
         holder.location.setText(data.getLocation());
+        holder.price.setText("Price: "+data.getPrice());
+        holder.vehName.setText(data.getVehicle());
+        holder.vehRange.setText("Average Price \n"+data.getPrice());
         if (data.getImage() != null) {
             if (! data.getImage().equalsIgnoreCase("")) {
                 Picasso.with(_context).load(data.getImage()).into(holder.imageView);
@@ -73,7 +70,7 @@ public  class OilChangeAdapter extends RecyclerView.Adapter<OilChangeAdapter.MyV
     class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         ImageView imageView;
-        TextView reviews,shopName,location,view_shop;
+        TextView reviews,shopName,location,view_shop,price,vehName,vehRange;
         //TextView rating;
 
         public MyViewHolder(View itemView) {
@@ -84,6 +81,9 @@ public  class OilChangeAdapter extends RecyclerView.Adapter<OilChangeAdapter.MyV
             reviews = itemView.findViewById(R.id.tv_review);
             shopName = itemView.findViewById(R.id.tv_shop_name);
             view_shop=itemView.findViewById(R.id.btn_view_shop);
+            price=itemView.findViewById(R.id.tv_shop_price);
+            vehName = itemView.findViewById(R.id.vehName);
+            vehRange = itemView.findViewById(R.id.vehRange);
 
             view_shop.setOnClickListener(this);
         }

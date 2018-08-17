@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_welcome"
+        app:showAsAction="always"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+        android:title="Home" />
+
+    <!--item
+        android:id="@+id/navigation_home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_shopping_basket_black_24dp"
+        android:title="@string/title_home" /-->
+
 
     <item
         android:id="@+id/navigation_shops"
+        app:showAsAction="always"
+        android:icon="@drawable/veh_oil_change"
+        android:title="Oil Change" />
+
+    <item
+        android:id="@+id/allignment"
+        app:showAsAction="always"
+        android:icon="@drawable/veh_alignment"
+        android:title="Alignment" />
+
+    <item
+        android:id="@+id/brakes"
+        android:icon="@drawable/veh_brakes"
+        android:title="Brakes" />
+
+    <!--item
+        android:id="@+id/estimate"
+        app:showAsAction="always"
         android:icon="@drawable/ic_shopping_basket_black_24dp"
-        android:title="@string/title_dashboard" />
+        android:title="Tier Estimate" /-->
 
     <item
         android:id="@+id/navigation_profile"
-        android:icon="@drawable/ic_person_black_24dp"
-        android:title="@string/title_notifications" />
+        app:showAsAction="always"
+        android:icon="@drawable/veh_car_tire"
+        android:title="Car Tier" />
 
 </menu>

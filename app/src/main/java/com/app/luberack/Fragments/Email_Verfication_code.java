@@ -1,11 +1,10 @@
 package com.app.luberack.Fragments;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
-import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,9 +20,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.app.luberack.Profile_management.SignIn;
-import com.app.luberack.Profile_management.SignUp;
+import com.app.luberack.Profile_management.SessionManager;
+import com.app.luberack.Profile_management.Splash;
 import com.app.luberack.R;
+import com.app.luberack.WelcomeActivity;
 import com.app.luberack.utility.AlertDialogManager;
 import com.app.luberack.utility.Config;
 import com.app.luberack.utility.Utility;
@@ -45,7 +45,8 @@ public class Email_Verfication_code extends Fragment {
     String text_code;
     private ProgressDialog sweetProgressDialog;
     private AlertDialogManager alert;
-    String email;
+    SessionManager session;
+    String email,password;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -54,6 +55,7 @@ public class Email_Verfication_code extends Fragment {
         et_code=view.findViewById(R.id.et_code);
         et_code_text=view.findViewById(R.id.et_code_text);
         btn_code_verify=view.findViewById(R.id.btn_code_verify);
+        session = new SessionManager(getContext());
 
         btn_code_verify.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,6 +73,7 @@ public class Email_Verfication_code extends Fragment {
         });
         Bundle b=getArguments();
         email = b.getString("Email");
+        password = b.getString("Password");
         et_code_text.setText(email);
 
 
@@ -111,7 +114,8 @@ public class Email_Verfication_code extends Fragment {
                    /*// jsonArray.length();
                     jsonArray.getJSONObject(0).getString("user_name");*/
                     if (success.equals("Sign up successfully.")) {
-                        onSigninSuccess();
+                        userLoign();
+                        //onSigninSuccess();
                         //}
                     } else {
                         String errorMsg = jObj.getString("error_msg");
@@ -154,7 +158,7 @@ public class Email_Verfication_code extends Fragment {
         queue.add(myReq);
 //        sweetProgressDialog.show();
     }
-    private void onSigninSuccess() {
+    /*private void onSigninSuccess() {
 
         FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
         Fragment f1 = new SignIn();
@@ -165,7 +169,7 @@ public class Email_Verfication_code extends Fragment {
 
 
 
-    }
+    }*/
 
     private void onCodeFailed(String errorMsg) {
         Toast.makeText(getContext(), "Code doesn not match or server error!", Toast.LENGTH_SHORT).show();
@@ -173,5 +177,104 @@ public class Email_Verfication_code extends Fragment {
 //            sweetProgressDialog.dismiss();
 //        }
 //        alert.showAlertDialog(getContext(), "Signin Failed", "" + errorMsg, false);
+    }
+
+    //Checking credentials from server
+    private void userLoign() {
+        RequestQueue queue = Volley.newRequestQueue(getContext());
+
+        StringRequest myReq = new StringRequest(Request.Method.POST,
+                Config.URL, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+                try {
+                    Log.e("tag", "response " + response);
+                    JSONObject jObj = new JSONObject(response);
+                    int success = jObj.getInt("success");
+                   /*// jsonArray.length();
+                    jsonArray.getJSONObject(0).getString("user_name");*/
+                    if (success == 1) {
+                        JSONObject temp = jObj.getJSONObject("user");
+                        Log.e("tag", "" + temp);
+                        //    Boolean restricted = temp.getBoolean("restricted");
+
+
+                        String user_id = temp.getString("user_id");
+                        String email = temp.getString("email");
+                        //  String password= temp.getString("user_password");
+                        //    session.savePassword(password);
+                        // saving user details in preferences
+                        session.saveUserID(user_id);
+                        session.saveUserName(temp.getString("name"));
+                        session.saveAddress(temp.getString("address"));
+                        session.saveCity(temp.getString("address"));
+                        session.saveLat(temp.getString("lat"));
+                        session.saveLng(temp.getString("lng"));
+                        session.createLoginSession(email);
+
+                        //Opening map
+                        onSigninSuccess();
+                        //}
+                    } else {
+                        // Error occurred in registration. Get the error
+                        // message
+                        String errorMsg = jObj.getString("error_msg");
+                        onSigninFailed(errorMsg);
+                    }
+
+                } catch (JSONException e) {
+
+                    Log.i("myTag", e.toString());
+                    Toast.makeText(getContext(), "" + e.toString(), Toast.LENGTH_SHORT).show();
+
+                }
+
+            }
+
+        },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Log.i("myTag", error.toString());
+
+                        Toast.makeText(getContext(), "" + error.toString(), Toast.LENGTH_SHORT).show();
+                    }
+                }) {
+
+            @Override
+            protected Map<String, String> getParams() {
+                // Posting params to register url
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("tag", "login");
+                params.put("email", email);
+                params.put("password", password);
+                return params;
+            }
+        };
+
+        myReq.setRetryPolicy(new DefaultRetryPolicy(
+                20000, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
+        ));
+        myReq.setShouldCache(false);
+        queue.add(myReq);
+//        sweetProgressDialog.show();
+    }
+    private void onSigninSuccess() {
+
+        Splash.is_signup = "Yes";
+
+        Intent intent = new Intent(getActivity(), WelcomeActivity.class);
+        // Add new Flag to start new Activity
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.putExtra("Name","Welcome");
+        startActivity(intent);
+        getActivity().finish();
+    }
+
+    private void onSigninFailed(String errorMsg) {
+
+        alert.showAlertDialog(getContext(), "Signin Failed", "" + errorMsg, false);
     }
 }

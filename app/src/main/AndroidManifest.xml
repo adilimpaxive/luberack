@@ -18,7 +18,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-
         <activity
             android:name=".Profile_management.Splash"
             android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -31,18 +30,23 @@
         <activity
             android:name=".Profile_management.Profile"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <!--<activity-->
-            <!--android:name=".Fragments.Activity_Vehicles_Details"-->
-            <!--android:theme="@style/Theme.AppCompat.NoActionBar" />-->
+        <!-- <activity -->
+        <!-- android:name=".Fragments.Activity_Vehicles_Details" -->
+        <!-- android:theme="@style/Theme.AppCompat.NoActionBar" /> -->
         <activity
             android:name=".Home"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:label="@string/title_activity_home" />
-        <activity android:name=".Profile_management.ForgetPassword" android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Profile_management.ForgetPassword"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC7DD4CQ6myTvSUEIKTVESCrRbcdXLL7BA" />
+
+        <activity android:name=".WelcomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" ></activity>
     </application>
 
 </manifest>

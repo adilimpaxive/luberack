@@ -65,6 +65,11 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC7DD4CQ6myTvSUEIKTVESCrRbcdXLL7BA" />
+
+        <activity
+            android:name="com.app.luberack.WelcomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />

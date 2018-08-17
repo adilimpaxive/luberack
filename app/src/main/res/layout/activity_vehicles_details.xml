@@ -1,27 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tool="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    tools:context=".Fragments.Activity_Vehicles_Details">
+    android:paddingTop="50dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
         <LinearLayout
             android:id="@+id/linear1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_gravity="center"
-            android:gravity="center">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:background="@drawable/background"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+            <EditText
+                android:id="@+id/et_vin"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/et_model"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:background="@color/white"
+                android:focusable="false"
+                android:hint="VIN(Optional)"
+                android:textColorHint="@color/hint"
+                android:textColor="@android:color/black"
+                android:visibility="gone"/>
+
+                <Spinner
+                    android:id="@+id/sp_vin"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="60dp"
+                    android:hint="Model"
+                    android:backgroundTint="@color/btncolor"
+                    android:inputType="text"
+                    android:theme="@style/Spinner"
+                    android:popupBackground="@color/white"
+                    />
+
+            <Button
+                android:layout_gravity="end"
+                android:layout_marginTop="-45dp"
+                android:background="@color/btncolor"
+                android:text="GO"
+                android:id="@+id/btnGo"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/white"
+                android:layout_width="50dp"
+                android:layout_height="40dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:text="or enter your vehicle's information below."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/background"
                 android:gravity="center">
                 <Spinner
@@ -40,29 +105,7 @@
                     android:entries="@array/oil_change_make"
                     />
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/background"
-                android:gravity="center">
-                <Spinner
-                    android:id="@+id/et_year"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Year"
-                    android:inputType="text"
-                    android:layout_below="@id/et_make"
-                    android:autoSizeTextType="uniform"
-                    android:textAlignment="center"
-                    android:textColorHint="@color/hint"
-                    android:theme="@style/Spinner"
-                    android:popupBackground="@color/white"
-                    android:entries="@array/oil_change_year"/>
-            </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -82,56 +125,137 @@
                     android:autoSizeTextType="uniform"
                     android:textAlignment="center"
                     android:theme="@style/Spinner"
+                    android:entries="@array/oil_change_make_Honda"
                     android:popupBackground="@color/white"
-                    android:entries="@array/oil_change_make_Honda"/>
+                    />
             </LinearLayout>
-            <!--<EditText
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background"
+                android:gravity="center">
+                <Spinner
+                    android:id="@+id/et_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Year"
+                    android:inputType="text"
+                    android:saveEnabled="false"
+                    android:layout_below="@id/et_make"
+                    android:autoSizeTextType="uniform"
+                    android:textAlignment="center"
+                    android:popupBackground="@color/white"
+                    android:theme="@style/Spinner"
+                    android:entries="@array/oil_change_year"/>
+            </LinearLayout>
+
+            <EditText
                 android:id="@+id/et_engine_size"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/et_model"
-                android:hint="Service"
-                android:inputType="text"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
-                android:focusable="false"
-                android:textColor="#000"
-                android:autoSizeTextType="uniform"
                 android:background="@drawable/background"
+                android:hint="Engine Size"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint" />-->
+                android:textColorHint="@color/hint"
+                android:textColor="@android:color/black"
+                android:visibility="visible"/>
 
-            <!--<EditText-->
-            <!--android:id="@+id/et_fra_wd"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_below="@id/et_engine_size"-->
-            <!--android:hint="FWD/RWD/AWD"-->
-            <!--android:inputType="text"-->
-            <!--android:layout_marginLeft="20dp"-->
-            <!--android:layout_marginRight="20dp"-->
-            <!--android:layout_marginTop="10dp"-->
-            <!--android:autoSizeTextType="uniform"-->
-            <!--android:background="@drawable/background"-->
-            <!--android:textAlignment="center"-->
-            <!--android:textColorHint="@color/hint" />-->
+            <EditText
+                android:id="@+id/et_fra_wd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_engine_size"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background"
+                android:hint="FWD/RWD/AWD"
+                android:textAlignment="center"
+                android:textColorHint="@color/hint"
+                android:textColor="@android:color/black"
+                android:visibility="visible"/>
 
             <Button
-                android:id="@+id/btn_save"
+                android:id="@+id/buttonPanel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/et_fra_wd"
-                android:background="@drawable/button_background"
-                android:src="@drawable/edittext_background"
-                android:text="Save"
-                android:textColor="#fff"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
-                android:textSize="16sp"
+                android:background="@drawable/button_background"
+                android:src="@drawable/edittext_background"
+                android:text="Save"
                 android:textAlignment="center"
-                android:textColorHint="@color/hint"/>
+                android:textColor="#fff"
+                android:textColorHint="@color/hint"
+                android:textSize="16sp" />
         </LinearLayout>
 
-    </LinearLayout>
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/largeLabel"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linear1"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="Common Pair Estimate"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:text="View History"
+                    android:textColor="#000" />
+
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:visibility="visible"
+                android:id="@+id/RecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/largeLabel"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:src="@drawable/edittext_background"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textColorHint="@color/hint"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>

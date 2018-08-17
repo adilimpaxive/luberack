@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">LubeRack</string>
-    <string name="hello">Hello!</string>
+    <string name="hello">Hello</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -26,6 +26,8 @@
         <item>Select make</item>
         <item>Honda</item>
         <item>Acura</item>
+        <item>Ford</item>
+        <item>Plymouth</item>
     </string-array>
     <string-array name="oil_change_make_Acura">
         <item>Select model</item>
@@ -40,9 +42,17 @@
         <item>Civic Del Sol</item>
         <item>Prelude</item>
     </string-array>
-    <string-array name="oil_change_year"
-        >
+    <string-array name="oil_change_make_Ford">
+        <item>Select model</item>
+        <item>F-150</item>
+    </string-array>
+    <string-array name="oil_change_make_Plymouth">
+        <item>Select model</item>
+        <item>Breeze</item>
+    </string-array>
+    <string-array name="oil_change_year">
         <item>Select year</item>
+        <item>2003</item>
         <item>2010</item>
         <item>2011</item>
         <item>2012</item>

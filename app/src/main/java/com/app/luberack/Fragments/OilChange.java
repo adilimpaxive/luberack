@@ -1,8 +1,6 @@
 package com.app.luberack.Fragments;
 
 import android.app.ProgressDialog;
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,8 +9,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -22,7 +18,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.app.luberack.Adapter.OilChangeAdapter;
+import com.app.luberack.Adapter.ShopsAdapter;
 import com.app.luberack.ModelClasses.OilChangeData;
 import com.app.luberack.R;
 import com.app.luberack.utility.Config;
@@ -36,7 +32,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class OilChange extends Fragment {
-    OilChangeAdapter adapterTop;
+    ShopsAdapter adapterTop;
     OilChangeData data;
     ArrayList<OilChangeData> oilChangeDataList;
     RecyclerView recyclerViewFeatured;
@@ -86,11 +82,11 @@ public class OilChange extends Fragment {
                         for (int i = 0; i < homesArray.length(); i++) {
                             JSONObject homeObj = homesArray.getJSONObject(i);
 
-                            oilChangeDataList.add(new OilChangeData(homeObj.getString("id"), homeObj.getString("img_url"), homeObj.getString("name"), homeObj.getString("address"), homeObj.getString("reviews"), homeObj.getString("lat"), homeObj.getString("type"), homeObj.getString("lng")));
+                            oilChangeDataList.add(new OilChangeData(homeObj.getString("id"), homeObj.getString("img_url"), homeObj.getString("name"), homeObj.getString("address"), homeObj.getString("reviews"), homeObj.getString("lat"), homeObj.getString("type"), homeObj.getString("lng"),"",""));
 
 
                         }
-                        adapterTop = new OilChangeAdapter(getContext(), oilChangeDataList);
+                        adapterTop = new ShopsAdapter(getContext(), oilChangeDataList);
 
                         recyclerViewFeatured.setAdapter(adapterTop);
                     } else {
@@ -127,7 +123,7 @@ public class OilChange extends Fragment {
             protected Map<String, String> getParams() {
                 // Posting params to getFeatured url
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("tag", "showAllShops");
+                params.put("tag", "showShops");
                 params.put("type", "Oil Change");
                 return params;
             }

@@ -1,22 +1,36 @@
 package com.app.luberack.Fragments;
 
+import android.app.ProgressDialog;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
+import com.androidnetworking.AndroidNetworking;
+import com.androidnetworking.error.ANError;
+import com.androidnetworking.interfaces.StringRequestListener;
+import com.androidnetworking.interfaces.UploadProgressListener;
 import com.app.luberack.Adapter.get_estimate_adapter;
 import com.app.luberack.ModelClasses.get_estimate_modal;
+import com.app.luberack.Profile_management.SessionManager;
 import com.app.luberack.R;
+import com.app.luberack.utility.Config;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +45,9 @@ public class get_estimate extends Fragment {
     private get_estimate_adapter vAdapter;
     String Make,Year,Model;
     Spinner et_make, et_year, et_model;
+    ProgressDialog sweetProgressDialog;
+    SessionManager sessionManager;
+    Button buttonSave;
 
 
     @Override
@@ -42,6 +59,12 @@ public class get_estimate extends Fragment {
         et_make = view.findViewById(R.id.et_make);
         et_year = view.findViewById(R.id.et_year);
         et_model = view.findViewById(R.id.et_model);
+        buttonSave = view.findViewById(R.id.buttonPanel);
+
+        sweetProgressDialog = new ProgressDialog(getActivity(), R.style.MyAlertDialogStyle);
+        sweetProgressDialog.setMessage("Create Vehicle...");
+        sweetProgressDialog.setCancelable(false);
+        sessionManager = new SessionManager(getContext());
 
         //////////////////////////
         ///////////////Honda
@@ -64,6 +87,12 @@ public class get_estimate extends Fragment {
 
 
 
+        buttonSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+             //   signup();
+            }
+        });
 
 
         et_make.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -177,4 +206,75 @@ public class get_estimate extends Fragment {
         //notify datasetChanged to show the added items to the list in recyclerview
         vAdapter.notifyDataSetChanged();
     }
+
+
+    void signup() {
+        sweetProgressDialog.show();
+
+        AndroidNetworking.upload(Config.URL)
+
+                .addMultipartParameter("tag", "insertVehicle")
+                .addMultipartParameter("user_id",sessionManager.getUserID())
+                .addMultipartParameter("cmp_name", et_make.getSelectedItem().toString())
+                .addMultipartParameter("year", et_year.getSelectedItem().toString())
+                .addMultipartParameter("model", et_model.getSelectedItem().toString())
+                .addMultipartParameter("size", "133")
+                .addMultipartParameter("fwd", "fwd")
+                .setTag("uploadTest")
+                //  .setPriority(Priority.HIGH)
+                .build()
+                .setUploadProgressListener(new UploadProgressListener() {
+                    @Override
+                    public void onProgress(long bytesUploaded, long totalBytes) {
+                        // do anything with progress
+                    }
+                })
+                .getAsString(new StringRequestListener() {
+                    @Override
+                    public void onResponse(String response) {
+                        if (sweetProgressDialog.isShowing()) {
+                            sweetProgressDialog.dismiss();
+                        }
+                        try {
+                            Log.e("tag", "response " + response);
+                            if (response != null) {
+                                JSONObject jObj = new JSONObject(response);
+                                JSONArray jsonArray=new JSONArray();
+                                int success = jObj.getInt("success");
+                                if (success == 1) {
+                                    Toast.makeText(getContext(), "Vehicle added successfully", Toast.LENGTH_LONG).show();
+
+                                    // session.saveUserID(temp.getString("user_id"));
+                                    //          session.createLoginSession(email,contact,password);
+                                    //          session.savePassword(password);
+                                   // onSignupSuccess();
+                                } else {
+                                    // Error occurred. Get the error
+                                    // message
+                                    String errorMsg = jObj.getString("error_msg");
+                                  //  onSignupFailed(errorMsg);
+                                }
+                            }
+
+                        } catch (JSONException e) {
+                            if (sweetProgressDialog.isShowing()) {
+                                sweetProgressDialog.dismiss();
+                            }
+                            Log.i("myTag", e.toString());
+                            Toast.makeText(getContext(), "" + e.toString(), Toast.LENGTH_SHORT).show();
+
+                        }
+
+                    }
+
+                    @Override
+                    public void onError(ANError anError) {
+                        if (sweetProgressDialog.isShowing()) {
+                            sweetProgressDialog.dismiss();
+                        }
+                        Toast.makeText(getContext(), "Sign Up failed, try again", Toast.LENGTH_SHORT).show();
+                    }
+                });
+    }
+
 }

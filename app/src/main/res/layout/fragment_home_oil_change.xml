@@ -1,20 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/btncolor">
+
+            <android.support.v7.widget.SearchView
+                android:layout_width="wrap_content"
+                android:gravity="end"
+                android:id="@+id/searchview"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:drawableRight="@drawable/ic_search_black_24dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:textAlignment="viewStart"
+                android:id="@+id/et_search"
+                tools:ignore="RtlCompat" />
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <LinearLayout
+            android:visibility="gone"
             android:id="@+id/linear1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_gravity="center"
-            android:gravity="center">
+            android:layout_gravity="top"
+            android:gravity="top">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -137,6 +176,26 @@
                 android:textAlignment="center"
                 android:textColorHint="@color/hint"/>
         </LinearLayout>
+
+        <ListView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/background"
+            android:id="@+id/oil_change_recycler1" />
+
+        <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+        android:id="@+id/oil_change_recycler" />
+
+
 
     </LinearLayout>
 

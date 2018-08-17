@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="140dp"
+    android:background="@drawable/background"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:background="@color/btncolor"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/vehName"
+            android:textSize="18sp"
+            android:text="Honda Civic"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/vehRange"
+            android:textSize="18sp"
+            android:text="Average Price \n $ 500 to $ 700"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_marginTop="-50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_oil_shop"
+        android:src="@drawable/splash_logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_shop_name"
+            android:text="Jimenez bros"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_shop_address"
+            android:text="4.3km from taukis square"
+            android:textColor="@color/hint"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_shop_price"
+            android:text="Price: 1000$ - 1500$"
+            android:textColor="@color/hint"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            >
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_review"
+                android:text="354"
+                android:gravity="bottom"
+                android:textColor="@color/black"
+               />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Reviews"
+                android:gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+            />
+          <TextView
+              android:layout_gravity="right"
+              android:layout_width="wrap_content"
+              android:gravity="right"
+              android:textSize="14sp"
+              android:padding="10dp"
+              android:layout_height="wrap_content"
+              android:text="View Shop"
+              android:textAlignment="center"
+              android:textColor="@color/white"
+              android:id="@+id/btn_view_shop"
+              android:background="@drawable/button_background"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+    <RatingBar
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        style="@android:style/Widget.Holo.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="5"
+        android:stepSize="0.5"
+        android:backgroundTint="@color/colorPrimary"
+        android:progressTint="@color/colorAccent" />
+</RelativeLayout>

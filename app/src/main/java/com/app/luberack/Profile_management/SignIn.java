@@ -1,12 +1,9 @@
 package com.app.luberack.Profile_management;
 
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.util.Patterns;
 import android.view.LayoutInflater;
@@ -24,9 +21,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.app.luberack.Fragments.Activity_Vehicles_Details;
-import com.app.luberack.Home;
 import com.app.luberack.R;
+import com.app.luberack.WelcomeActivity;
 import com.app.luberack.utility.AlertDialogManager;
 import com.app.luberack.utility.Config;
 import com.app.luberack.utility.Utility;
@@ -286,12 +282,15 @@ public class SignIn extends Fragment {
             sweetProgressDialog.dismiss();
         }
 
-            Intent intent = new Intent(getActivity(), Home.class);
-            // Add new Flag to start new Activity
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            getActivity().finish();
+        Splash.is_signup = "No";
+
+        Intent intent = new Intent(getActivity(), WelcomeActivity.class);
+        // Add new Flag to start new Activity
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.putExtra("Name","Welcome");
+        startActivity(intent);
+        getActivity().finish();
     }
 
     private void onSigninFailed(String errorMsg) {

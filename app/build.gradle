@@ -42,6 +42,7 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.amitshekhar.android:android-networking:1.0.1'
     implementation 'com.amitshekhar.android:jackson-android-networking:1.0.1'
+
 }
 
 apply plugin: 'com.google.gms.google-services'

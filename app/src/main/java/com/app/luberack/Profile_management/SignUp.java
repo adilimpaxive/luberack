@@ -18,6 +18,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.android.volley.DefaultRetryPolicy;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.StringRequestListener;
@@ -32,6 +39,9 @@ import com.app.luberack.utility.Utility;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import static android.app.Activity.RESULT_OK;
 
@@ -102,6 +112,7 @@ public class SignUp extends Fragment {
                     //Save in database
                     if (Utility.isNetworkAvailable(getActivity())) {
                         signup();
+                        //userSignup();
                     } else {
                         alert.showAlertDialog(getContext(), "No Network Available", "Please turn on Internet Connectivity", false);
                     }
@@ -255,6 +266,7 @@ public class SignUp extends Fragment {
         Fragment f1 = new Email_Verfication_code();
         Bundle b=new Bundle();
         b.putString("Email",Uemail);
+        b.putString("Password",Upassword);
 
         f1.setArguments(b);
         fragmentTransaction.replace(R.id.frame_profile, f1, null);
@@ -298,5 +310,85 @@ public class SignUp extends Fragment {
         alertDialog.getButton(alertDialog.BUTTON_POSITIVE).setTextColor(context.getResources().getColor(R.color.colorPrimary));
         alertDialog.getButton(alertDialog.BUTTON_NEGATIVE).setTextColor(context.getResources().getColor(R.color.colorPrimary));
     }
+
+
+    private void userSignup() {
+        RequestQueue queue = Volley.newRequestQueue(getContext());
+
+        StringRequest myReq = new StringRequest(Request.Method.POST,
+                Config.URL, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                if (sweetProgressDialog.isShowing()) {
+                    sweetProgressDialog.dismiss();
+                }
+                try {
+                    Log.e("tag", "response " + response);
+                    JSONObject jObj = new JSONObject(response);
+                    int success = jObj.getInt("success");
+                   /*// jsonArray.length();
+                    jsonArray.getJSONObject(0).getString("user_name");*/
+                    if (success == 1) {
+                        Toast.makeText(getContext(), "Please check the code to verify your mail", Toast.LENGTH_LONG).show();
+
+                        // session.saveUserID(temp.getString("user_id"));
+                        //          session.createLoginSession(email,contact,password);
+                        //          session.savePassword(password);
+                        onSignupSuccess();
+                    } else {
+                        // Error occurred. Get the error
+                        // message
+                        String errorMsg = jObj.getString("error_msg");
+                        onSignupFailed(errorMsg);
+                    }
+
+                } catch (JSONException e) {
+                    if (sweetProgressDialog.isShowing()) {
+                        sweetProgressDialog.dismiss();
+                    }
+                    Log.i("myTag", e.toString());
+                    Toast.makeText(getContext(), "" + e.toString(), Toast.LENGTH_SHORT).show();
+
+                }
+
+            }
+
+        },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Log.i("myTag", error.toString());
+                        if (sweetProgressDialog.isShowing()) {
+                            sweetProgressDialog.dismiss();
+                        }
+                        Toast.makeText(getContext(), "" + error.toString(), Toast.LENGTH_SHORT).show();
+                    }
+                }) {
+
+            @Override
+            protected Map<String, String> getParams() {
+                // Posting params to register url
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("tag", "register");
+                params.put("email", Uemail);
+                params.put("password", Upassword);
+                params.put("name", Uname);
+                params.put("address", address);
+                params.put("lat", lat);
+                params.put("lng", lng);
+                return params;
+            }
+        };
+
+        myReq.setRetryPolicy(new DefaultRetryPolicy(
+                20000, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
+        ));
+        myReq.setShouldCache(false);
+        queue.add(myReq);
+        sweetProgressDialog.show();
+    }
+
+
+
 
 }

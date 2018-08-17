@@ -10,7 +10,8 @@ public class Config {
 
     }
     //URL of server
-   // public  static final String URL="http://192.168.1.22/locksmith/index.php";
-    public  static final String URL="http://jangling-cockpit.000webhostapp.com/luberack/index.php";
+    public  static final String URL="http://codingneedhelp.000webhostapp.com/lubrack/index.php";
+  //  public  static final String URL="http://elanda.elanda.pk/luberack_app/index.php";
+  //  public  static final String URL="http://jangling-cockpit.000webhostapp.com/luberack/index.php";
 
 }

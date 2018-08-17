@@ -5,7 +5,6 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v4.app.Fragment;
@@ -18,6 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,8 +29,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.app.luberack.Profile_management.SessionManager;
-import com.app.luberack.Profile_management.SignUp;
 import com.app.luberack.R;
+import com.app.luberack.WelcomeActivity;
 import com.app.luberack.map.SignupMapFragment;
 import com.app.luberack.utility.AlertDialogManager;
 import com.app.luberack.utility.Config;
@@ -54,12 +54,13 @@ public class ProfileUpdate extends Fragment {
     private AlertDialogManager alert;
     SessionManager sessionManager;
     String user_name,u_address,u_email;
+    ImageView imageViewAdd,imageViewEdit;
     String password;
     TextView click_to_full_view_btn;
     Button logout_btn;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_profile_update, container, false);
@@ -71,6 +72,9 @@ public class ProfileUpdate extends Fragment {
         search_address_et=view.findViewById(R.id.search_address_et);
         save_btn=view.findViewById(R.id.save_btn);
         logout_btn=view.findViewById(R.id.logout_btn);
+
+        imageViewAdd = view.findViewById(R.id.add);
+        imageViewEdit = view.findViewById(R.id.edit);
 
         first_name_et.setText(sessionManager.getUserName());
         emial_et.setText(sessionManager.getUserEmail());
@@ -85,10 +89,26 @@ public class ProfileUpdate extends Fragment {
             @Override
             public void onClick(View view) {
                 FragmentTransaction fragmentTransaction3 = getFragmentManager().beginTransaction();
-                Fragment f3 = new VehicleDetail();
+                /*VehicleDetail f3 = new VehicleDetail();
                 fragmentTransaction3.replace(R.id.home_frame, f3, null);
                 fragmentTransaction3.addToBackStack(null);
-                fragmentTransaction3.commit();
+                fragmentTransaction3.commit();*/
+            }
+        });
+        imageViewEdit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), WelcomeActivity.class);
+                intent.putExtra("Name","Vehicle");
+                startActivity(intent);
+            }
+        });
+        imageViewAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), WelcomeActivity.class);
+                intent.putExtra("Name","Vehicle");
+                startActivity(intent);
             }
         });
         logout_btn.setOnClickListener(new View.OnClickListener() {

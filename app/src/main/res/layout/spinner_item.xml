@@ -2,11 +2,12 @@
 <TextView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/textView1"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true"
-    android:textAppearance="?android:attr/textAppearanceLarge"
-    android:textColor="#FF4081"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="@color/black"
+    android:textAlignment="center"
     android:text="tyyyyyuuuuii"
-    android:padding="12dp" />
+    android:padding="10dp" />

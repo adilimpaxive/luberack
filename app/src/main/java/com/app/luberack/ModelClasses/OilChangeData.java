@@ -12,6 +12,10 @@ public class OilChangeData {
     String reviews;
     String lat;
     String type;
+    String price;
+    String vehName;
+    String vehModel;
+    String vehYear;
 
     public void setType(String type) {
         this.type = type;
@@ -51,6 +55,10 @@ public class OilChangeData {
         this.lng = lng;
     }
 
+    public void setPrice(String prc) {
+        this.price = prc;
+    }
+
     public String getLat() {
 
         return lat;
@@ -81,8 +89,14 @@ public class OilChangeData {
     public String getReviews() {
         return reviews;
     }
+    public String getPrice() {
+        return price;
+    }
+    public String getVehicle() {
+        return vehName;
+    }
 
-    public OilChangeData(String id, String image, String name, String location, String reviews, String lat, String type, String lng) {
+    public OilChangeData(String id, String image, String name, String location, String reviews, String lat, String type, String lng,String price,String vehName) {
         this.id = id;
         this.image = image;
         this.name = name;
@@ -91,6 +105,8 @@ public class OilChangeData {
         this.lat = lat;
         this.type = type;
         this.lng = lng;
+        this.price = price;
+        this.vehName = vehName;
     }
 
     public OilChangeData(String id, String image, String name, String location, String reviews) {
