@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\MobileApps\\luberack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "C:\\Users\\Usama\\AndroidStudioProjects\\luberack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\eeb57f85620b06530efa0816d5e666cf\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Usama\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\aaa5a81bce8131762f8aa79aa48243bf\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

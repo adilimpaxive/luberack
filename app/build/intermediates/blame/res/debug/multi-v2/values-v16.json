@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\MobileApps\\luberack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\Usama\\AndroidStudioProjects\\luberack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a30c0fee114cbd08420964dc8d7ee385\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Usama\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\64b91e7cbf5c2e407c3f9f7b914e0658\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\eeb57f85620b06530efa0816d5e666cf\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Usama\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\aaa5a81bce8131762f8aa79aa48243bf\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

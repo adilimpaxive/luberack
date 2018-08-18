@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.ViewPager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.Patterns;
@@ -28,6 +29,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.app.luberack.Adapter.ViewPagerAdapter;
+import com.app.luberack.ModelClasses.VehicleData;
+import com.app.luberack.MyEvent;
 import com.app.luberack.Profile_management.SessionManager;
 import com.app.luberack.R;
 import com.app.luberack.WelcomeActivity;
@@ -36,9 +40,13 @@ import com.app.luberack.utility.AlertDialogManager;
 import com.app.luberack.utility.Config;
 import com.app.luberack.utility.Utility;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -46,45 +54,51 @@ import static android.app.Activity.RESULT_OK;
 
 public class ProfileUpdate extends Fragment {
 
-    EditText first_name_et,emial_et,change_passwrod_et,search_address_et;
+    EditText first_name_et, emial_et, change_passwrod_et, search_address_et;
     AlertDialog alertDialog;
     String lat, lng;
     String address;
     Button save_btn;
     private AlertDialogManager alert;
     SessionManager sessionManager;
-    String user_name,u_address,u_email;
-    ImageView imageViewAdd,imageViewEdit;
+    String user_name, u_address, u_email;
+    ImageView imageViewAdd, imageViewEdit, imageViewDisplay;
     String password;
     TextView click_to_full_view_btn;
     Button logout_btn;
+    ViewPager viewPager;
+    ViewPagerAdapter viewPagerAdapter;
 
     @Override
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view= inflater.inflate(R.layout.fragment_profile_update, container, false);
-        sessionManager=new SessionManager(getContext());
+        View view = inflater.inflate(R.layout.fragment_profile_update, container, false);
+        sessionManager = new SessionManager(getContext());
 
-        first_name_et=view.findViewById(R.id.first_name_et);
-        emial_et=view.findViewById(R.id.emial_et);
-        change_passwrod_et=view.findViewById(R.id.change_passwrod_et);
-        search_address_et=view.findViewById(R.id.search_address_et);
-        save_btn=view.findViewById(R.id.save_btn);
-        logout_btn=view.findViewById(R.id.logout_btn);
+        EventBus.getDefault().register(this);
+
+        first_name_et = view.findViewById(R.id.first_name_et);
+        emial_et = view.findViewById(R.id.emial_et);
+        change_passwrod_et = view.findViewById(R.id.change_passwrod_et);
+        search_address_et = view.findViewById(R.id.search_address_et);
+        save_btn = view.findViewById(R.id.save_btn);
+        logout_btn = view.findViewById(R.id.logout_btn);
 
         imageViewAdd = view.findViewById(R.id.add);
         imageViewEdit = view.findViewById(R.id.edit);
+//        imageViewDisplay = view.findViewById(R.id.cra_iv);
+        viewPager = view.findViewById(R.id.cra_iv);
 
         first_name_et.setText(sessionManager.getUserName());
         emial_et.setText(sessionManager.getUserEmail());
         search_address_et.setText(sessionManager.getAddress());
         change_passwrod_et.setText(sessionManager.getPassword());
-        lat=sessionManager.getLat();
-        lng=sessionManager.getLng();
-        Log.i("getData","  "+sessionManager.getUserEmail()+"  "+sessionManager.getAddress());
+        lat = sessionManager.getLat();
+        lng = sessionManager.getLng();
+        Log.i("getData", "  " + sessionManager.getUserEmail() + "  " + sessionManager.getAddress());
 
-        click_to_full_view_btn=(TextView)view.findViewById(R.id.click_to_full_view_btn);
+        click_to_full_view_btn = (TextView) view.findViewById(R.id.click_to_full_view_btn);
         click_to_full_view_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -99,7 +113,7 @@ public class ProfileUpdate extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getContext(), WelcomeActivity.class);
-                intent.putExtra("Name","Vehicle");
+                intent.putExtra("Name", "Vehicle");
                 startActivity(intent);
             }
         });
@@ -107,7 +121,7 @@ public class ProfileUpdate extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getContext(), WelcomeActivity.class);
-                intent.putExtra("Name","Vehicle");
+                intent.putExtra("Name", "Vehicle");
                 startActivity(intent);
             }
         });
@@ -142,14 +156,13 @@ public class ProfileUpdate extends Fragment {
             @Override
             public void onClick(View v) {
 
-                user_name=first_name_et.getText().toString();
-                u_email=emial_et.getText().toString();
-                password=change_passwrod_et.getText().toString();
-                u_address=search_address_et.getText().toString();
-                if(isValidEmail(u_email)){
+                user_name = first_name_et.getText().toString();
+                u_email = emial_et.getText().toString();
+                password = change_passwrod_et.getText().toString();
+                u_address = search_address_et.getText().toString();
+                if (isValidEmail(u_email)) {
                     insertService();
-                }
-                else {
+                } else {
                     emial_et.setError("Invalid Email");
                 }
             }
@@ -159,8 +172,9 @@ public class ProfileUpdate extends Fragment {
     }
 
     private boolean isValidEmail(String email) {
-        return (!TextUtils.isEmpty(email)&& Patterns.EMAIL_ADDRESS.matcher(email).matches());
+        return (!TextUtils.isEmpty(email) && Patterns.EMAIL_ADDRESS.matcher(email).matches());
     }
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         //Users location result
@@ -178,9 +192,10 @@ public class ProfileUpdate extends Fragment {
     ////////////////////////////
     RequestQueue queue;
     ProgressDialog sweetAlertDialog;
+
     private void insertService() {
-        sweetAlertDialog = ProgressDialog.show(getContext(),"Loading","Please Wait...",false,false);
-        queue= Volley.newRequestQueue(getContext());
+        sweetAlertDialog = ProgressDialog.show(getContext(), "Loading", "Please Wait...", false, false);
+        queue = Volley.newRequestQueue(getContext());
 
         StringRequest myReq = new StringRequest(Request.Method.POST,
                 Config.URL, new Response.Listener<String>() {
@@ -188,11 +203,11 @@ public class ProfileUpdate extends Fragment {
             public void onResponse(String response) {
                 sweetAlertDialog.dismiss();
                 try {
-                     Log.e("tag","response "+response);
+                    Log.e("tag", "response " + response);
                     JSONObject jObj = new JSONObject(response);
                     int success = jObj.getInt("success");
                     // boolean error = jObj.getBoolean("error");
-                    if (success==1) {
+                    if (success == 1) {
                         // User successfully stored in MySQL
 //
                         //updating prefs
@@ -226,8 +241,9 @@ public class ProfileUpdate extends Fragment {
                     public void onErrorResponse(VolleyError error) {
                         Log.i("myTag", error.toString());
                         //  if (sweetAlertDialog.isShowing()) {
-                        if(sweetAlertDialog.isShowing())
-                        { sweetAlertDialog.dismiss();}
+                        if (sweetAlertDialog.isShowing()) {
+                            sweetAlertDialog.dismiss();
+                        }
                         //   }
                         Toast.makeText(getContext(), "" + error.toString(), Toast.LENGTH_SHORT).show();
                     }
@@ -237,16 +253,16 @@ public class ProfileUpdate extends Fragment {
             protected Map<String, String> getParams() {
                 // Posting params to register urluser_name,u_address,u_email
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("tag","updateProfile");
-                params.put("user_id",sessionManager.getUserID());
-                params.put("email",u_email);
-                params.put("password",password);
-                params.put("name",user_name);
-                params.put("address",u_address);
-                params.put("lat",lat);
-                params.put("lng",lng);
-                Log.i("TAG","new_name"+user_name);
-                Log.i("TAG","new_email"+u_email);
+                params.put("tag", "updateProfile");
+                params.put("user_id", sessionManager.getUserID());
+                params.put("email", u_email);
+                params.put("password", password);
+                params.put("name", user_name);
+                params.put("address", u_address);
+                params.put("lat", lat);
+                params.put("lng", lng);
+                Log.i("TAG", "new_name" + user_name);
+                Log.i("TAG", "new_email" + u_email);
 
                 // params.put("registrationIds", session.getRegistrationId()!=null? session.getRegistrationId() : "");
 
@@ -289,4 +305,12 @@ public class ProfileUpdate extends Fragment {
         alertDialog.getButton(alertDialog.BUTTON_POSITIVE).setTextColor(context.getResources().getColor(R.color.colorPrimary));
         alertDialog.getButton(alertDialog.BUTTON_NEGATIVE).setTextColor(context.getResources().getColor(R.color.colorPrimary));
     }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(MyEvent myEvent) {
+        ArrayList<VehicleData> vehicleImages= myEvent.getMessage();
+        viewPagerAdapter = new ViewPagerAdapter(getContext(), vehicleImages);
+        viewPager.setAdapter(viewPagerAdapter);
+    }
+
 }

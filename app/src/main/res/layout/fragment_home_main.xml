@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/heading"
             android:layout_below="@id/et_home_search"
-            android:text="Welcome to LubeRack"
+            android:text="Select a Service"
             android:textAlignment="center"
             android:textSize="20sp"
             android:textColor="#000"

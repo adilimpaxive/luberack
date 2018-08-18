@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -33,14 +34,17 @@ import com.androidnetworking.interfaces.StringRequestListener;
 import com.androidnetworking.interfaces.UploadProgressListener;
 import com.app.luberack.Adapter.VehicleAdapter;
 import com.app.luberack.Adapter.VehicleImagesAdapter;
+import com.app.luberack.Adapter.ViewPagerAdapter;
 import com.app.luberack.Adapter.get_estimate_adapter;
 import com.app.luberack.Home;
 import com.app.luberack.ModelClasses.AlignmentData;
 import com.app.luberack.ModelClasses.VehicleData;
+import com.app.luberack.MyEvent;
 import com.app.luberack.Profile_management.SessionManager;
 import com.app.luberack.R;
 import com.app.luberack.utility.Config;
 
+import org.greenrobot.eventbus.EventBus;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -60,6 +64,7 @@ public class Activity_Vehicles_Details extends Fragment {
     private List cList = new ArrayList<>();
     private RecyclerView recyclerView,recyclerViewAlert;
     VehicleAdapter adapterTop;
+    ViewPagerAdapter viewPagerAdapter;
     AlignmentData data;
     ArrayList<VehicleData> oilChangeDataList;
     private get_estimate_adapter vAdapter;
@@ -78,7 +83,7 @@ public class Activity_Vehicles_Details extends Fragment {
     public static AlertDialog.Builder alertDialog;
     public static Dialog dialog;
     public static ArrayAdapter<CharSequence> nAdapter,mAdapter,yAdapter;
-
+    ViewPager viewPager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -96,6 +101,7 @@ public class Activity_Vehicles_Details extends Fragment {
         buttonNext = view.findViewById(R.id.buttonNext);
         buttonGo = view.findViewById(R.id.btnGo);
         sp_vin = view.findViewById(R.id.sp_vin);
+        viewPager = view.findViewById(R.id.cra_iv);
 
         et_year.setEnabled(false);
 
@@ -382,7 +388,7 @@ public class Activity_Vehicles_Details extends Fragment {
                     sweetProgressDialog.dismiss();
                 }
                 try {
-                    Log.e("tag", "response " + response);
+                    Log.e("taggg", "response " + response);
                     JSONObject jObj = new JSONObject(response);
                     int success = jObj.getInt("success");
                    /*// jsonArray.length();
@@ -400,8 +406,14 @@ public class Activity_Vehicles_Details extends Fragment {
 
                         }
                         adapterTop = new VehicleAdapter(getContext(), oilChangeDataList);
+                        viewPagerAdapter = new ViewPagerAdapter(getContext(), oilChangeDataList);
 
                         recyclerView.setAdapter(adapterTop);
+
+                        MyEvent myEvent = new MyEvent(oilChangeDataList);
+                        EventBus.getDefault().post(myEvent);
+
+//                        viewPager.setAdapter(viewPagerAdapter);
                     } else {
                         // Error occurred in registration. Get the error
                         // message
