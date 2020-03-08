@@ -1,4 +1,4 @@
-package com.app.luberack.Adapter;
+package com.app.giftfcard.Adapter;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,10 +12,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.app.luberack.ModelClasses.BrakesData;
-import com.app.luberack.ModelClasses.OilChangeData;
-import com.app.luberack.R;
-import com.app.luberack.map.MapFragment;
+import com.app.giftfcard.ModelClasses.BrakesData;
+import com.app.giftfcard.R;
+import com.app.giftfcard.map.MapFragment;
 import com.squareup.picasso.Picasso;
 
 import java.util.Collections;

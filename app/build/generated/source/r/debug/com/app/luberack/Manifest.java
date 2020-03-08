@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.app.luberack;
+package com.app.giftfcard;
 
 public final class Manifest {
   public static final class permission {

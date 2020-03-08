@@ -1,4 +1,4 @@
-package com.app.luberack.Adapter;
+package com.app.giftfcard.Adapter;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,10 +12,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.app.luberack.ModelClasses.AlignmentData;
-import com.app.luberack.ModelClasses.OilChangeData;
-import com.app.luberack.R;
-import com.app.luberack.map.MapFragment;
+import com.app.giftfcard.ModelClasses.AlignmentData;
+import com.app.giftfcard.R;
+import com.app.giftfcard.map.MapFragment;
 import com.squareup.picasso.Picasso;
 
 import java.util.Collections;
@@ -89,8 +88,8 @@ public  class AlignmentAdapter extends RecyclerView.Adapter<AlignmentAdapter.MyV
             // get position
             int pos = getAdapterPosition();
 
-            // check if item still exists
-            if(pos != RecyclerView.NO_POSITION) {
+                // check if item still exists
+                if(pos != RecyclerView.NO_POSITION) {
 
                 AlignmentData events = productList.get(pos);
 

@@ -1,4 +1,4 @@
-package com.app.luberack.Profile_management;
+package com.app.giftfcard.Profile_management;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -29,12 +29,12 @@ import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.StringRequestListener;
 import com.androidnetworking.interfaces.UploadProgressListener;
-import com.app.luberack.Fragments.Email_Verfication_code;
-import com.app.luberack.R;
-import com.app.luberack.map.SignupMapFragment;
-import com.app.luberack.utility.AlertDialogManager;
-import com.app.luberack.utility.Config;
-import com.app.luberack.utility.Utility;
+import com.app.giftfcard.Fragments.Email_Verfication_code;
+import com.app.giftfcard.R;
+import com.app.giftfcard.map.SignupMapFragment;
+import com.app.giftfcard.utility.AlertDialogManager;
+import com.app.giftfcard.utility.Config;
+import com.app.giftfcard.utility.Utility;
 
 import org.json.JSONArray;
 import org.json.JSONException;

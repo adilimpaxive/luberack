@@ -1,8 +1,6 @@
-package com.app.luberack.Profile_management;
+package com.app.giftfcard.Profile_management;
 
 import android.app.ProgressDialog;
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -22,10 +20,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.app.luberack.R;
-import com.app.luberack.utility.AlertDialogManager;
-import com.app.luberack.utility.Config;
-import com.app.luberack.utility.Utility;
+import com.app.giftfcard.R;
+import com.app.giftfcard.utility.AlertDialogManager;
+import com.app.giftfcard.utility.Config;
+import com.app.giftfcard.utility.Utility;
 
 import org.json.JSONException;
 import org.json.JSONObject;

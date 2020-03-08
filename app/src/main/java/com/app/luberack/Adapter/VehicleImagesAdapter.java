@@ -1,4 +1,4 @@
-package com.app.luberack.Adapter;
+package com.app.giftfcard.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,9 +9,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.app.luberack.Fragments.Activity_Vehicles_Details;
-import com.app.luberack.ModelClasses.VehicleData;
-import com.app.luberack.R;
+import com.app.giftfcard.Fragments.Activity_Vehicles_Details;
+import com.app.giftfcard.ModelClasses.VehicleData;
+import com.app.giftfcard.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

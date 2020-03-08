@@ -1,15 +1,13 @@
-package com.app.luberack.Fragments;
+package com.app.giftfcard.Fragments;
 
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
-import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,9 +26,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.app.luberack.Profile_management.SessionManager;
-import com.app.luberack.R;
-import com.app.luberack.utility.Config;
+import com.app.giftfcard.Profile_management.SessionManager;
+import com.app.giftfcard.R;
+import com.app.giftfcard.utility.Config;
 
 import org.json.JSONException;
 import org.json.JSONObject;

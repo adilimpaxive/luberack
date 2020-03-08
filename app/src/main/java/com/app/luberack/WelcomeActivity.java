@@ -1,4 +1,4 @@
-package com.app.luberack;
+package com.app.giftfcard;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,9 +9,9 @@ import android.support.v7.widget.Toolbar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.app.luberack.Fragments.Activity_Vehicles_Details;
-import com.app.luberack.Profile_management.SessionManager;
-import com.app.luberack.Profile_management.Welcome;
+import com.app.giftfcard.Fragments.Activity_Vehicles_Details;
+import com.app.giftfcard.Profile_management.SessionManager;
+import com.app.giftfcard.Profile_management.Welcome;
 
 public class WelcomeActivity extends AppCompatActivity {
 

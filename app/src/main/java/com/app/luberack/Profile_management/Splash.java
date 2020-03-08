@@ -1,4 +1,4 @@
-package com.app.luberack.Profile_management;
+package com.app.giftfcard.Profile_management;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.app.luberack.R;
-import com.app.luberack.WelcomeActivity;
+import com.app.giftfcard.R;
+import com.app.giftfcard.WelcomeActivity;
 
 public class Splash extends AppCompatActivity {
 

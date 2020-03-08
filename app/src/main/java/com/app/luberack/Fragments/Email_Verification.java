@@ -1,11 +1,8 @@
-package com.app.luberack.Fragments;
+package com.app.giftfcard.Fragments;
 
 import android.support.v4.app.Fragment;
 import android.app.ProgressDialog;
-import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.util.Patterns;
@@ -23,12 +20,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.app.luberack.Home;
-import com.app.luberack.Profile_management.SignIn;
-import com.app.luberack.R;
-import com.app.luberack.utility.AlertDialogManager;
-import com.app.luberack.utility.Config;
-import com.app.luberack.utility.Utility;
+import com.app.giftfcard.R;
+import com.app.giftfcard.utility.AlertDialogManager;
+import com.app.giftfcard.utility.Config;
+import com.app.giftfcard.utility.Utility;
 
 import org.json.JSONException;
 import org.json.JSONObject;

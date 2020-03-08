@@ -1,4 +1,4 @@
-package com.app.luberack.Fragments;
+package com.app.giftfcard.Fragments;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -29,16 +29,16 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.app.luberack.Adapter.ViewPagerAdapter;
-import com.app.luberack.ModelClasses.VehicleData;
-import com.app.luberack.MyEvent;
-import com.app.luberack.Profile_management.SessionManager;
-import com.app.luberack.R;
-import com.app.luberack.WelcomeActivity;
-import com.app.luberack.map.SignupMapFragment;
-import com.app.luberack.utility.AlertDialogManager;
-import com.app.luberack.utility.Config;
-import com.app.luberack.utility.Utility;
+import com.app.giftfcard.Adapter.ViewPagerAdapter;
+import com.app.giftfcard.ModelClasses.VehicleData;
+import com.app.giftfcard.MyEvent;
+import com.app.giftfcard.Profile_management.SessionManager;
+import com.app.giftfcard.R;
+import com.app.giftfcard.WelcomeActivity;
+import com.app.giftfcard.map.SignupMapFragment;
+import com.app.giftfcard.utility.AlertDialogManager;
+import com.app.giftfcard.utility.Config;
+import com.app.giftfcard.utility.Utility;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

@@ -1,4 +1,4 @@
-package com.app.luberack.Profile_management;
+package com.app.giftfcard.Profile_management;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.app.luberack.Fragments.Activity_Vehicles_Details;
-import com.app.luberack.R;
+import com.app.giftfcard.Fragments.Activity_Vehicles_Details;
+import com.app.giftfcard.R;
 
 public class AfterWelcome extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.app.luberack.Fragments;
+package com.app.giftfcard.Fragments;
 
 import android.app.ProgressDialog;
 import android.support.v4.app.Fragment;
@@ -22,11 +22,11 @@ import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.StringRequestListener;
 import com.androidnetworking.interfaces.UploadProgressListener;
-import com.app.luberack.Adapter.get_estimate_adapter;
-import com.app.luberack.ModelClasses.get_estimate_modal;
-import com.app.luberack.Profile_management.SessionManager;
-import com.app.luberack.R;
-import com.app.luberack.utility.Config;
+import com.app.giftfcard.Adapter.get_estimate_adapter;
+import com.app.giftfcard.ModelClasses.get_estimate_modal;
+import com.app.giftfcard.Profile_management.SessionManager;
+import com.app.giftfcard.R;
+import com.app.giftfcard.utility.Config;
 
 import org.json.JSONArray;
 import org.json.JSONException;

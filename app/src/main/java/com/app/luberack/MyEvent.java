@@ -1,6 +1,6 @@
-package com.app.luberack;
+package com.app.giftfcard;
 
-import com.app.luberack.ModelClasses.VehicleData;
+import com.app.giftfcard.ModelClasses.VehicleData;
 
 import java.util.ArrayList;
 

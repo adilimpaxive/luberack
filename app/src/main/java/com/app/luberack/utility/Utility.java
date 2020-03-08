@@ -1,4 +1,4 @@
-package com.app.luberack.utility;
+package com.app.giftfcard.utility;
 
 import android.Manifest;
 import android.annotation.TargetApi;

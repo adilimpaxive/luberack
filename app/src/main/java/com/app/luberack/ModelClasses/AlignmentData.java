@@ -1,4 +1,4 @@
-package com.app.luberack.ModelClasses;
+package com.app.giftfcard.ModelClasses;
 
 /**
  * Created by Farid Mushtaq on 5/4/2018.

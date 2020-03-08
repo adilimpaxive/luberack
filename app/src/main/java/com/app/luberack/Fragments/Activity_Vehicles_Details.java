@@ -1,4 +1,4 @@
-package com.app.luberack.Fragments;
+package com.app.giftfcard.Fragments;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -32,17 +32,17 @@ import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.StringRequestListener;
 import com.androidnetworking.interfaces.UploadProgressListener;
-import com.app.luberack.Adapter.VehicleAdapter;
-import com.app.luberack.Adapter.VehicleImagesAdapter;
-import com.app.luberack.Adapter.ViewPagerAdapter;
-import com.app.luberack.Adapter.get_estimate_adapter;
-import com.app.luberack.Home;
-import com.app.luberack.ModelClasses.AlignmentData;
-import com.app.luberack.ModelClasses.VehicleData;
-import com.app.luberack.MyEvent;
-import com.app.luberack.Profile_management.SessionManager;
-import com.app.luberack.R;
-import com.app.luberack.utility.Config;
+import com.app.giftfcard.Adapter.VehicleAdapter;
+import com.app.giftfcard.Adapter.VehicleImagesAdapter;
+import com.app.giftfcard.Adapter.ViewPagerAdapter;
+import com.app.giftfcard.Adapter.get_estimate_adapter;
+import com.app.giftfcard.Home;
+import com.app.giftfcard.ModelClasses.AlignmentData;
+import com.app.giftfcard.ModelClasses.VehicleData;
+import com.app.giftfcard.MyEvent;
+import com.app.giftfcard.Profile_management.SessionManager;
+import com.app.giftfcard.R;
+import com.app.giftfcard.utility.Config;
 
 import org.greenrobot.eventbus.EventBus;
 import org.json.JSONArray;

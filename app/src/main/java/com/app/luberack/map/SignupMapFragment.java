@@ -1,4 +1,4 @@
-package com.app.luberack.map;
+package com.app.giftfcard.map;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -14,10 +14,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.app.luberack.Profile_management.SignUp;
-import com.app.luberack.R;
-import com.app.luberack.utility.AlertDialogManager;
-import com.app.luberack.utility.Utility;
+import com.app.giftfcard.Profile_management.SignUp;
+import com.app.giftfcard.R;
+import com.app.giftfcard.utility.AlertDialogManager;
+import com.app.giftfcard.utility.Utility;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
