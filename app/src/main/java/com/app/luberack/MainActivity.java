@@ -1,4 +1,4 @@
-package com.app.giftfcard;
+package com.app.luberack;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

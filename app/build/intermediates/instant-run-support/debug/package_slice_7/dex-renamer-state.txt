@@ -1,4 +1,4 @@
-#Fri Aug 03 11:57:37 PDT 2018
-base.0=D\:\\MobileApps\\luberack\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\46
+#Sat Oct 27 14:58:50 PKT 2018
+base.0=D\:\\luberack\\luberack\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
 path.0=classes.dex
 renamed.0=classes.dex

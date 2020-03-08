@@ -1,10 +1,14 @@
-package com.app.giftfcard.utility;
+package com.app.luberack.utility;
 
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.location.LocationManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
@@ -12,6 +16,9 @@ import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
+import android.widget.Toast;
+
+import com.app.luberack.R;
 
 
 public class Utility {
@@ -54,16 +61,79 @@ public class Utility {
         }
     }
 
+    public static boolean checkInternetConnection(final Context context) {
+        NetworkInfo activeNetworkInfo = null;
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        if (cm != null) {
+             activeNetworkInfo = cm.getActiveNetworkInfo();
+        }
+        else{
+            Toast.makeText(context, "Turn on your Internet Connection!", Toast.LENGTH_SHORT).show();
+        }
+        return (activeNetworkInfo != null && activeNetworkInfo.isAvailable() && activeNetworkInfo.isConnected());
+    }
     //Checking internet is on or not
     public static boolean isNetworkAvailable(final Context context) {
+        NetworkInfo activeNetworkInfo = null;
         ConnectivityManager connectivityManager
                 = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
-        return activeNetworkInfo != null && activeNetworkInfo.isConnectedOrConnecting();
+        if (connectivityManager != null) {
+             activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+//            isConnected = (activeNetworkInfo != null && activeNetworkInfo.isAvailable() && activeNetworkInfo.isConnected()) ? true : false;
+
+        }
+            return activeNetworkInfo != null && activeNetworkInfo.isConnectedOrConnecting();
+
+
     }
 
+    public static boolean location(final Context context)
+    {
+        LocationManager lm = (LocationManager)context.getSystemService(Context.LOCATION_SERVICE);
+        boolean gps_enabled = false;
+        boolean network_enabled = false;
+
+        try {
+            gps_enabled = lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
+        } catch(Exception ex) {}
+
+        try {
+            network_enabled = lm.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+        } catch(Exception ex) {}
+
+        if(!gps_enabled && !network_enabled) {
+            // notify user
+            AlertDialog.Builder dialog = new AlertDialog.Builder(context);
+            dialog.setMessage(context.getResources().getString(R.string.gps_network_not_enabled));
+            dialog.setPositiveButton(context.getResources().getString(R.string.open_location_settings), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface paramDialogInterface, int paramInt) {
+                    // TODO Auto-generated method stub
+                    Intent myIntent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+                    context.startActivity(myIntent);
+                    //get gps
+                }
+            });
+            dialog.setNegativeButton(context.getString(R.string.Cancel), new DialogInterface.OnClickListener() {
+
+                @Override
+                public void onClick(DialogInterface paramDialogInterface, int paramInt) {
+                    // TODO Auto-generated method stub
+
+                }
+            });
+            dialog.show();
+        }
+        if(!network_enabled) network_enabled = gps_enabled;
+        if(!gps_enabled) gps_enabled = network_enabled;
+       return gps_enabled;
+    }
+
+
     //Checking location enabled or not
-    public static boolean isLocationEnabled(Context context) {
+    public static boolean isLocationEnabled(final Context context) {
+
+
         int locationMode = 0;
         String locationProviders;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {

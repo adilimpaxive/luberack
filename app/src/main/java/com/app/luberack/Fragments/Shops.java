@@ -1,4 +1,4 @@
-package com.app.giftfcard.Fragments;
+package com.app.luberack.Fragments;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.app.giftfcard.R;
+import com.app.luberack.R;
 
 public class Shops extends Fragment {
     LinearLayout oil_change,alignment,brakes,car_tire,oil_change_back,alignment_back,car_tire_back,brakes_back;

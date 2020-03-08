@@ -1,4 +1,4 @@
-package com.app.giftfcard.Fragments;
+package com.app.luberack.Fragments;
 
 
 import android.app.DatePickerDialog;
@@ -26,9 +26,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.app.giftfcard.Profile_management.SessionManager;
-import com.app.giftfcard.R;
-import com.app.giftfcard.utility.Config;
+import com.app.luberack.Profile_management.SessionManager;
+import com.app.luberack.R;
+import com.app.luberack.utility.Config;
 
 import org.json.JSONException;
 import org.json.JSONObject;

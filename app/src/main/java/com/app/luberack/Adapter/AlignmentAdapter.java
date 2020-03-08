@@ -1,4 +1,4 @@
-package com.app.giftfcard.Adapter;
+package com.app.luberack.Adapter;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.app.giftfcard.ModelClasses.AlignmentData;
-import com.app.giftfcard.R;
-import com.app.giftfcard.map.MapFragment;
+import com.app.luberack.ModelClasses.AlignmentData;
+import com.app.luberack.R;
+import com.app.luberack.map.MapFragment;
 import com.squareup.picasso.Picasso;
 
 import java.util.Collections;

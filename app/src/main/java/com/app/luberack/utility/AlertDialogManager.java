@@ -1,4 +1,4 @@
-package com.app.giftfcard.utility;
+package com.app.luberack.utility;
 
 /**
  * Created by Abubakar on 21/08/2017.
@@ -10,8 +10,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.provider.Settings;
 
-import com.app.giftfcard.Profile_management.SessionManager;
-import com.app.giftfcard.R;
+import com.app.luberack.Profile_management.SessionManager;
+import com.app.luberack.R;
 
 
 //for showing alert dialog

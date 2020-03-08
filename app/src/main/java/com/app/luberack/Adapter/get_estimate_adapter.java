@@ -1,4 +1,4 @@
-package com.app.giftfcard.Adapter;
+package com.app.luberack.Adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.app.giftfcard.ModelClasses.get_estimate_modal;
-import com.app.giftfcard.R;
+import com.app.luberack.ModelClasses.get_estimate_modal;
+import com.app.luberack.R;
 
 import java.util.List;
 

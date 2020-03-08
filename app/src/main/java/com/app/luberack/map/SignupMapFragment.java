@@ -1,23 +1,30 @@
-package com.app.giftfcard.map;
+package com.app.luberack.map;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.location.Address;
+import android.location.Criteria;
 import android.location.Geocoder;
 import android.location.Location;
+import android.location.LocationManager;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.app.giftfcard.Profile_management.SignUp;
-import com.app.giftfcard.R;
-import com.app.giftfcard.utility.AlertDialogManager;
-import com.app.giftfcard.utility.Utility;
+import com.app.luberack.Profile_management.SignUp;
+import com.app.luberack.R;
+import com.app.luberack.utility.AlertDialogManager;
+import com.app.luberack.utility.Utility;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
@@ -36,10 +43,35 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Locale;
 
+import static android.content.ContentValues.TAG;
+
 //Taking user's desired location for signup
 public class SignupMapFragment extends Fragment implements OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener {
+    Intent intentThatCalled;
+    public double latitude;
+    public double longitude;
+    public LocationManager locationManager;
+    public Criteria criteria;
+    public String bestProvider;
+    private static final String[] INITIAL_PERMS = {
+            Manifest.permission.ACCESS_FINE_LOCATION,
+            Manifest.permission.READ_CONTACTS
+    };
+    private static final String[] CAMERA_PERMS = {
+            Manifest.permission.CAMERA
+    };
+    private static final String[] CONTACTS_PERMS = {
+            Manifest.permission.READ_CONTACTS
+    };
+    private static final String[] LOCATION_PERMS = {
+            Manifest.permission.ACCESS_FINE_LOCATION
+    };
+    private static final int INITIAL_REQUEST = 1337;
+    private static final int CAMERA_REQUEST = INITIAL_REQUEST + 1;
+    private static final int CONTACTS_REQUEST = INITIAL_REQUEST + 2;
+    private static final int LOCATION_REQUEST = INITIAL_REQUEST + 3;
 
     private AlertDialogManager alert = new AlertDialogManager();
     MapView mMapView;
@@ -70,7 +102,7 @@ public class SignupMapFragment extends Fragment implements OnMapReadyCallback,
         View v = inflater.inflate(R.layout.fragment_signup_map, container,
                 false);
         // Session Manager
-       // session = new SessionManager(getContext());
+        // session = new SessionManager(getContext());
 
         sweetProgressDialog = new ProgressDialog(getActivity(), R.style.MyAlertDialogStyle);
         sweetProgressDialog.setMessage(String.format(getResources().getString(R.string.retr)));
@@ -81,6 +113,8 @@ public class SignupMapFragment extends Fragment implements OnMapReadyCallback,
             @Override
             public void onClick(View view) {
                 sweetProgressDialog.show();
+                if (checkPermission()){
+
                 if (validate()) {
                     if (sweetProgressDialog.isShowing()) {
                         sweetProgressDialog.dismiss();
@@ -91,7 +125,9 @@ public class SignupMapFragment extends Fragment implements OnMapReadyCallback,
                     intent.putExtra("userlng", userlng);
                     getTargetFragment().onActivityResult(getTargetRequestCode(), Activity.RESULT_OK, intent);
                     getActivity().getSupportFragmentManager().popBackStack();
-                }
+                }}
+                else
+                    askPermission();
             }
         });
 
@@ -177,9 +213,19 @@ public class SignupMapFragment extends Fragment implements OnMapReadyCallback,
     public void onConnected(Bundle bundle) {
         //on connection it gets the last available location and moves the pointer to that location
         //Checking location permission
-        boolean result = Utility.checkPermission(getContext());
-        if (!result) return;
+        //  boolean result = Utility.checkPermission(getContext());
+        //  if (!result) return;
         //create a new LatLng obj to store position
+        if (ActivityCompat.checkSelfPermission(getActivity().getApplication(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getActivity().getApplication(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
         mLastLocation = LocationServices.FusedLocationApi.getLastLocation(myGoogleApiClient);
         if (mLastLocation != null) {
             //create a new LatLng obj to store position
@@ -278,5 +324,56 @@ public class SignupMapFragment extends Fragment implements OnMapReadyCallback,
         super.onLowMemory();
         mMapView.onLowMemory();
     }
+
+
+    private final int REQ_PERMISSION = 999;
+
+    // Check for permission to access Location
+    private boolean checkPermission() {
+        Log.d(TAG, "checkPermission()");
+        // Ask for permission if it wasn't granted yet
+        return (ContextCompat.checkSelfPermission(getActivity().getApplication(), android.Manifest.permission.ACCESS_FINE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED );
+    }
+
+    // Asks for permission
+    private void askPermission() {
+        Log.d(TAG, "askPermission()");
+        ActivityCompat.requestPermissions(
+                getActivity(),
+                new String[] { android.Manifest.permission.ACCESS_FINE_LOCATION },
+                REQ_PERMISSION
+        );
+    }
+
+    // Verify user's response of the permission requested
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        Log.d(TAG, "onRequestPermissionsResult()");
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch ( requestCode ) {
+            case REQ_PERMISSION: {
+                if ( grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED ){
+                    // Permission granted
+                    // loc();
+                    // GetAddress(lat,lon);
+
+                } else {
+                    // Permission denied
+                    permissionsDenied();
+                }
+                break;
+            }
+        }
+    }
+
+    // App cannot work without the permissions
+    private void permissionsDenied() {
+        Log.w(TAG, "permissionsDenied()");
+        // TODO close app and warn user
+    }
+
+
 
 }

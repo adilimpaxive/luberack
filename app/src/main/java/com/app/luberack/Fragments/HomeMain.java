@@ -1,4 +1,4 @@
-package com.app.giftfcard.Fragments;
+package com.app.luberack.Fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
-import com.app.giftfcard.R;
+import com.app.luberack.R;
 
 public class HomeMain extends Fragment {
     ImageView im_oil_change,im_brakes,im_alignment,im_getestmimate;

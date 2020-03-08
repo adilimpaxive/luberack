@@ -1,4 +1,4 @@
-package com.app.giftfcard.utility;
+package com.app.luberack.utility;
 
 /**
  * Created by shehz on 21/08/2017.

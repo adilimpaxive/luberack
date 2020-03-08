@@ -1,4 +1,4 @@
-package com.app.giftfcard.map;
+package com.app.luberack.map;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -33,11 +33,11 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.app.giftfcard.Profile_management.SessionManager;
-import com.app.giftfcard.R;
-import com.app.giftfcard.utility.AlertDialogManager;
-import com.app.giftfcard.utility.Config;
-import com.app.giftfcard.utility.Utility;
+import com.app.luberack.Profile_management.SessionManager;
+import com.app.luberack.R;
+import com.app.luberack.utility.AlertDialogManager;
+import com.app.luberack.utility.Config;
+import com.app.luberack.utility.Utility;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;

@@ -1,4 +1,4 @@
-package com.app.giftfcard.Adapter;
+package com.app.luberack.Adapter;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.app.giftfcard.Fragments.VehicleDetail;
-import com.app.giftfcard.ModelClasses.VehicleData;
-import com.app.giftfcard.R;
+import com.app.luberack.Fragments.VehicleDetail;
+import com.app.luberack.ModelClasses.VehicleData;
+import com.app.luberack.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

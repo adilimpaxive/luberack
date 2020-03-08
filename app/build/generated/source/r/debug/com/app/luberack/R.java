@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.app.giftfcard;
+package com.app.luberack;
 
 public final class R {
   public static final class anim {
@@ -5595,167 +5595,168 @@ public final class R {
     public static final int ic_launcher_round=0x7f0e0001;
   }
   public static final class string {
-    public static final int abc_action_bar_home_description=0x7f0f0000;
-    public static final int abc_action_bar_up_description=0x7f0f0001;
-    public static final int abc_action_menu_overflow_description=0x7f0f0002;
-    public static final int abc_action_mode_done=0x7f0f0003;
-    public static final int abc_activity_chooser_view_see_all=0x7f0f0004;
-    public static final int abc_activitychooserview_choose_application=0x7f0f0005;
-    public static final int abc_capital_off=0x7f0f0006;
-    public static final int abc_capital_on=0x7f0f0007;
-    public static final int abc_font_family_body_1_material=0x7f0f0008;
-    public static final int abc_font_family_body_2_material=0x7f0f0009;
-    public static final int abc_font_family_button_material=0x7f0f000a;
-    public static final int abc_font_family_caption_material=0x7f0f000b;
-    public static final int abc_font_family_display_1_material=0x7f0f000c;
-    public static final int abc_font_family_display_2_material=0x7f0f000d;
-    public static final int abc_font_family_display_3_material=0x7f0f000e;
-    public static final int abc_font_family_display_4_material=0x7f0f000f;
-    public static final int abc_font_family_headline_material=0x7f0f0010;
-    public static final int abc_font_family_menu_material=0x7f0f0011;
-    public static final int abc_font_family_subhead_material=0x7f0f0012;
-    public static final int abc_font_family_title_material=0x7f0f0013;
-    public static final int abc_search_hint=0x7f0f0014;
-    public static final int abc_searchview_description_clear=0x7f0f0015;
-    public static final int abc_searchview_description_query=0x7f0f0016;
-    public static final int abc_searchview_description_search=0x7f0f0017;
-    public static final int abc_searchview_description_submit=0x7f0f0018;
-    public static final int abc_searchview_description_voice=0x7f0f0019;
-    public static final int abc_shareactionprovider_share_with=0x7f0f001a;
-    public static final int abc_shareactionprovider_share_with_application=0x7f0f001b;
-    public static final int abc_toolbar_collapse_description=0x7f0f001c;
-    public static final int app_name=0x7f0f001d;
-    public static final int appbar_scrolling_view_behavior=0x7f0f001e;
-    public static final int bottom_sheet_behavior=0x7f0f001f;
-    public static final int cancel=0x7f0f0020;
-    public static final int cast_ad_label=0x7f0f0021;
-    public static final int cast_casting_to_device=0x7f0f0022;
-    public static final int cast_closed_captions=0x7f0f0023;
-    public static final int cast_closed_captions_unavailable=0x7f0f0024;
-    public static final int cast_connecting_to_device=0x7f0f0025;
-    public static final int cast_disconnect=0x7f0f0026;
-    public static final int cast_expanded_controller_ad_image_description=0x7f0f0027;
-    public static final int cast_expanded_controller_ad_in_progress=0x7f0f0028;
-    public static final int cast_expanded_controller_background_image=0x7f0f0029;
-    public static final int cast_expanded_controller_live_stream_indicator=0x7f0f002a;
-    public static final int cast_expanded_controller_loading=0x7f0f002b;
-    public static final int cast_expanded_controller_skip_ad_label=0x7f0f002c;
-    public static final int cast_forward=0x7f0f002d;
-    public static final int cast_forward_10=0x7f0f002e;
-    public static final int cast_forward_30=0x7f0f002f;
-    public static final int cast_intro_overlay_button_text=0x7f0f0030;
-    public static final int cast_invalid_stream_duration_text=0x7f0f0031;
-    public static final int cast_invalid_stream_position_text=0x7f0f0032;
-    public static final int cast_mute=0x7f0f0033;
-    public static final int cast_notification_connected_message=0x7f0f0034;
-    public static final int cast_notification_connecting_message=0x7f0f0035;
-    public static final int cast_notification_default_channel_name=0x7f0f0036;
-    public static final int cast_notification_disconnect=0x7f0f0037;
-    public static final int cast_pause=0x7f0f0038;
-    public static final int cast_play=0x7f0f0039;
-    public static final int cast_rewind=0x7f0f003a;
-    public static final int cast_rewind_10=0x7f0f003b;
-    public static final int cast_rewind_30=0x7f0f003c;
-    public static final int cast_seek_bar=0x7f0f003d;
-    public static final int cast_skip_next=0x7f0f003e;
-    public static final int cast_skip_prev=0x7f0f003f;
-    public static final int cast_stop=0x7f0f0040;
-    public static final int cast_stop_live_stream=0x7f0f0041;
-    public static final int cast_tracks_chooser_dialog_audio=0x7f0f0042;
-    public static final int cast_tracks_chooser_dialog_cancel=0x7f0f0043;
-    public static final int cast_tracks_chooser_dialog_closed_captions=0x7f0f0044;
-    public static final int cast_tracks_chooser_dialog_default_track_name=0x7f0f0045;
-    public static final int cast_tracks_chooser_dialog_none=0x7f0f0046;
-    public static final int cast_tracks_chooser_dialog_ok=0x7f0f0047;
-    public static final int cast_tracks_chooser_dialog_subtitles=0x7f0f0048;
-    public static final int cast_unmute=0x7f0f0049;
-    public static final int character_counter_pattern=0x7f0f004a;
-    public static final int common_google_play_services_enable_button=0x7f0f004b;
-    public static final int common_google_play_services_enable_text=0x7f0f004c;
-    public static final int common_google_play_services_enable_title=0x7f0f004d;
-    public static final int common_google_play_services_install_button=0x7f0f004e;
-    public static final int common_google_play_services_install_text=0x7f0f004f;
-    public static final int common_google_play_services_install_title=0x7f0f0050;
-    public static final int common_google_play_services_notification_channel_name=0x7f0f0051;
-    public static final int common_google_play_services_notification_ticker=0x7f0f0052;
-    public static final int common_google_play_services_unknown_issue=0x7f0f0053;
-    public static final int common_google_play_services_unsupported_text=0x7f0f0054;
-    public static final int common_google_play_services_update_button=0x7f0f0055;
-    public static final int common_google_play_services_update_text=0x7f0f0056;
-    public static final int common_google_play_services_update_title=0x7f0f0057;
-    public static final int common_google_play_services_updating_text=0x7f0f0058;
-    public static final int common_google_play_services_wear_update_text=0x7f0f0059;
-    public static final int common_open_on_phone=0x7f0f005a;
-    public static final int common_signin_button_text=0x7f0f005b;
-    public static final int common_signin_button_text_long=0x7f0f005c;
-    public static final int default_web_client_id=0x7f0f005d;
-    public static final int fcm_fallback_notification_channel_label=0x7f0f005e;
-    public static final int firebase_database_url=0x7f0f005f;
-    public static final int gcm_defaultSenderId=0x7f0f0060;
-    public static final int gcm_fallback_notification_channel_label=0x7f0f0061;
-    public static final int google_api_key=0x7f0f0062;
-    public static final int google_app_id=0x7f0f0063;
-    public static final int google_crash_reporting_api_key=0x7f0f0064;
-    public static final int google_storage_bucket=0x7f0f0065;
-    public static final int gps_network_not_enabled=0x7f0f0066;
-    public static final int gps_permission=0x7f0f0067;
-    public static final int hello=0x7f0f0068;
-    public static final int hello_blank_fragment=0x7f0f0069;
-    public static final int making_payment=0x7f0f006a;
-    public static final int mr_button_content_description=0x7f0f006b;
-    public static final int mr_cast_button_connected=0x7f0f006c;
-    public static final int mr_cast_button_connecting=0x7f0f006d;
-    public static final int mr_cast_button_disconnected=0x7f0f006e;
-    public static final int mr_chooser_searching=0x7f0f006f;
-    public static final int mr_chooser_title=0x7f0f0070;
-    public static final int mr_controller_album_art=0x7f0f0071;
-    public static final int mr_controller_casting_screen=0x7f0f0072;
-    public static final int mr_controller_close_description=0x7f0f0073;
-    public static final int mr_controller_collapse_group=0x7f0f0074;
-    public static final int mr_controller_disconnect=0x7f0f0075;
-    public static final int mr_controller_expand_group=0x7f0f0076;
-    public static final int mr_controller_no_info_available=0x7f0f0077;
-    public static final int mr_controller_no_media_selected=0x7f0f0078;
-    public static final int mr_controller_pause=0x7f0f0079;
-    public static final int mr_controller_play=0x7f0f007a;
-    public static final int mr_controller_stop=0x7f0f007b;
-    public static final int mr_controller_volume_slider=0x7f0f007c;
-    public static final int mr_system_route_name=0x7f0f007d;
-    public static final int mr_user_route_category_name=0x7f0f007e;
-    public static final int new_pwd=0x7f0f007f;
-    public static final int open_location_settings=0x7f0f0080;
-    public static final int password_toggle_content_description=0x7f0f0081;
-    public static final int path_password_eye=0x7f0f0082;
-    public static final int path_password_eye_mask_strike_through=0x7f0f0083;
-    public static final int path_password_eye_mask_visible=0x7f0f0084;
-    public static final int path_password_strike_through=0x7f0f0085;
-    public static final int place_autocomplete_clear_button=0x7f0f0086;
-    public static final int place_autocomplete_search_hint=0x7f0f0087;
-    public static final int project_id=0x7f0f0088;
-    public static final int retr=0x7f0f0089;
-    public static final int s1=0x7f0f008a;
-    public static final int s2=0x7f0f008b;
-    public static final int s3=0x7f0f008c;
-    public static final int s4=0x7f0f008d;
-    public static final int s5=0x7f0f008e;
-    public static final int s6=0x7f0f008f;
-    public static final int s7=0x7f0f0090;
-    public static final int search_menu_title=0x7f0f0091;
-    public static final int searching_data=0x7f0f0092;
-    public static final int signin=0x7f0f0093;
-    public static final int signup=0x7f0f0094;
-    public static final int status_bar_notification_info_overflow=0x7f0f0095;
-    public static final int tagmanager_preview_dialog_button=0x7f0f0096;
-    public static final int tagmanager_preview_dialog_message=0x7f0f0097;
-    public static final int tagmanager_preview_dialog_title=0x7f0f0098;
-    public static final int title_activity_home=0x7f0f0099;
-    public static final int title_dashboard=0x7f0f009a;
-    public static final int title_home=0x7f0f009b;
-    public static final int title_notifications=0x7f0f009c;
-    public static final int tran=0x7f0f009d;
-    public static final int try_again=0x7f0f009e;
-    public static final int update=0x7f0f009f;
-    public static final int wallet_buy_button_place_holder=0x7f0f00a0;
+    public static final int Cancel=0x7f0f0000;
+    public static final int abc_action_bar_home_description=0x7f0f0001;
+    public static final int abc_action_bar_up_description=0x7f0f0002;
+    public static final int abc_action_menu_overflow_description=0x7f0f0003;
+    public static final int abc_action_mode_done=0x7f0f0004;
+    public static final int abc_activity_chooser_view_see_all=0x7f0f0005;
+    public static final int abc_activitychooserview_choose_application=0x7f0f0006;
+    public static final int abc_capital_off=0x7f0f0007;
+    public static final int abc_capital_on=0x7f0f0008;
+    public static final int abc_font_family_body_1_material=0x7f0f0009;
+    public static final int abc_font_family_body_2_material=0x7f0f000a;
+    public static final int abc_font_family_button_material=0x7f0f000b;
+    public static final int abc_font_family_caption_material=0x7f0f000c;
+    public static final int abc_font_family_display_1_material=0x7f0f000d;
+    public static final int abc_font_family_display_2_material=0x7f0f000e;
+    public static final int abc_font_family_display_3_material=0x7f0f000f;
+    public static final int abc_font_family_display_4_material=0x7f0f0010;
+    public static final int abc_font_family_headline_material=0x7f0f0011;
+    public static final int abc_font_family_menu_material=0x7f0f0012;
+    public static final int abc_font_family_subhead_material=0x7f0f0013;
+    public static final int abc_font_family_title_material=0x7f0f0014;
+    public static final int abc_search_hint=0x7f0f0015;
+    public static final int abc_searchview_description_clear=0x7f0f0016;
+    public static final int abc_searchview_description_query=0x7f0f0017;
+    public static final int abc_searchview_description_search=0x7f0f0018;
+    public static final int abc_searchview_description_submit=0x7f0f0019;
+    public static final int abc_searchview_description_voice=0x7f0f001a;
+    public static final int abc_shareactionprovider_share_with=0x7f0f001b;
+    public static final int abc_shareactionprovider_share_with_application=0x7f0f001c;
+    public static final int abc_toolbar_collapse_description=0x7f0f001d;
+    public static final int app_name=0x7f0f001e;
+    public static final int appbar_scrolling_view_behavior=0x7f0f001f;
+    public static final int bottom_sheet_behavior=0x7f0f0020;
+    public static final int cancel=0x7f0f0021;
+    public static final int cast_ad_label=0x7f0f0022;
+    public static final int cast_casting_to_device=0x7f0f0023;
+    public static final int cast_closed_captions=0x7f0f0024;
+    public static final int cast_closed_captions_unavailable=0x7f0f0025;
+    public static final int cast_connecting_to_device=0x7f0f0026;
+    public static final int cast_disconnect=0x7f0f0027;
+    public static final int cast_expanded_controller_ad_image_description=0x7f0f0028;
+    public static final int cast_expanded_controller_ad_in_progress=0x7f0f0029;
+    public static final int cast_expanded_controller_background_image=0x7f0f002a;
+    public static final int cast_expanded_controller_live_stream_indicator=0x7f0f002b;
+    public static final int cast_expanded_controller_loading=0x7f0f002c;
+    public static final int cast_expanded_controller_skip_ad_label=0x7f0f002d;
+    public static final int cast_forward=0x7f0f002e;
+    public static final int cast_forward_10=0x7f0f002f;
+    public static final int cast_forward_30=0x7f0f0030;
+    public static final int cast_intro_overlay_button_text=0x7f0f0031;
+    public static final int cast_invalid_stream_duration_text=0x7f0f0032;
+    public static final int cast_invalid_stream_position_text=0x7f0f0033;
+    public static final int cast_mute=0x7f0f0034;
+    public static final int cast_notification_connected_message=0x7f0f0035;
+    public static final int cast_notification_connecting_message=0x7f0f0036;
+    public static final int cast_notification_default_channel_name=0x7f0f0037;
+    public static final int cast_notification_disconnect=0x7f0f0038;
+    public static final int cast_pause=0x7f0f0039;
+    public static final int cast_play=0x7f0f003a;
+    public static final int cast_rewind=0x7f0f003b;
+    public static final int cast_rewind_10=0x7f0f003c;
+    public static final int cast_rewind_30=0x7f0f003d;
+    public static final int cast_seek_bar=0x7f0f003e;
+    public static final int cast_skip_next=0x7f0f003f;
+    public static final int cast_skip_prev=0x7f0f0040;
+    public static final int cast_stop=0x7f0f0041;
+    public static final int cast_stop_live_stream=0x7f0f0042;
+    public static final int cast_tracks_chooser_dialog_audio=0x7f0f0043;
+    public static final int cast_tracks_chooser_dialog_cancel=0x7f0f0044;
+    public static final int cast_tracks_chooser_dialog_closed_captions=0x7f0f0045;
+    public static final int cast_tracks_chooser_dialog_default_track_name=0x7f0f0046;
+    public static final int cast_tracks_chooser_dialog_none=0x7f0f0047;
+    public static final int cast_tracks_chooser_dialog_ok=0x7f0f0048;
+    public static final int cast_tracks_chooser_dialog_subtitles=0x7f0f0049;
+    public static final int cast_unmute=0x7f0f004a;
+    public static final int character_counter_pattern=0x7f0f004b;
+    public static final int common_google_play_services_enable_button=0x7f0f004c;
+    public static final int common_google_play_services_enable_text=0x7f0f004d;
+    public static final int common_google_play_services_enable_title=0x7f0f004e;
+    public static final int common_google_play_services_install_button=0x7f0f004f;
+    public static final int common_google_play_services_install_text=0x7f0f0050;
+    public static final int common_google_play_services_install_title=0x7f0f0051;
+    public static final int common_google_play_services_notification_channel_name=0x7f0f0052;
+    public static final int common_google_play_services_notification_ticker=0x7f0f0053;
+    public static final int common_google_play_services_unknown_issue=0x7f0f0054;
+    public static final int common_google_play_services_unsupported_text=0x7f0f0055;
+    public static final int common_google_play_services_update_button=0x7f0f0056;
+    public static final int common_google_play_services_update_text=0x7f0f0057;
+    public static final int common_google_play_services_update_title=0x7f0f0058;
+    public static final int common_google_play_services_updating_text=0x7f0f0059;
+    public static final int common_google_play_services_wear_update_text=0x7f0f005a;
+    public static final int common_open_on_phone=0x7f0f005b;
+    public static final int common_signin_button_text=0x7f0f005c;
+    public static final int common_signin_button_text_long=0x7f0f005d;
+    public static final int default_web_client_id=0x7f0f005e;
+    public static final int fcm_fallback_notification_channel_label=0x7f0f005f;
+    public static final int firebase_database_url=0x7f0f0060;
+    public static final int gcm_defaultSenderId=0x7f0f0061;
+    public static final int gcm_fallback_notification_channel_label=0x7f0f0062;
+    public static final int google_api_key=0x7f0f0063;
+    public static final int google_app_id=0x7f0f0064;
+    public static final int google_crash_reporting_api_key=0x7f0f0065;
+    public static final int google_storage_bucket=0x7f0f0066;
+    public static final int gps_network_not_enabled=0x7f0f0067;
+    public static final int gps_permission=0x7f0f0068;
+    public static final int hello=0x7f0f0069;
+    public static final int hello_blank_fragment=0x7f0f006a;
+    public static final int making_payment=0x7f0f006b;
+    public static final int mr_button_content_description=0x7f0f006c;
+    public static final int mr_cast_button_connected=0x7f0f006d;
+    public static final int mr_cast_button_connecting=0x7f0f006e;
+    public static final int mr_cast_button_disconnected=0x7f0f006f;
+    public static final int mr_chooser_searching=0x7f0f0070;
+    public static final int mr_chooser_title=0x7f0f0071;
+    public static final int mr_controller_album_art=0x7f0f0072;
+    public static final int mr_controller_casting_screen=0x7f0f0073;
+    public static final int mr_controller_close_description=0x7f0f0074;
+    public static final int mr_controller_collapse_group=0x7f0f0075;
+    public static final int mr_controller_disconnect=0x7f0f0076;
+    public static final int mr_controller_expand_group=0x7f0f0077;
+    public static final int mr_controller_no_info_available=0x7f0f0078;
+    public static final int mr_controller_no_media_selected=0x7f0f0079;
+    public static final int mr_controller_pause=0x7f0f007a;
+    public static final int mr_controller_play=0x7f0f007b;
+    public static final int mr_controller_stop=0x7f0f007c;
+    public static final int mr_controller_volume_slider=0x7f0f007d;
+    public static final int mr_system_route_name=0x7f0f007e;
+    public static final int mr_user_route_category_name=0x7f0f007f;
+    public static final int new_pwd=0x7f0f0080;
+    public static final int open_location_settings=0x7f0f0081;
+    public static final int password_toggle_content_description=0x7f0f0082;
+    public static final int path_password_eye=0x7f0f0083;
+    public static final int path_password_eye_mask_strike_through=0x7f0f0084;
+    public static final int path_password_eye_mask_visible=0x7f0f0085;
+    public static final int path_password_strike_through=0x7f0f0086;
+    public static final int place_autocomplete_clear_button=0x7f0f0087;
+    public static final int place_autocomplete_search_hint=0x7f0f0088;
+    public static final int project_id=0x7f0f0089;
+    public static final int retr=0x7f0f008a;
+    public static final int s1=0x7f0f008b;
+    public static final int s2=0x7f0f008c;
+    public static final int s3=0x7f0f008d;
+    public static final int s4=0x7f0f008e;
+    public static final int s5=0x7f0f008f;
+    public static final int s6=0x7f0f0090;
+    public static final int s7=0x7f0f0091;
+    public static final int search_menu_title=0x7f0f0092;
+    public static final int searching_data=0x7f0f0093;
+    public static final int signin=0x7f0f0094;
+    public static final int signup=0x7f0f0095;
+    public static final int status_bar_notification_info_overflow=0x7f0f0096;
+    public static final int tagmanager_preview_dialog_button=0x7f0f0097;
+    public static final int tagmanager_preview_dialog_message=0x7f0f0098;
+    public static final int tagmanager_preview_dialog_title=0x7f0f0099;
+    public static final int title_activity_home=0x7f0f009a;
+    public static final int title_dashboard=0x7f0f009b;
+    public static final int title_home=0x7f0f009c;
+    public static final int title_notifications=0x7f0f009d;
+    public static final int tran=0x7f0f009e;
+    public static final int try_again=0x7f0f009f;
+    public static final int update=0x7f0f00a0;
+    public static final int wallet_buy_button_place_holder=0x7f0f00a1;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f100000;
@@ -5770,8 +5771,8 @@ public final class R {
     public static final int Base_Animation_AppCompat_Dialog=0x7f100009;
     public static final int Base_Animation_AppCompat_DropDownUp=0x7f10000a;
     public static final int Base_Animation_AppCompat_Tooltip=0x7f10000b;
-    public static final int Base_DialogWindowTitle_AppCompat=0x7f10000c;
     public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f10000d;
+    public static final int Base_DialogWindowTitle_AppCompat=0x7f10000c;
     public static final int Base_TextAppearance_AppCompat=0x7f10000e;
     public static final int Base_TextAppearance_AppCompat_Body1=0x7f10000f;
     public static final int Base_TextAppearance_AppCompat_Body2=0x7f100010;
@@ -5820,20 +5821,6 @@ public final class R {
     public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f10003b;
     public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f10003c;
     public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f10003d;
-    public static final int Base_Theme_AppCompat=0x7f10003e;
-    public static final int Base_Theme_AppCompat_CompactMenu=0x7f10003f;
-    public static final int Base_Theme_AppCompat_Dialog=0x7f100040;
-    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f100041;
-    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f100042;
-    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f100043;
-    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f100044;
-    public static final int Base_Theme_AppCompat_Light=0x7f100045;
-    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f100046;
-    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f100047;
-    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f100048;
-    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f100049;
-    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f10004a;
-    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f10004b;
     public static final int Base_ThemeOverlay_AppCompat=0x7f10004c;
     public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f10004d;
     public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f10004e;
@@ -5841,17 +5828,31 @@ public final class R {
     public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f100050;
     public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f100051;
     public static final int Base_ThemeOverlay_AppCompat_Light=0x7f100052;
+    public static final int Base_Theme_AppCompat=0x7f10003e;
+    public static final int Base_Theme_AppCompat_CompactMenu=0x7f10003f;
+    public static final int Base_Theme_AppCompat_Dialog=0x7f100040;
+    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f100044;
+    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f100041;
+    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f100042;
+    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f100043;
+    public static final int Base_Theme_AppCompat_Light=0x7f100045;
+    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f100046;
+    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f100047;
+    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f10004b;
+    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f100048;
+    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f100049;
+    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f10004a;
+    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f100055;
     public static final int Base_V11_Theme_AppCompat_Dialog=0x7f100053;
     public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f100054;
-    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f100055;
     public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f100056;
     public static final int Base_V12_Widget_AppCompat_EditText=0x7f100057;
     public static final int Base_V14_Widget_Design_AppBarLayout=0x7f100058;
+    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f10005d;
     public static final int Base_V21_Theme_AppCompat=0x7f100059;
     public static final int Base_V21_Theme_AppCompat_Dialog=0x7f10005a;
     public static final int Base_V21_Theme_AppCompat_Light=0x7f10005b;
     public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f10005c;
-    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f10005d;
     public static final int Base_V21_Widget_Design_AppBarLayout=0x7f10005e;
     public static final int Base_V22_Theme_AppCompat=0x7f10005f;
     public static final int Base_V22_Theme_AppCompat_Light=0x7f100060;
@@ -5861,11 +5862,11 @@ public final class R {
     public static final int Base_V26_Theme_AppCompat_Light=0x7f100064;
     public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f100065;
     public static final int Base_V26_Widget_Design_AppBarLayout=0x7f100066;
+    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f10006b;
     public static final int Base_V7_Theme_AppCompat=0x7f100067;
     public static final int Base_V7_Theme_AppCompat_Dialog=0x7f100068;
     public static final int Base_V7_Theme_AppCompat_Light=0x7f100069;
     public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f10006a;
-    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f10006b;
     public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f10006c;
     public static final int Base_V7_Widget_AppCompat_EditText=0x7f10006d;
     public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f10006e;
@@ -5881,13 +5882,13 @@ public final class R {
     public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f100078;
     public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f100079;
     public static final int Base_Widget_AppCompat_Button=0x7f10007a;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f100080;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f100081;
     public static final int Base_Widget_AppCompat_Button_Borderless=0x7f10007b;
     public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f10007c;
     public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f10007d;
     public static final int Base_Widget_AppCompat_Button_Colored=0x7f10007e;
     public static final int Base_Widget_AppCompat_Button_Small=0x7f10007f;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f100080;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f100081;
     public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f100082;
     public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f100083;
     public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f100084;
@@ -5954,12 +5955,12 @@ public final class R {
     public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f1000c1;
     public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f1000c2;
     public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f1000c3;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f1000c9;
     public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f1000c4;
     public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f1000c5;
     public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f1000c6;
     public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f1000c7;
     public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f1000c8;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f1000c9;
     public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f1000ca;
     public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f1000cb;
     public static final int Spinner=0x7f1000cc;
@@ -6038,25 +6039,34 @@ public final class R {
     public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f100115;
     public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f100116;
     public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f100117;
+    public static final int ThemeOverlay_AppCompat=0x7f10013a;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f10013b;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f10013c;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f10013d;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f10013e;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f10013f;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f100140;
+    public static final int ThemeOverlay_MediaRouter_Dark=0x7f100141;
+    public static final int ThemeOverlay_MediaRouter_Light=0x7f100142;
     public static final int Theme_AppCompat=0x7f100118;
     public static final int Theme_AppCompat_CompactMenu=0x7f100119;
     public static final int Theme_AppCompat_DayNight=0x7f10011a;
     public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f10011b;
     public static final int Theme_AppCompat_DayNight_Dialog=0x7f10011c;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f10011f;
     public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f10011d;
     public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f10011e;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f10011f;
     public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f100120;
     public static final int Theme_AppCompat_Dialog=0x7f100121;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f100124;
     public static final int Theme_AppCompat_Dialog_Alert=0x7f100122;
     public static final int Theme_AppCompat_Dialog_MinWidth=0x7f100123;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f100124;
     public static final int Theme_AppCompat_Light=0x7f100125;
     public static final int Theme_AppCompat_Light_DarkActionBar=0x7f100126;
     public static final int Theme_AppCompat_Light_Dialog=0x7f100127;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f10012a;
     public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f100128;
     public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f100129;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f10012a;
     public static final int Theme_AppCompat_Light_NoActionBar=0x7f10012b;
     public static final int Theme_AppCompat_NoActionBar=0x7f10012c;
     public static final int Theme_AppInvite_Preview=0x7f10012d;
@@ -6070,17 +6080,8 @@ public final class R {
     public static final int Theme_IAPTheme=0x7f100135;
     public static final int Theme_MediaRouter=0x7f100136;
     public static final int Theme_MediaRouter_Light=0x7f100137;
-    public static final int Theme_MediaRouter_Light_DarkControlPanel=0x7f100138;
     public static final int Theme_MediaRouter_LightControlPanel=0x7f100139;
-    public static final int ThemeOverlay_AppCompat=0x7f10013a;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f10013b;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f10013c;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f10013d;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f10013e;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f10013f;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f100140;
-    public static final int ThemeOverlay_MediaRouter_Dark=0x7f100141;
-    public static final int ThemeOverlay_MediaRouter_Light=0x7f100142;
+    public static final int Theme_MediaRouter_Light_DarkControlPanel=0x7f100138;
     public static final int WalletFragmentDefaultButtonTextAppearance=0x7f100143;
     public static final int WalletFragmentDefaultDetailsHeaderTextAppearance=0x7f100144;
     public static final int WalletFragmentDefaultDetailsTextAppearance=0x7f100145;
@@ -6097,13 +6098,13 @@ public final class R {
     public static final int Widget_AppCompat_ActivityChooserView=0x7f100150;
     public static final int Widget_AppCompat_AutoCompleteTextView=0x7f100151;
     public static final int Widget_AppCompat_Button=0x7f100152;
+    public static final int Widget_AppCompat_ButtonBar=0x7f100158;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f100159;
     public static final int Widget_AppCompat_Button_Borderless=0x7f100153;
     public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f100154;
     public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f100155;
     public static final int Widget_AppCompat_Button_Colored=0x7f100156;
     public static final int Widget_AppCompat_Button_Small=0x7f100157;
-    public static final int Widget_AppCompat_ButtonBar=0x7f100158;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f100159;
     public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f10015a;
     public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f10015b;
     public static final int Widget_AppCompat_CompoundButton_Switch=0x7f10015c;
@@ -6252,380 +6253,6 @@ public final class R {
         0x7f0401ee
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#background}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:background
-     */
-    public static final int ActionBar_background=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#backgroundSplit}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.app.luberack:backgroundSplit
-     */
-    public static final int ActionBar_backgroundSplit=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#backgroundStacked}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.app.luberack:backgroundStacked
-     */
-    public static final int ActionBar_backgroundStacked=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetEnd}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:contentInsetEnd
-     */
-    public static final int ActionBar_contentInsetEnd=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetEndWithActions}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:contentInsetEndWithActions
-     */
-    public static final int ActionBar_contentInsetEndWithActions=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetLeft}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:contentInsetLeft
-     */
-    public static final int ActionBar_contentInsetLeft=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetRight}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:contentInsetRight
-     */
-    public static final int ActionBar_contentInsetRight=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetStart}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:contentInsetStart
-     */
-    public static final int ActionBar_contentInsetStart=7;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetStartWithNavigation}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:contentInsetStartWithNavigation
-     */
-    public static final int ActionBar_contentInsetStartWithNavigation=8;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#customNavigationLayout}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:customNavigationLayout
-     */
-    public static final int ActionBar_customNavigationLayout=9;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#displayOptions}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>disableHome</td><td>20</td><td></td></tr>
-     * <tr><td>homeAsUp</td><td>4</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>showCustom</td><td>10</td><td></td></tr>
-     * <tr><td>showHome</td><td>2</td><td></td></tr>
-     * <tr><td>showTitle</td><td>8</td><td></td></tr>
-     * <tr><td>useLogo</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.app.luberack:displayOptions
-     */
-    public static final int ActionBar_displayOptions=10;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#divider}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:divider
-     */
-    public static final int ActionBar_divider=11;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#elevation}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:elevation
-     */
-    public static final int ActionBar_elevation=12;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#height}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:height
-     */
-    public static final int ActionBar_height=13;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#hideOnContentScroll}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.app.luberack:hideOnContentScroll
-     */
-    public static final int ActionBar_hideOnContentScroll=14;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#homeAsUpIndicator}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:homeAsUpIndicator
-     */
-    public static final int ActionBar_homeAsUpIndicator=15;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#homeLayout}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:homeLayout
-     */
-    public static final int ActionBar_homeLayout=16;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#icon}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:icon
-     */
-    public static final int ActionBar_icon=17;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#indeterminateProgressStyle}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:indeterminateProgressStyle
-     */
-    public static final int ActionBar_indeterminateProgressStyle=18;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#itemPadding}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:itemPadding
-     */
-    public static final int ActionBar_itemPadding=19;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#logo}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:logo
-     */
-    public static final int ActionBar_logo=20;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#navigationMode}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>listMode</td><td>1</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * <tr><td>tabMode</td><td>2</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.app.luberack:navigationMode
-     */
-    public static final int ActionBar_navigationMode=21;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#popupTheme}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:popupTheme
-     */
-    public static final int ActionBar_popupTheme=22;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#progressBarPadding}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:progressBarPadding
-     */
-    public static final int ActionBar_progressBarPadding=23;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#progressBarStyle}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:progressBarStyle
-     */
-    public static final int ActionBar_progressBarStyle=24;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#subtitle}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:subtitle
-     */
-    public static final int ActionBar_subtitle=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#subtitleTextStyle}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:subtitleTextStyle
-     */
-    public static final int ActionBar_subtitleTextStyle=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#title}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:title
-     */
-    public static final int ActionBar_title=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleTextStyle}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:titleTextStyle
-     */
-    public static final int ActionBar_titleTextStyle=28;
-    /**
      * Attributes that can be used with a ActionBarLayout.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -6668,6 +6295,380 @@ public final class R {
      * @attr name android:layout_gravity
      */
     public static final int ActionBarLayout_android_layout_gravity=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#background}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:background
+     */
+    public static final int ActionBar_background=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#backgroundSplit}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.app.luberack:backgroundSplit
+     */
+    public static final int ActionBar_backgroundSplit=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#backgroundStacked}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.app.luberack:backgroundStacked
+     */
+    public static final int ActionBar_backgroundStacked=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetEnd}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:contentInsetEnd
+     */
+    public static final int ActionBar_contentInsetEnd=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetEndWithActions}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:contentInsetEndWithActions
+     */
+    public static final int ActionBar_contentInsetEndWithActions=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetLeft}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:contentInsetLeft
+     */
+    public static final int ActionBar_contentInsetLeft=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetRight}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:contentInsetRight
+     */
+    public static final int ActionBar_contentInsetRight=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetStart}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:contentInsetStart
+     */
+    public static final int ActionBar_contentInsetStart=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetStartWithNavigation}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:contentInsetStartWithNavigation
+     */
+    public static final int ActionBar_contentInsetStartWithNavigation=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#customNavigationLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:customNavigationLayout
+     */
+    public static final int ActionBar_customNavigationLayout=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#displayOptions}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>disableHome</td><td>20</td><td></td></tr>
+     * <tr><td>homeAsUp</td><td>4</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>showCustom</td><td>10</td><td></td></tr>
+     * <tr><td>showHome</td><td>2</td><td></td></tr>
+     * <tr><td>showTitle</td><td>8</td><td></td></tr>
+     * <tr><td>useLogo</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.app.luberack:displayOptions
+     */
+    public static final int ActionBar_displayOptions=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#divider}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:divider
+     */
+    public static final int ActionBar_divider=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#elevation}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:elevation
+     */
+    public static final int ActionBar_elevation=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#height}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:height
+     */
+    public static final int ActionBar_height=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#hideOnContentScroll}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.app.luberack:hideOnContentScroll
+     */
+    public static final int ActionBar_hideOnContentScroll=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:homeAsUpIndicator
+     */
+    public static final int ActionBar_homeAsUpIndicator=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#homeLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:homeLayout
+     */
+    public static final int ActionBar_homeLayout=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#icon}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:icon
+     */
+    public static final int ActionBar_icon=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#indeterminateProgressStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:indeterminateProgressStyle
+     */
+    public static final int ActionBar_indeterminateProgressStyle=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#itemPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:itemPadding
+     */
+    public static final int ActionBar_itemPadding=19;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#logo}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:logo
+     */
+    public static final int ActionBar_logo=20;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#navigationMode}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>listMode</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>tabMode</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.app.luberack:navigationMode
+     */
+    public static final int ActionBar_navigationMode=21;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:popupTheme
+     */
+    public static final int ActionBar_popupTheme=22;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#progressBarPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:progressBarPadding
+     */
+    public static final int ActionBar_progressBarPadding=23;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#progressBarStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:progressBarStyle
+     */
+    public static final int ActionBar_progressBarStyle=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#subtitle}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:subtitle
+     */
+    public static final int ActionBar_subtitle=25;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#subtitleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:subtitleTextStyle
+     */
+    public static final int ActionBar_subtitleTextStyle=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#title}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:title
+     */
+    public static final int ActionBar_title=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:titleTextStyle
+     */
+    public static final int ActionBar_titleTextStyle=28;
     /**
      * Attributes that can be used with a ActionMenuItemView.
      * <p>Includes the following attributes:</p>
@@ -6723,7 +6724,7 @@ public final class R {
         0x7f0401b8, 0x7f0401ee
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6735,7 +6736,7 @@ public final class R {
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6750,7 +6751,7 @@ public final class R {
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6762,7 +6763,7 @@ public final class R {
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6775,7 +6776,7 @@ public final class R {
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6787,7 +6788,7 @@ public final class R {
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6815,7 +6816,7 @@ public final class R {
         0x7f0400c5, 0x7f0400f6
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6827,7 +6828,7 @@ public final class R {
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -6855,7 +6856,7 @@ public final class R {
         0x7f040022, 0x7f040023, 0x7f040024
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#adSize}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#adSize}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -6865,7 +6866,7 @@ public final class R {
      */
     public static final int AdsAttrs_adSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#adSizes}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#adSizes}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -6875,7 +6876,7 @@ public final class R {
      */
     public static final int AdsAttrs_adSizes=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#adUnitId}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#adUnitId}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -6924,7 +6925,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6936,7 +6937,7 @@ public final class R {
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6948,7 +6949,7 @@ public final class R {
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6960,7 +6961,7 @@ public final class R {
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6972,7 +6973,7 @@ public final class R {
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -6982,7 +6983,7 @@ public final class R {
      */
     public static final int AlertDialog_showTitle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7017,64 +7018,6 @@ public final class R {
         0x7f0400c6
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#background}
-     * attribute's value can be found in the {@link #AppBarLayout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:background
-     */
-    public static final int AppBarLayout_android_background=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#touchscreenBlocksFocus}
-     * attribute's value can be found in the {@link #AppBarLayout} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:touchscreenBlocksFocus
-     */
-    public static final int AppBarLayout_android_touchscreenBlocksFocus=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#keyboardNavigationCluster}
-     * attribute's value can be found in the {@link #AppBarLayout} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:keyboardNavigationCluster
-     */
-    public static final int AppBarLayout_android_keyboardNavigationCluster=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#elevation}
-     * attribute's value can be found in the {@link #AppBarLayout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:elevation
-     */
-    public static final int AppBarLayout_elevation=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#expanded}
-     * attribute's value can be found in the {@link #AppBarLayout} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.app.luberack:expanded
-     */
-    public static final int AppBarLayout_expanded=4;
-    /**
      * Attributes that can be used with a AppBarLayoutStates.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -7091,7 +7034,7 @@ public final class R {
         0x7f0401ae, 0x7f0401af
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7101,7 +7044,7 @@ public final class R {
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7127,7 +7070,7 @@ public final class R {
         0x7f040140, 0x7f040141
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7147,7 +7090,7 @@ public final class R {
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7158,6 +7101,64 @@ public final class R {
      * @attr name com.app.luberack:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#background}
+     * attribute's value can be found in the {@link #AppBarLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:background
+     */
+    public static final int AppBarLayout_android_background=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#keyboardNavigationCluster}
+     * attribute's value can be found in the {@link #AppBarLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:keyboardNavigationCluster
+     */
+    public static final int AppBarLayout_android_keyboardNavigationCluster=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#touchscreenBlocksFocus}
+     * attribute's value can be found in the {@link #AppBarLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:touchscreenBlocksFocus
+     */
+    public static final int AppBarLayout_android_touchscreenBlocksFocus=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#elevation}
+     * attribute's value can be found in the {@link #AppBarLayout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:elevation
+     */
+    public static final int AppBarLayout_elevation=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#expanded}
+     * attribute's value can be found in the {@link #AppBarLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.app.luberack:expanded
+     */
+    public static final int AppBarLayout_expanded=4;
     /**
      * Attributes that can be used with a AppCompatImageView.
      * <p>Includes the following attributes:</p>
@@ -7194,7 +7195,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7206,7 +7207,7 @@ public final class R {
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7217,7 +7218,7 @@ public final class R {
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7270,7 +7271,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7282,7 +7283,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7293,7 +7294,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7341,33 +7342,6 @@ public final class R {
         0x01010170, 0x01010392, 0x01010393
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
-     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:textAppearance
-     */
-    public static final int AppCompatTextHelper_android_textAppearance=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#drawableTop}
-     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:drawableTop
-     */
-    public static final int AppCompatTextHelper_android_drawableTop=1;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#drawableBottom}
      * attribute's value can be found in the {@link #AppCompatTextHelper} array.
      *
@@ -7382,6 +7356,21 @@ public final class R {
      * @attr name android:drawableBottom
      */
     public static final int AppCompatTextHelper_android_drawableBottom=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#drawableEnd}
+     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:drawableEnd
+     */
+    public static final int AppCompatTextHelper_android_drawableEnd=6;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#drawableLeft}
      * attribute's value can be found in the {@link #AppCompatTextHelper} array.
@@ -7428,7 +7417,7 @@ public final class R {
      */
     public static final int AppCompatTextHelper_android_drawableStart=5;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#drawableEnd}
+     * <p>This symbol is the offset where the {@link android.R.attr#drawableTop}
      * attribute's value can be found in the {@link #AppCompatTextHelper} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7439,9 +7428,21 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name android:drawableEnd
+     * @attr name android:drawableTop
      */
-    public static final int AppCompatTextHelper_android_drawableEnd=6;
+    public static final int AppCompatTextHelper_android_drawableTop=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
+     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:textAppearance
+     */
+    public static final int AppCompatTextHelper_android_textAppearance=0;
     /**
      * Attributes that can be used with a AppCompatTextView.
      * <p>Includes the following attributes:</p>
@@ -7484,7 +7485,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7497,7 +7498,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7510,7 +7511,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7522,7 +7523,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7535,7 +7536,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7552,7 +7553,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -7562,7 +7563,7 @@ public final class R {
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7855,29 +7856,7 @@ public final class R {
         0x7f04020f, 0x7f040210, 0x7f040211
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:windowIsFloating
-     */
-    public static final int AppCompatTheme_android_windowIsFloating=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:windowAnimationStyle
-     */
-    public static final int AppCompatTheme_android_windowAnimationStyle=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7889,7 +7868,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7901,7 +7880,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7913,7 +7892,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7934,7 +7913,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7946,7 +7925,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7958,7 +7937,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7970,7 +7949,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7982,7 +7961,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7994,7 +7973,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8006,7 +7985,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8018,7 +7997,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8030,7 +8009,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8042,7 +8021,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8054,7 +8033,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8069,7 +8048,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8081,7 +8060,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8093,7 +8072,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8105,7 +8084,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8117,7 +8096,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8129,7 +8108,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8141,7 +8120,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8153,7 +8132,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8165,7 +8144,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8177,7 +8156,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8189,7 +8168,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8201,7 +8180,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8213,7 +8192,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8225,7 +8204,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8237,7 +8216,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8249,7 +8228,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8261,7 +8240,7 @@ public final class R {
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8273,7 +8252,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -8283,7 +8262,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8295,7 +8274,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8307,7 +8286,29 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:windowAnimationStyle
+     */
+    public static final int AppCompatTheme_android_windowAnimationStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:windowIsFloating
+     */
+    public static final int AppCompatTheme_android_windowIsFloating=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8319,7 +8320,7 @@ public final class R {
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8331,7 +8332,7 @@ public final class R {
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8343,7 +8344,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8355,7 +8356,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8367,7 +8368,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8379,7 +8380,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8391,7 +8392,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8403,7 +8404,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8415,7 +8416,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8427,7 +8428,7 @@ public final class R {
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8439,7 +8440,7 @@ public final class R {
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8450,7 +8451,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8461,7 +8462,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8472,7 +8473,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8483,7 +8484,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8494,7 +8495,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8505,7 +8506,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8520,7 +8521,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8531,7 +8532,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8542,7 +8543,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8553,7 +8554,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8565,7 +8566,7 @@ public final class R {
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8578,7 +8579,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8590,7 +8591,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8602,7 +8603,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8614,7 +8615,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8626,7 +8627,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8639,7 +8640,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8651,7 +8652,7 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8666,7 +8667,7 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8678,7 +8679,7 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8690,7 +8691,7 @@ public final class R {
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8702,7 +8703,7 @@ public final class R {
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8714,7 +8715,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8726,7 +8727,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8738,7 +8739,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8750,7 +8751,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8763,7 +8764,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8776,7 +8777,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8789,7 +8790,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8802,7 +8803,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8815,7 +8816,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8827,7 +8828,7 @@ public final class R {
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8839,7 +8840,7 @@ public final class R {
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8852,7 +8853,7 @@ public final class R {
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8864,7 +8865,7 @@ public final class R {
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8876,7 +8877,7 @@ public final class R {
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8888,7 +8889,7 @@ public final class R {
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8900,7 +8901,7 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8912,7 +8913,7 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8924,7 +8925,7 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8936,7 +8937,7 @@ public final class R {
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8948,7 +8949,7 @@ public final class R {
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8960,7 +8961,7 @@ public final class R {
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8972,7 +8973,7 @@ public final class R {
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8984,7 +8985,7 @@ public final class R {
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8996,7 +8997,7 @@ public final class R {
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9008,7 +9009,7 @@ public final class R {
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9020,7 +9021,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9032,7 +9033,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9044,7 +9045,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9056,7 +9057,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9068,7 +9069,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9080,7 +9081,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9092,7 +9093,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9104,7 +9105,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9119,7 +9120,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9134,7 +9135,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9146,7 +9147,7 @@ public final class R {
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9158,7 +9159,7 @@ public final class R {
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9173,7 +9174,7 @@ public final class R {
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9185,7 +9186,7 @@ public final class R {
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9195,7 +9196,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionBar=109;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9205,7 +9206,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionBarOverlay=110;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9215,7 +9216,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionModeOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9232,7 +9233,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9249,7 +9250,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9266,7 +9267,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9283,7 +9284,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9300,7 +9301,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowMinWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9317,7 +9318,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowMinWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9352,7 +9353,7 @@ public final class R {
         0x7f040166
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#elevation}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9365,7 +9366,7 @@ public final class R {
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9377,7 +9378,7 @@ public final class R {
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -9388,7 +9389,7 @@ public final class R {
      */
     public static final int BottomNavigationView_itemIconTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -9399,7 +9400,7 @@ public final class R {
      */
     public static final int BottomNavigationView_itemTextColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9429,7 +9430,7 @@ public final class R {
         0x7f040040, 0x7f040042, 0x7f040043
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9439,7 +9440,7 @@ public final class R {
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9460,7 +9461,7 @@ public final class R {
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9484,7 +9485,7 @@ public final class R {
         0x7f04002a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9535,7 +9536,7 @@ public final class R {
         0x7f04007a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castButtonColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castButtonColor}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9550,7 +9551,7 @@ public final class R {
      */
     public static final int CastExpandedController_castButtonColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castClosedCaptionsButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castClosedCaptionsButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9562,7 +9563,7 @@ public final class R {
      */
     public static final int CastExpandedController_castClosedCaptionsButtonDrawable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castControlButtons}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castControlButtons}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9574,7 +9575,7 @@ public final class R {
      */
     public static final int CastExpandedController_castControlButtons=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castForward30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castForward30ButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9586,7 +9587,7 @@ public final class R {
      */
     public static final int CastExpandedController_castForward30ButtonDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castMuteToggleButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castMuteToggleButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9598,7 +9599,7 @@ public final class R {
      */
     public static final int CastExpandedController_castMuteToggleButtonDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castPauseButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castPauseButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9610,7 +9611,7 @@ public final class R {
      */
     public static final int CastExpandedController_castPauseButtonDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castPlayButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castPlayButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9622,7 +9623,7 @@ public final class R {
      */
     public static final int CastExpandedController_castPlayButtonDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castRewind30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castRewind30ButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9634,7 +9635,7 @@ public final class R {
      */
     public static final int CastExpandedController_castRewind30ButtonDrawable=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castSeekBarProgressDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castSeekBarProgressDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9646,7 +9647,7 @@ public final class R {
      */
     public static final int CastExpandedController_castSeekBarProgressDrawable=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castSeekBarThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castSeekBarThumbDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9658,7 +9659,7 @@ public final class R {
      */
     public static final int CastExpandedController_castSeekBarThumbDrawable=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castSkipNextButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castSkipNextButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9670,7 +9671,7 @@ public final class R {
      */
     public static final int CastExpandedController_castSkipNextButtonDrawable=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castSkipPreviousButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castSkipPreviousButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9682,7 +9683,7 @@ public final class R {
      */
     public static final int CastExpandedController_castSkipPreviousButtonDrawable=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castStopButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castStopButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9719,7 +9720,7 @@ public final class R {
         0x7f040069, 0x7f04007c
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castBackgroundColor}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9734,7 +9735,7 @@ public final class R {
      */
     public static final int CastIntroOverlay_castBackgroundColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castButtonBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castButtonBackgroundColor}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9749,7 +9750,7 @@ public final class R {
      */
     public static final int CastIntroOverlay_castButtonBackgroundColor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castButtonText}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castButtonText}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9763,7 +9764,7 @@ public final class R {
      */
     public static final int CastIntroOverlay_castButtonText=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castButtonTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castButtonTextAppearance}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9775,7 +9776,7 @@ public final class R {
      */
     public static final int CastIntroOverlay_castButtonTextAppearance=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castFocusRadius}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castFocusRadius}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9792,7 +9793,7 @@ public final class R {
      */
     public static final int CastIntroOverlay_castFocusRadius=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castTitleTextAppearance}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9858,7 +9859,7 @@ public final class R {
         0x7f04007a, 0x7f04007b, 0x7f04007c
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castBackground}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9873,7 +9874,7 @@ public final class R {
      */
     public static final int CastMiniController_castBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castButtonColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castButtonColor}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9888,7 +9889,7 @@ public final class R {
      */
     public static final int CastMiniController_castButtonColor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castClosedCaptionsButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castClosedCaptionsButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9900,7 +9901,7 @@ public final class R {
      */
     public static final int CastMiniController_castClosedCaptionsButtonDrawable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castControlButtons}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castControlButtons}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9912,7 +9913,7 @@ public final class R {
      */
     public static final int CastMiniController_castControlButtons=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castForward30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castForward30ButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9924,7 +9925,7 @@ public final class R {
      */
     public static final int CastMiniController_castForward30ButtonDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castLargePauseButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castLargePauseButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9936,7 +9937,7 @@ public final class R {
      */
     public static final int CastMiniController_castLargePauseButtonDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castLargePlayButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castLargePlayButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9948,7 +9949,7 @@ public final class R {
      */
     public static final int CastMiniController_castLargePlayButtonDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castLargeStopButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castLargeStopButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9960,7 +9961,7 @@ public final class R {
      */
     public static final int CastMiniController_castLargeStopButtonDrawable=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castMuteToggleButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castMuteToggleButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9972,7 +9973,7 @@ public final class R {
      */
     public static final int CastMiniController_castMuteToggleButtonDrawable=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castPauseButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castPauseButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9984,7 +9985,7 @@ public final class R {
      */
     public static final int CastMiniController_castPauseButtonDrawable=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castPlayButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castPlayButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9996,7 +9997,7 @@ public final class R {
      */
     public static final int CastMiniController_castPlayButtonDrawable=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castProgressBarColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castProgressBarColor}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10007,7 +10008,7 @@ public final class R {
      */
     public static final int CastMiniController_castProgressBarColor=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castRewind30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castRewind30ButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10019,7 +10020,7 @@ public final class R {
      */
     public static final int CastMiniController_castRewind30ButtonDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castShowImageThumbnail}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castShowImageThumbnail}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10029,7 +10030,7 @@ public final class R {
      */
     public static final int CastMiniController_castShowImageThumbnail=13;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castSkipNextButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castSkipNextButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10041,7 +10042,7 @@ public final class R {
      */
     public static final int CastMiniController_castSkipNextButtonDrawable=14;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castSkipPreviousButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castSkipPreviousButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10053,7 +10054,7 @@ public final class R {
      */
     public static final int CastMiniController_castSkipPreviousButtonDrawable=15;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castStopButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castStopButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10065,7 +10066,7 @@ public final class R {
      */
     public static final int CastMiniController_castStopButtonDrawable=16;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castSubtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castSubtitleTextAppearance}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10077,7 +10078,7 @@ public final class R {
      */
     public static final int CastMiniController_castSubtitleTextAppearance=17;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castTitleTextAppearance}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10112,7 +10113,7 @@ public final class R {
         0x7f040085
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#civ_border_color}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#civ_border_color}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10123,7 +10124,7 @@ public final class R {
      */
     public static final int CircleImageView_civ_border_color=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#civ_border_overlay}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#civ_border_overlay}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10133,7 +10134,7 @@ public final class R {
      */
     public static final int CircleImageView_civ_border_overlay=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#civ_border_width}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#civ_border_width}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10146,7 +10147,7 @@ public final class R {
      */
     public static final int CircleImageView_civ_border_width=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#civ_circle_background_color}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#civ_circle_background_color}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10157,7 +10158,7 @@ public final class R {
      */
     public static final int CircleImageView_civ_circle_background_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#civ_fill_color}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#civ_fill_color}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10215,7 +10216,50 @@ public final class R {
         0x7f0401b1, 0x7f0401e4, 0x7f0401e5, 0x7f0401f0
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#collapsedTitleGravity}
+     * Attributes that can be used with a CollapsingToolbarLayout_Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.app.luberack:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.app.luberack:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * </table>
+     * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
+     * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
+     */
+    public static final int[] CollapsingToolbarLayout_Layout={
+        0x7f040109, 0x7f04010a
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_collapseMode}
+     * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>parallax</td><td>2</td><td></td></tr>
+     * <tr><td>pin</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.app.luberack:layout_collapseMode
+     */
+    public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_collapseParallaxMultiplier}
+     * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.app.luberack:layout_collapseParallaxMultiplier
+     */
+    public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10240,7 +10284,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10252,7 +10296,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10263,7 +10307,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10288,7 +10332,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10301,7 +10345,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10314,7 +10358,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10327,7 +10371,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10340,7 +10384,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10353,7 +10397,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10365,7 +10409,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10374,7 +10418,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10387,7 +10431,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10398,7 +10442,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -10408,7 +10452,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10418,7 +10462,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10429,49 +10473,6 @@ public final class R {
      * @attr name com.app.luberack:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
-    /**
-     * Attributes that can be used with a CollapsingToolbarLayout_Layout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.app.luberack:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.app.luberack:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
-     * </table>
-     * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
-     * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
-     */
-    public static final int[] CollapsingToolbarLayout_Layout={
-        0x7f040109, 0x7f04010a
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_collapseMode}
-     * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>parallax</td><td>2</td><td></td></tr>
-     * <tr><td>pin</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.app.luberack:layout_collapseMode
-     */
-    public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_collapseParallaxMultiplier}
-     * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.app.luberack:layout_collapseParallaxMultiplier
-     */
-    public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
      * Attributes that can be used with a ColorStateListItem.
      * <p>Includes the following attributes:</p>
@@ -10491,16 +10492,14 @@ public final class R {
         0x010101a5, 0x0101031f, 0x7f04002b
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
+     * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name android:color
+     * @attr name com.app.luberack:alpha
      */
-    public static final int ColorStateListItem_android_color=0;
+    public static final int ColorStateListItem_alpha=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
@@ -10511,14 +10510,16 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.app.luberack:alpha
+     * @attr name android:color
      */
-    public static final int ColorStateListItem_alpha=2;
+    public static final int ColorStateListItem_android_color=0;
     /**
      * Attributes that can be used with a CompoundButton.
      * <p>Includes the following attributes:</p>
@@ -10550,7 +10551,7 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10561,7 +10562,7 @@ public final class R {
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10728,6 +10729,58 @@ public final class R {
         0x7f04013a, 0x7f04013b, 0x7f04013c, 0x7f04013f
       };
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintLayout_Layout_android_maxHeight=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintLayout_Layout_android_maxWidth=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintLayout_Layout_android_minHeight=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintLayout_Layout_android_minWidth=3;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
@@ -10745,59 +10798,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_orientation=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:maxWidth
-     */
-    public static final int ConstraintLayout_Layout_android_maxWidth=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:maxHeight
-     */
-    public static final int ConstraintLayout_Layout_android_maxHeight=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:minWidth
-     */
-    public static final int ConstraintLayout_Layout_android_minWidth=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:minHeight
-     */
-    public static final int ConstraintLayout_Layout_android_minHeight=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10807,7 +10808,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10828,7 +10829,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10838,7 +10839,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10850,7 +10851,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -10860,7 +10861,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10870,7 +10871,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10880,7 +10881,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10889,7 +10890,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10909,7 +10910,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10918,7 +10919,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10938,7 +10939,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10958,7 +10959,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10970,7 +10971,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10979,7 +10980,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10992,7 +10993,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -11002,7 +11003,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11022,7 +11023,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11042,7 +11043,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11055,7 +11056,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11068,7 +11069,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -11077,7 +11078,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11095,7 +11096,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11116,7 +11117,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11137,7 +11138,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -11146,7 +11147,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -11155,7 +11156,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11173,7 +11174,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -11182,7 +11183,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -11191,7 +11192,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11211,7 +11212,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11231,7 +11232,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -11240,7 +11241,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11260,7 +11261,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11280,7 +11281,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11300,7 +11301,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11320,7 +11321,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -11329,7 +11330,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11349,7 +11350,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11369,7 +11370,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -11378,7 +11379,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11396,7 +11397,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -11405,7 +11406,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11423,7 +11424,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11444,7 +11445,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11465,7 +11466,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -11474,7 +11475,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11487,7 +11488,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11500,7 +11501,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11513,7 +11514,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11526,7 +11527,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11539,7 +11540,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11552,7 +11553,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11565,7 +11566,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11578,7 +11579,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11615,7 +11616,7 @@ public final class R {
         0x7f04009b, 0x7f0400c1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#content}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11627,7 +11628,7 @@ public final class R {
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11817,22 +11818,27 @@ public final class R {
         0x7f040139, 0x7f04013a, 0x7f04013b, 0x7f04013c
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
+     * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name android:orientation
+     * @attr name android:alpha
      */
-    public static final int ConstraintSet_android_orientation=0;
+    public static final int ConstraintSet_android_alpha=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int ConstraintSet_android_elevation=22;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#id}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -11845,47 +11851,6 @@ public final class R {
      * @attr name android:id
      */
     public static final int ConstraintSet_android_id=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>gone</td><td>2</td><td></td></tr>
-     * <tr><td>invisible</td><td>1</td><td></td></tr>
-     * <tr><td>visible</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:visibility
-     */
-    public static final int ConstraintSet_android_visibility=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_width
-     */
-    public static final int ConstraintSet_android_layout_width=3;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -11910,6 +11875,32 @@ public final class R {
      */
     public static final int ConstraintSet_android_layout_height=4;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginBottom
+     */
+    public static final int ConstraintSet_android_layout_marginBottom=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginEnd
+     */
+    public static final int ConstraintSet_android_layout_marginEnd=20;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
@@ -11922,19 +11913,6 @@ public final class R {
      * @attr name android:layout_marginLeft
      */
     public static final int ConstraintSet_android_layout_marginLeft=5;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginTop
-     */
-    public static final int ConstraintSet_android_layout_marginTop=6;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -11949,7 +11927,7 @@ public final class R {
      */
     public static final int ConstraintSet_android_layout_marginRight=7;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11958,18 +11936,107 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name android:layout_marginBottom
+     * @attr name android:layout_marginStart
      */
-    public static final int ConstraintSet_android_layout_marginBottom=8;
+    public static final int ConstraintSet_android_layout_marginStart=19;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginTop
+     */
+    public static final int ConstraintSet_android_layout_marginTop=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_width
+     */
+    public static final int ConstraintSet_android_layout_width=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int ConstraintSet_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name android:alpha
+     * @attr name android:rotation
      */
-    public static final int ConstraintSet_android_alpha=9;
+    public static final int ConstraintSet_android_rotation=16;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int ConstraintSet_android_rotationX=17;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int ConstraintSet_android_rotationY=18;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int ConstraintSet_android_scaleX=14;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int ConstraintSet_android_scaleY=15;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12023,77 +12090,6 @@ public final class R {
      */
     public static final int ConstraintSet_android_translationY=13;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:scaleX
-     */
-    public static final int ConstraintSet_android_scaleX=14;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:scaleY
-     */
-    public static final int ConstraintSet_android_scaleY=15;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:rotation
-     */
-    public static final int ConstraintSet_android_rotation=16;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:rotationX
-     */
-    public static final int ConstraintSet_android_rotationX=17;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:rotationY
-     */
-    public static final int ConstraintSet_android_rotationY=18;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginStart
-     */
-    public static final int ConstraintSet_android_layout_marginStart=19;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginEnd
-     */
-    public static final int ConstraintSet_android_layout_marginEnd=20;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
@@ -12107,20 +12103,25 @@ public final class R {
      */
     public static final int ConstraintSet_android_translationZ=21;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>2</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * <tr><td>visible</td><td>0</td><td></td></tr>
+     * </table>
      *
-     * @attr name android:elevation
+     * @attr name android:visibility
      */
-    public static final int ConstraintSet_android_elevation=22;
+    public static final int ConstraintSet_android_visibility=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -12130,7 +12131,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constrainedHeight=23;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -12140,7 +12141,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constrainedWidth=24;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -12149,7 +12150,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=25;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12169,7 +12170,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -12178,7 +12179,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=27;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12198,7 +12199,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12218,7 +12219,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12230,7 +12231,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintCircle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -12239,7 +12240,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12252,7 +12253,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=32;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12262,7 +12263,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=33;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12282,7 +12283,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12302,7 +12303,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12315,7 +12316,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=36;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12328,7 +12329,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintGuide_end=37;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -12337,7 +12338,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=38;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12355,7 +12356,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHeight_default=39;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12376,7 +12377,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHeight_max=40;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12397,7 +12398,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHeight_min=41;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -12406,7 +12407,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=42;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -12415,7 +12416,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12433,7 +12434,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -12442,7 +12443,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -12451,7 +12452,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=46;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12471,7 +12472,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12491,7 +12492,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -12500,7 +12501,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintRight_creator=49;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12520,7 +12521,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12540,7 +12541,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12560,7 +12561,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12580,7 +12581,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -12589,7 +12590,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintTop_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12609,7 +12610,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12629,7 +12630,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -12638,7 +12639,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=57;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12656,7 +12657,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -12665,7 +12666,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=59;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12683,7 +12684,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintWidth_default=60;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12704,7 +12705,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintWidth_max=61;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12725,7 +12726,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintWidth_min=62;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -12734,7 +12735,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=63;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12747,7 +12748,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_editor_absoluteX=64;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12760,7 +12761,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_editor_absoluteY=65;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12773,7 +12774,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_goneMarginBottom=66;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12786,7 +12787,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_goneMarginEnd=67;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12799,7 +12800,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_goneMarginLeft=68;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12812,7 +12813,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_goneMarginRight=69;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12825,7 +12826,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_goneMarginStart=70;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12853,30 +12854,6 @@ public final class R {
     public static final int[] CoordinatorLayout={
         0x7f0400ff, 0x7f0401b0
       };
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#keylines}
-     * attribute's value can be found in the {@link #CoordinatorLayout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:keylines
-     */
-    public static final int CoordinatorLayout_keylines=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#statusBarBackground}
-     * attribute's value can be found in the {@link #CoordinatorLayout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:statusBarBackground
-     */
-    public static final int CoordinatorLayout_statusBarBackground=1;
     /**
      * Attributes that can be used with a CoordinatorLayout_Layout.
      * <p>Includes the following attributes:</p>
@@ -12934,7 +12911,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12946,7 +12923,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12975,7 +12952,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12985,7 +12962,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13008,7 +12985,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13030,7 +13007,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -13038,6 +13015,30 @@ public final class R {
      * @attr name com.app.luberack:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#keylines}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:keylines
+     */
+    public static final int CoordinatorLayout_keylines=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#statusBarBackground}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:statusBarBackground
+     */
+    public static final int CoordinatorLayout_statusBarBackground=1;
     /**
      * Attributes that can be used with a Corpus.
      * <p>Includes the following attributes:</p>
@@ -13068,7 +13069,7 @@ public final class R {
         0x7f04017c, 0x7f04018d, 0x7f04019e, 0x7f0401fa
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentProviderUri}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentProviderUri}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -13078,7 +13079,7 @@ public final class R {
      */
     public static final int Corpus_contentProviderUri=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#corpusId}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#corpusId}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -13088,7 +13089,7 @@ public final class R {
      */
     public static final int Corpus_corpusId=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#corpusVersion}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#corpusVersion}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -13098,7 +13099,7 @@ public final class R {
      */
     public static final int Corpus_corpusVersion=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#documentMaxAgeSecs}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#documentMaxAgeSecs}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -13107,7 +13108,7 @@ public final class R {
      */
     public static final int Corpus_documentMaxAgeSecs=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#perAccountTemplate}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#perAccountTemplate}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -13117,7 +13118,7 @@ public final class R {
      */
     public static final int Corpus_perAccountTemplate=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#schemaOrgType}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#schemaOrgType}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -13127,7 +13128,7 @@ public final class R {
      */
     public static final int Corpus_schemaOrgType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#semanticallySearchable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#semanticallySearchable}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -13137,7 +13138,7 @@ public final class R {
      */
     public static final int Corpus_semanticallySearchable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#trimmable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#trimmable}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -13165,7 +13166,7 @@ public final class R {
         0x7f040067, 0x7f04006b, 0x7f04006f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castExpandedControllerStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castExpandedControllerStyle}
      * attribute's value can be found in the {@link #CustomCastTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13177,7 +13178,7 @@ public final class R {
      */
     public static final int CustomCastTheme_castExpandedControllerStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castIntroOverlayStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castIntroOverlayStyle}
      * attribute's value can be found in the {@link #CustomCastTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13189,7 +13190,7 @@ public final class R {
      */
     public static final int CustomCastTheme_castIntroOverlayStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#castMiniControllerStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#castMiniControllerStyle}
      * attribute's value can be found in the {@link #CustomCastTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13217,7 +13218,7 @@ public final class R {
         0x7f0401f3, 0x7f040212
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#toolbarTextColorStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#toolbarTextColorStyle}
      * attribute's value can be found in the {@link #CustomWalletTheme} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13234,7 +13235,7 @@ public final class R {
      */
     public static final int CustomWalletTheme_toolbarTextColorStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#windowTransitionStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#windowTransitionStyle}
      * attribute's value can be found in the {@link #CustomWalletTheme} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13269,7 +13270,7 @@ public final class R {
         0x7f040046, 0x7f040047, 0x7f0401d8
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13281,7 +13282,7 @@ public final class R {
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13293,7 +13294,7 @@ public final class R {
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textColorError}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textColorError}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13337,7 +13338,7 @@ public final class R {
         0x7f0400b9, 0x7f0400e3, 0x7f0401a7, 0x7f0401db
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13350,7 +13351,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13363,7 +13364,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13376,7 +13377,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -13387,7 +13388,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13400,7 +13401,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13413,7 +13414,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -13423,7 +13424,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13452,7 +13453,7 @@ public final class R {
         0x7f040175, 0x7f040176
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#paramName}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#paramName}
      * attribute's value can be found in the {@link #FeatureParam} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -13462,7 +13463,7 @@ public final class R {
      */
     public static final int FeatureParam_paramName=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#paramValue}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#paramValue}
      * attribute's value can be found in the {@link #FeatureParam} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -13501,7 +13502,31 @@ public final class R {
         0x7f0400cf, 0x7f040181, 0x7f04018b, 0x7f040202
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#backgroundTint}
+     * Attributes that can be used with a FloatingActionButton_Behavior_Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.app.luberack:behavior_autoHide}</code></td><td></td></tr>
+     * </table>
+     * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
+     */
+    public static final int[] FloatingActionButton_Behavior_Layout={
+        0x7f04003f
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#behavior_autoHide}
+     * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.app.luberack:behavior_autoHide
+     */
+    public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -13512,7 +13537,7 @@ public final class R {
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13533,7 +13558,7 @@ public final class R {
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13546,7 +13571,7 @@ public final class R {
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13559,7 +13584,7 @@ public final class R {
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13577,7 +13602,7 @@ public final class R {
      */
     public static final int FloatingActionButton_fabSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13590,7 +13615,7 @@ public final class R {
      */
     public static final int FloatingActionButton_pressedTranslationZ=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -13601,7 +13626,7 @@ public final class R {
      */
     public static final int FloatingActionButton_rippleColor=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -13610,30 +13635,6 @@ public final class R {
      * @attr name com.app.luberack:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=7;
-    /**
-     * Attributes that can be used with a FloatingActionButton_Behavior_Layout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.app.luberack:behavior_autoHide}</code></td><td></td></tr>
-     * </table>
-     * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
-     */
-    public static final int[] FloatingActionButton_Behavior_Layout={
-        0x7f04003f
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#behavior_autoHide}
-     * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.app.luberack:behavior_autoHide
-     */
-    public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
      * Attributes that can be used with a FontFamily.
      * <p>Includes the following attributes:</p>
@@ -13659,82 +13660,6 @@ public final class R {
         0x7f0400d8, 0x7f0400d9, 0x7f0400da, 0x7f0400db, 
         0x7f0400dc, 0x7f0400dd
       };
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fontProviderAuthority}
-     * attribute's value can be found in the {@link #FontFamily} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:fontProviderAuthority
-     */
-    public static final int FontFamily_fontProviderAuthority=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fontProviderCerts}
-     * attribute's value can be found in the {@link #FontFamily} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:fontProviderCerts
-     */
-    public static final int FontFamily_fontProviderCerts=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fontProviderFetchStrategy}
-     * attribute's value can be found in the {@link #FontFamily} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>async</td><td>1</td><td></td></tr>
-     * <tr><td>blocking</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.app.luberack:fontProviderFetchStrategy
-     */
-    public static final int FontFamily_fontProviderFetchStrategy=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fontProviderFetchTimeout}
-     * attribute's value can be found in the {@link #FontFamily} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.app.luberack:fontProviderFetchTimeout
-     */
-    public static final int FontFamily_fontProviderFetchTimeout=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fontProviderPackage}
-     * attribute's value can be found in the {@link #FontFamily} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:fontProviderPackage
-     */
-    public static final int FontFamily_fontProviderPackage=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fontProviderQuery}
-     * attribute's value can be found in the {@link #FontFamily} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:fontProviderQuery
-     */
-    public static final int FontFamily_fontProviderQuery=5;
     /**
      * Attributes that can be used with a FontFamilyFont.
      * <p>Includes the following attributes:</p>
@@ -13773,15 +13698,6 @@ public final class R {
      */
     public static final int FontFamilyFont_android_font=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontWeight}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name android:fontWeight
-     */
-    public static final int FontFamilyFont_android_fontWeight=1;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
@@ -13799,7 +13715,16 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#font}
+     * <p>This symbol is the offset where the {@link android.R.attr#fontWeight}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:fontWeight
+     */
+    public static final int FontFamilyFont_android_fontWeight=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13811,7 +13736,7 @@ public final class R {
      */
     public static final int FontFamilyFont_font=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13828,7 +13753,7 @@ public final class R {
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -13836,6 +13761,82 @@ public final class R {
      * @attr name com.app.luberack:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fontProviderAuthority}
+     * attribute's value can be found in the {@link #FontFamily} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:fontProviderAuthority
+     */
+    public static final int FontFamily_fontProviderAuthority=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fontProviderCerts}
+     * attribute's value can be found in the {@link #FontFamily} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:fontProviderCerts
+     */
+    public static final int FontFamily_fontProviderCerts=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fontProviderFetchStrategy}
+     * attribute's value can be found in the {@link #FontFamily} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>async</td><td>1</td><td></td></tr>
+     * <tr><td>blocking</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.app.luberack:fontProviderFetchStrategy
+     */
+    public static final int FontFamily_fontProviderFetchStrategy=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fontProviderFetchTimeout}
+     * attribute's value can be found in the {@link #FontFamily} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.app.luberack:fontProviderFetchTimeout
+     */
+    public static final int FontFamily_fontProviderFetchTimeout=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fontProviderPackage}
+     * attribute's value can be found in the {@link #FontFamily} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:fontProviderPackage
+     */
+    public static final int FontFamily_fontProviderPackage=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fontProviderQuery}
+     * attribute's value can be found in the {@link #FontFamily} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:fontProviderQuery
+     */
+    public static final int FontFamily_fontProviderQuery=5;
     /**
      * Attributes that can be used with a ForegroundLinearLayout.
      * <p>Includes the following attributes:</p>
@@ -13897,7 +13898,7 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -13932,66 +13933,6 @@ public final class R {
         0x7f040194, 0x7f04019f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#defaultIntentAction}
-     * attribute's value can be found in the {@link #GlobalSearch} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:defaultIntentAction
-     */
-    public static final int GlobalSearch_defaultIntentAction=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#defaultIntentActivity}
-     * attribute's value can be found in the {@link #GlobalSearch} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:defaultIntentActivity
-     */
-    public static final int GlobalSearch_defaultIntentActivity=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#defaultIntentData}
-     * attribute's value can be found in the {@link #GlobalSearch} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:defaultIntentData
-     */
-    public static final int GlobalSearch_defaultIntentData=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#searchEnabled}
-     * attribute's value can be found in the {@link #GlobalSearch} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.app.luberack:searchEnabled
-     */
-    public static final int GlobalSearch_searchEnabled=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#searchLabel}
-     * attribute's value can be found in the {@link #GlobalSearch} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:searchLabel
-     */
-    public static final int GlobalSearch_searchLabel=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#settingsDescription}
-     * attribute's value can be found in the {@link #GlobalSearch} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:settingsDescription
-     */
-    public static final int GlobalSearch_settingsDescription=5;
-    /**
      * Attributes that can be used with a GlobalSearchCorpus.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -14006,7 +13947,7 @@ public final class R {
         0x7f040029
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#allowShortcuts}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#allowShortcuts}
      * attribute's value can be found in the {@link #GlobalSearchCorpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14032,7 +13973,7 @@ public final class R {
         0x7f040196, 0x7f040199
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#sectionContent}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#sectionContent}
      * attribute's value can be found in the {@link #GlobalSearchSection} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14042,7 +13983,7 @@ public final class R {
      */
     public static final int GlobalSearchSection_sectionContent=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#sectionType}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#sectionType}
      * attribute's value can be found in the {@link #GlobalSearchSection} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14066,6 +14007,66 @@ public final class R {
      * @attr name com.app.luberack:sectionType
      */
     public static final int GlobalSearchSection_sectionType=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#defaultIntentAction}
+     * attribute's value can be found in the {@link #GlobalSearch} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:defaultIntentAction
+     */
+    public static final int GlobalSearch_defaultIntentAction=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#defaultIntentActivity}
+     * attribute's value can be found in the {@link #GlobalSearch} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:defaultIntentActivity
+     */
+    public static final int GlobalSearch_defaultIntentActivity=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#defaultIntentData}
+     * attribute's value can be found in the {@link #GlobalSearch} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:defaultIntentData
+     */
+    public static final int GlobalSearch_defaultIntentData=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#searchEnabled}
+     * attribute's value can be found in the {@link #GlobalSearch} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.app.luberack:searchEnabled
+     */
+    public static final int GlobalSearch_searchEnabled=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#searchLabel}
+     * attribute's value can be found in the {@link #GlobalSearch} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:searchLabel
+     */
+    public static final int GlobalSearch_searchLabel=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#settingsDescription}
+     * attribute's value can be found in the {@link #GlobalSearch} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:settingsDescription
+     */
+    public static final int GlobalSearch_settingsDescription=5;
     /**
      * Attributes that can be used with a IMECorpus.
      * <p>Includes the following attributes:</p>
@@ -14092,7 +14093,7 @@ public final class R {
         0x7f040205, 0x7f040206
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#inputEnabled}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#inputEnabled}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14102,7 +14103,7 @@ public final class R {
      */
     public static final int IMECorpus_inputEnabled=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#sourceClass}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#sourceClass}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14120,7 +14121,7 @@ public final class R {
      */
     public static final int IMECorpus_sourceClass=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#toAddressesSection}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#toAddressesSection}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14130,7 +14131,7 @@ public final class R {
      */
     public static final int IMECorpus_toAddressesSection=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#userInputSection}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#userInputSection}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14140,7 +14141,7 @@ public final class R {
      */
     public static final int IMECorpus_userInputSection=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#userInputTag}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#userInputTag}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14150,7 +14151,7 @@ public final class R {
      */
     public static final int IMECorpus_userInputTag=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#userInputValue}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#userInputValue}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14223,134 +14224,6 @@ public final class R {
         0x7f0401a1
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#gravity}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>center</td><td>11</td><td></td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>fill</td><td>77</td><td></td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:gravity
-     */
-    public static final int LinearLayoutCompat_android_gravity=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int LinearLayoutCompat_android_orientation=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:baselineAligned
-     */
-    public static final int LinearLayoutCompat_android_baselineAligned=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name android:baselineAlignedChildIndex
-     */
-    public static final int LinearLayoutCompat_android_baselineAlignedChildIndex=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#weightSum}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:weightSum
-     */
-    public static final int LinearLayoutCompat_android_weightSum=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#divider}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:divider
-     */
-    public static final int LinearLayoutCompat_divider=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#dividerPadding}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:dividerPadding
-     */
-    public static final int LinearLayoutCompat_dividerPadding=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#measureWithLargestChild}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.app.luberack:measureWithLargestChild
-     */
-    public static final int LinearLayoutCompat_measureWithLargestChild=7;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#showDividers}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>beginning</td><td>1</td><td></td></tr>
-     * <tr><td>end</td><td>4</td><td></td></tr>
-     * <tr><td>middle</td><td>2</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.app.luberack:showDividers
-     */
-    public static final int LinearLayoutCompat_showDividers=8;
-    /**
      * Attributes that can be used with a LinearLayoutCompat_Layout.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -14400,29 +14273,6 @@ public final class R {
      */
     public static final int LinearLayoutCompat_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
-     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_width
-     */
-    public static final int LinearLayoutCompat_Layout_android_layout_width=1;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
      * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
      *
@@ -14454,6 +14304,157 @@ public final class R {
      * @attr name android:layout_weight
      */
     public static final int LinearLayoutCompat_Layout_android_layout_weight=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_width
+     */
+    public static final int LinearLayoutCompat_Layout_android_layout_width=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:baselineAligned
+     */
+    public static final int LinearLayoutCompat_android_baselineAligned=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:baselineAlignedChildIndex
+     */
+    public static final int LinearLayoutCompat_android_baselineAlignedChildIndex=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#gravity}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:gravity
+     */
+    public static final int LinearLayoutCompat_android_gravity=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int LinearLayoutCompat_android_orientation=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#weightSum}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:weightSum
+     */
+    public static final int LinearLayoutCompat_android_weightSum=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#divider}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:divider
+     */
+    public static final int LinearLayoutCompat_divider=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#dividerPadding}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:dividerPadding
+     */
+    public static final int LinearLayoutCompat_dividerPadding=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#measureWithLargestChild}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.app.luberack:measureWithLargestChild
+     */
+    public static final int LinearLayoutCompat_measureWithLargestChild=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#showDividers}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>beginning</td><td>1</td><td></td></tr>
+     * <tr><td>end</td><td>4</td><td></td></tr>
+     * <tr><td>middle</td><td>2</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.app.luberack:showDividers
+     */
+    public static final int LinearLayoutCompat_showDividers=8;
     /**
      * Attributes that can be used with a ListPopupWindow.
      * <p>Includes the following attributes:</p>
@@ -14515,7 +14516,7 @@ public final class R {
         0x7f040080, 0x7f0400f1, 0x7f0400f2
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14525,7 +14526,7 @@ public final class R {
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14534,7 +14535,7 @@ public final class R {
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14615,7 +14616,7 @@ public final class R {
         0x7f040201, 0x7f040203, 0x7f040213
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#ambientEnabled}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#ambientEnabled}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14625,7 +14626,7 @@ public final class R {
      */
     public static final int MapAttrs_ambientEnabled=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#cameraBearing}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#cameraBearing}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14634,7 +14635,7 @@ public final class R {
      */
     public static final int MapAttrs_cameraBearing=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#cameraMaxZoomPreference}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#cameraMaxZoomPreference}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14643,7 +14644,7 @@ public final class R {
      */
     public static final int MapAttrs_cameraMaxZoomPreference=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#cameraMinZoomPreference}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#cameraMinZoomPreference}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14652,7 +14653,7 @@ public final class R {
      */
     public static final int MapAttrs_cameraMinZoomPreference=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#cameraTargetLat}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#cameraTargetLat}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14661,7 +14662,7 @@ public final class R {
      */
     public static final int MapAttrs_cameraTargetLat=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#cameraTargetLng}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#cameraTargetLng}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14670,7 +14671,7 @@ public final class R {
      */
     public static final int MapAttrs_cameraTargetLng=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#cameraTilt}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#cameraTilt}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14679,7 +14680,7 @@ public final class R {
      */
     public static final int MapAttrs_cameraTilt=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#cameraZoom}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#cameraZoom}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14688,7 +14689,7 @@ public final class R {
      */
     public static final int MapAttrs_cameraZoom=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#latLngBoundsNorthEastLatitude}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#latLngBoundsNorthEastLatitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14697,7 +14698,7 @@ public final class R {
      */
     public static final int MapAttrs_latLngBoundsNorthEastLatitude=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#latLngBoundsNorthEastLongitude}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#latLngBoundsNorthEastLongitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14706,7 +14707,7 @@ public final class R {
      */
     public static final int MapAttrs_latLngBoundsNorthEastLongitude=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#latLngBoundsSouthWestLatitude}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#latLngBoundsSouthWestLatitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14715,7 +14716,7 @@ public final class R {
      */
     public static final int MapAttrs_latLngBoundsSouthWestLatitude=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#latLngBoundsSouthWestLongitude}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#latLngBoundsSouthWestLongitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -14724,7 +14725,7 @@ public final class R {
      */
     public static final int MapAttrs_latLngBoundsSouthWestLongitude=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#liteMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#liteMode}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14734,7 +14735,7 @@ public final class R {
      */
     public static final int MapAttrs_liteMode=12;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#mapType}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#mapType}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14754,7 +14755,7 @@ public final class R {
      */
     public static final int MapAttrs_mapType=13;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#uiCompass}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#uiCompass}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14764,7 +14765,7 @@ public final class R {
      */
     public static final int MapAttrs_uiCompass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#uiMapToolbar}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#uiMapToolbar}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14774,7 +14775,7 @@ public final class R {
      */
     public static final int MapAttrs_uiMapToolbar=15;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#uiRotateGestures}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#uiRotateGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14784,7 +14785,7 @@ public final class R {
      */
     public static final int MapAttrs_uiRotateGestures=16;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#uiScrollGestures}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#uiScrollGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14794,7 +14795,7 @@ public final class R {
      */
     public static final int MapAttrs_uiScrollGestures=17;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#uiTiltGestures}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#uiTiltGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14804,7 +14805,7 @@ public final class R {
      */
     public static final int MapAttrs_uiTiltGestures=18;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#uiZoomControls}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#uiZoomControls}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14814,7 +14815,7 @@ public final class R {
      */
     public static final int MapAttrs_uiZoomControls=19;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#uiZoomGestures}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#uiZoomGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14824,7 +14825,7 @@ public final class R {
      */
     public static final int MapAttrs_uiZoomGestures=20;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#useViewLifecycle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#useViewLifecycle}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14834,7 +14835,7 @@ public final class R {
      */
     public static final int MapAttrs_useViewLifecycle=21;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#zOrderOnTop}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#zOrderOnTop}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14864,19 +14865,6 @@ public final class R {
         0x0101013f, 0x01010140, 0x7f040052, 0x7f0400ce
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
-     * attribute's value can be found in the {@link #MediaRouteButton} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:minWidth
-     */
-    public static final int MediaRouteButton_android_minWidth=0;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
      * attribute's value can be found in the {@link #MediaRouteButton} array.
      *
@@ -14890,7 +14878,20 @@ public final class R {
      */
     public static final int MediaRouteButton_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #MediaRouteButton} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int MediaRouteButton_android_minWidth=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonTint}
      * attribute's value can be found in the {@link #MediaRouteButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -14901,7 +14902,7 @@ public final class R {
      */
     public static final int MediaRouteButton_buttonTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#externalRouteEnabledDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#externalRouteEnabledDrawable}
      * attribute's value can be found in the {@link #MediaRouteButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14938,6 +14939,24 @@ public final class R {
         0x010101df, 0x010101e0
       };
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
+     * attribute's value can be found in the {@link #MenuGroup} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>all</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>single</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:checkableBehavior
+     */
+    public static final int MenuGroup_android_checkableBehavior=5;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#enabled}
      * attribute's value can be found in the {@link #MenuGroup} array.
      *
@@ -14959,16 +14978,6 @@ public final class R {
      * @attr name android:id
      */
     public static final int MenuGroup_android_id=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#visible}
-     * attribute's value can be found in the {@link #MenuGroup} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:visible
-     */
-    public static final int MenuGroup_android_visible=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
      * attribute's value can be found in the {@link #MenuGroup} array.
@@ -14998,23 +15007,15 @@ public final class R {
      */
     public static final int MenuGroup_android_orderInCategory=4;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
      * attribute's value can be found in the {@link #MenuGroup} array.
      *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>1</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>single</td><td>2</td><td></td></tr>
-     * </table>
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
      *
-     * @attr name android:checkableBehavior
+     * @attr name android:visible
      */
-    public static final int MenuGroup_android_checkableBehavior=5;
+    public static final int MenuGroup_android_visible=2;
     /**
      * Attributes that can be used with a MenuItem.
      * <p>Includes the following attributes:</p>
@@ -15079,6 +15080,99 @@ public final class R {
         0x7f04016c, 0x7f0401a0, 0x7f0401f6
       };
     /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionLayout}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:actionLayout
+     */
+    public static final int MenuItem_actionLayout=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionProviderClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:actionProviderClass
+     */
+    public static final int MenuItem_actionProviderClass=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#actionViewClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:actionViewClass
+     */
+    public static final int MenuItem_actionViewClass=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#alphabeticModifiers}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>ALT</td><td>2</td><td></td></tr>
+     * <tr><td>CTRL</td><td>1000</td><td></td></tr>
+     * <tr><td>FUNCTION</td><td>8</td><td></td></tr>
+     * <tr><td>META</td><td>10000</td><td></td></tr>
+     * <tr><td>SHIFT</td><td>1</td><td></td></tr>
+     * <tr><td>SYM</td><td>4</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.app.luberack:alphabeticModifiers
+     */
+    public static final int MenuItem_alphabeticModifiers=16;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:alphabeticShortcut
+     */
+    public static final int MenuItem_android_alphabeticShortcut=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#checkable}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:checkable
+     */
+    public static final int MenuItem_android_checkable=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#checked}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:checked
+     */
+    public static final int MenuItem_android_checked=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:enabled
+     */
+    public static final int MenuItem_android_enabled=1;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
@@ -15091,16 +15185,6 @@ public final class R {
      */
     public static final int MenuItem_android_icon=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:enabled
-     */
-    public static final int MenuItem_android_enabled=1;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#id}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
@@ -15112,26 +15196,6 @@ public final class R {
      * @attr name android:id
      */
     public static final int MenuItem_android_id=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#checked}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:checked
-     */
-    public static final int MenuItem_android_checked=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#visible}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:visible
-     */
-    public static final int MenuItem_android_visible=4;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
      * attribute's value can be found in the {@link #MenuItem} array.
@@ -15151,6 +15215,26 @@ public final class R {
      * @attr name android:menuCategory
      */
     public static final int MenuItem_android_menuCategory=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:numericShortcut
+     */
+    public static final int MenuItem_android_numericShortcut=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#onClick}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:onClick
+     */
+    public static final int MenuItem_android_onClick=12;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
      * attribute's value can be found in the {@link #MenuItem} array.
@@ -15181,100 +15265,17 @@ public final class R {
      */
     public static final int MenuItem_android_titleCondensed=8;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:alphabeticShortcut
-     */
-    public static final int MenuItem_android_alphabeticShortcut=9;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:numericShortcut
-     */
-    public static final int MenuItem_android_numericShortcut=10;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#checkable}
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name android:checkable
+     * @attr name android:visible
      */
-    public static final int MenuItem_android_checkable=11;
+    public static final int MenuItem_android_visible=4;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#onClick}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:onClick
-     */
-    public static final int MenuItem_android_onClick=12;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionLayout}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:actionLayout
-     */
-    public static final int MenuItem_actionLayout=13;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionProviderClass}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:actionProviderClass
-     */
-    public static final int MenuItem_actionProviderClass=14;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#actionViewClass}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:actionViewClass
-     */
-    public static final int MenuItem_actionViewClass=15;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#alphabeticModifiers}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>ALT</td><td>2</td><td></td></tr>
-     * <tr><td>CTRL</td><td>1000</td><td></td></tr>
-     * <tr><td>FUNCTION</td><td>8</td><td></td></tr>
-     * <tr><td>META</td><td>10000</td><td></td></tr>
-     * <tr><td>SHIFT</td><td>1</td><td></td></tr>
-     * <tr><td>SYM</td><td>4</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.app.luberack:alphabeticModifiers
-     */
-    public static final int MenuItem_alphabeticModifiers=16;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -15284,7 +15285,7 @@ public final class R {
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -15295,7 +15296,7 @@ public final class R {
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15316,7 +15317,7 @@ public final class R {
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15337,7 +15338,7 @@ public final class R {
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15357,7 +15358,7 @@ public final class R {
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -15399,54 +15400,6 @@ public final class R {
         0x7f0401b2
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:windowAnimationStyle
-     */
-    public static final int MenuView_android_windowAnimationStyle=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:itemTextAppearance
-     */
-    public static final int MenuView_android_itemTextAppearance=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:horizontalDivider
-     */
-    public static final int MenuView_android_horizontalDivider=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:verticalDivider
-     */
-    public static final int MenuView_android_verticalDivider=3;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
      * attribute's value can be found in the {@link #MenuView} array.
      *
@@ -15461,6 +15414,18 @@ public final class R {
      * @attr name android:headerBackground
      */
     public static final int MenuView_android_headerBackground=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:horizontalDivider
+     */
+    public static final int MenuView_android_horizontalDivider=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#itemBackground}
      * attribute's value can be found in the {@link #MenuView} array.
@@ -15486,7 +15451,43 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:itemTextAppearance
+     */
+    public static final int MenuView_android_itemTextAppearance=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:verticalDivider
+     */
+    public static final int MenuView_android_verticalDivider=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:windowAnimationStyle
+     */
+    public static final int MenuView_android_windowAnimationStyle=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -15496,7 +15497,7 @@ public final class R {
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15580,7 +15581,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15593,7 +15594,7 @@ public final class R {
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15605,7 +15606,7 @@ public final class R {
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15617,7 +15618,7 @@ public final class R {
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -15628,7 +15629,7 @@ public final class R {
      */
     public static final int NavigationView_itemIconTint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15640,7 +15641,7 @@ public final class R {
      */
     public static final int NavigationView_itemTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -15651,7 +15652,7 @@ public final class R {
      */
     public static final int NavigationView_itemTextColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15681,6 +15682,42 @@ public final class R {
         0x01010176, 0x010102c9, 0x7f04016d
       };
     /**
+     * Attributes that can be used with a PopupWindowBackgroundState.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.app.luberack:state_above_anchor}</code></td><td></td></tr>
+     * </table>
+     * @see #PopupWindowBackgroundState_state_above_anchor
+     */
+    public static final int[] PopupWindowBackgroundState={
+        0x7f0401ad
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#state_above_anchor}
+     * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.app.luberack:state_above_anchor
+     */
+    public static final int PopupWindowBackgroundState_state_above_anchor=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
+     * attribute's value can be found in the {@link #PopupWindow} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:popupAnimationStyle
+     */
+    public static final int PopupWindow_android_popupAnimationStyle=1;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
@@ -15696,19 +15733,7 @@ public final class R {
      */
     public static final int PopupWindow_android_popupBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
-     * attribute's value can be found in the {@link #PopupWindow} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:popupAnimationStyle
-     */
-    public static final int PopupWindow_android_popupAnimationStyle=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -15717,30 +15742,6 @@ public final class R {
      * @attr name com.app.luberack:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
-    /**
-     * Attributes that can be used with a PopupWindowBackgroundState.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.app.luberack:state_above_anchor}</code></td><td></td></tr>
-     * </table>
-     * @see #PopupWindowBackgroundState_state_above_anchor
-     */
-    public static final int[] PopupWindowBackgroundState={
-        0x7f0401ad
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#state_above_anchor}
-     * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.app.luberack:state_above_anchor
-     */
-    public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
      * Attributes that can be used with a RecycleListView.
      * <p>Includes the following attributes:</p>
@@ -15758,7 +15759,7 @@ public final class R {
         0x7f04016e, 0x7f040171
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15771,7 +15772,7 @@ public final class R {
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15820,23 +15821,6 @@ public final class R {
         0x7f04018a, 0x7f0401a6, 0x7f0401ac
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #RecyclerView} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int RecyclerView_android_orientation=0;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
@@ -15855,7 +15839,24 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int RecyclerView_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -15865,7 +15866,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15877,7 +15878,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15889,7 +15890,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15901,7 +15902,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15913,7 +15914,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -15923,7 +15924,7 @@ public final class R {
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -15933,7 +15934,7 @@ public final class R {
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -15942,7 +15943,7 @@ public final class R {
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -15966,7 +15967,7 @@ public final class R {
         0x7f0400f8
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15995,7 +15996,7 @@ public final class R {
         0x7f040041
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16076,18 +16077,37 @@ public final class R {
      */
     public static final int SearchView_android_focusable=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
      * attribute's value can be found in the {@link #SearchView} array.
      *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>actionDone</td><td>6</td><td></td></tr>
+     * <tr><td>actionGo</td><td>2</td><td></td></tr>
+     * <tr><td>actionNext</td><td>5</td><td></td></tr>
+     * <tr><td>actionNone</td><td>1</td><td></td></tr>
+     * <tr><td>actionPrevious</td><td>7</td><td></td></tr>
+     * <tr><td>actionSearch</td><td>3</td><td></td></tr>
+     * <tr><td>actionSend</td><td>4</td><td></td></tr>
+     * <tr><td>actionUnspecified</td><td>0</td><td></td></tr>
+     * <tr><td>flagForceAscii</td><td>80000000</td><td></td></tr>
+     * <tr><td>flagNavigateNext</td><td>8000000</td><td></td></tr>
+     * <tr><td>flagNavigatePrevious</td><td>4000000</td><td></td></tr>
+     * <tr><td>flagNoAccessoryAction</td><td>20000000</td><td></td></tr>
+     * <tr><td>flagNoEnterAction</td><td>40000000</td><td></td></tr>
+     * <tr><td>flagNoExtractUi</td><td>10000000</td><td></td></tr>
+     * <tr><td>flagNoFullscreen</td><td>2000000</td><td></td></tr>
+     * <tr><td>flagNoPersonalizedLearning</td><td>1000000</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
      *
-     * @attr name android:maxWidth
+     * @attr name android:imeOptions
      */
-    public static final int SearchView_android_maxWidth=1;
+    public static final int SearchView_android_imeOptions=3;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#inputType}
      * attribute's value can be found in the {@link #SearchView} array.
@@ -16136,39 +16156,20 @@ public final class R {
      */
     public static final int SearchView_android_inputType=2;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
      * attribute's value can be found in the {@link #SearchView} array.
      *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>actionDone</td><td>6</td><td></td></tr>
-     * <tr><td>actionGo</td><td>2</td><td></td></tr>
-     * <tr><td>actionNext</td><td>5</td><td></td></tr>
-     * <tr><td>actionNone</td><td>1</td><td></td></tr>
-     * <tr><td>actionPrevious</td><td>7</td><td></td></tr>
-     * <tr><td>actionSearch</td><td>3</td><td></td></tr>
-     * <tr><td>actionSend</td><td>4</td><td></td></tr>
-     * <tr><td>actionUnspecified</td><td>0</td><td></td></tr>
-     * <tr><td>flagForceAscii</td><td>80000000</td><td></td></tr>
-     * <tr><td>flagNavigateNext</td><td>8000000</td><td></td></tr>
-     * <tr><td>flagNavigatePrevious</td><td>4000000</td><td></td></tr>
-     * <tr><td>flagNoAccessoryAction</td><td>20000000</td><td></td></tr>
-     * <tr><td>flagNoEnterAction</td><td>40000000</td><td></td></tr>
-     * <tr><td>flagNoExtractUi</td><td>10000000</td><td></td></tr>
-     * <tr><td>flagNoFullscreen</td><td>2000000</td><td></td></tr>
-     * <tr><td>flagNoPersonalizedLearning</td><td>1000000</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
      *
-     * @attr name android:imeOptions
+     * @attr name android:maxWidth
      */
-    public static final int SearchView_android_imeOptions=3;
+    public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16180,7 +16181,7 @@ public final class R {
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16192,7 +16193,7 @@ public final class R {
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -16202,7 +16203,7 @@ public final class R {
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16214,7 +16215,7 @@ public final class R {
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -16224,7 +16225,7 @@ public final class R {
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16236,7 +16237,7 @@ public final class R {
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16248,7 +16249,7 @@ public final class R {
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -16258,7 +16259,7 @@ public final class R {
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16270,7 +16271,7 @@ public final class R {
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16282,7 +16283,7 @@ public final class R {
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16294,7 +16295,7 @@ public final class R {
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16306,7 +16307,7 @@ public final class R {
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16345,85 +16346,6 @@ public final class R {
         0x7f040198, 0x7f04019a, 0x7f0401b4
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#indexPrefixes}
-     * attribute's value can be found in the {@link #Section} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.app.luberack:indexPrefixes
-     */
-    public static final int Section_indexPrefixes=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#noIndex}
-     * attribute's value can be found in the {@link #Section} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.app.luberack:noIndex
-     */
-    public static final int Section_noIndex=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#schemaOrgProperty}
-     * attribute's value can be found in the {@link #Section} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:schemaOrgProperty
-     */
-    public static final int Section_schemaOrgProperty=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#sectionFormat}
-     * attribute's value can be found in the {@link #Section} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>date</td><td>4</td><td></td></tr>
-     * <tr><td>html</td><td>1</td><td></td></tr>
-     * <tr><td>plain</td><td>0</td><td></td></tr>
-     * <tr><td>rfc822</td><td>2</td><td></td></tr>
-     * <tr><td>url</td><td>3</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.app.luberack:sectionFormat
-     */
-    public static final int Section_sectionFormat=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#sectionId}
-     * attribute's value can be found in the {@link #Section} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:sectionId
-     */
-    public static final int Section_sectionId=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#sectionWeight}
-     * attribute's value can be found in the {@link #Section} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.app.luberack:sectionWeight
-     */
-    public static final int Section_sectionWeight=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#subsectionSeparator}
-     * attribute's value can be found in the {@link #Section} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.app.luberack:subsectionSeparator
-     */
-    public static final int Section_subsectionSeparator=6;
-    /**
      * Attributes that can be used with a SectionFeature.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -16438,7 +16360,7 @@ public final class R {
         0x7f0400d5
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#featureType}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#featureType}
      * attribute's value can be found in the {@link #SectionFeature} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16459,6 +16381,85 @@ public final class R {
      */
     public static final int SectionFeature_featureType=0;
     /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#indexPrefixes}
+     * attribute's value can be found in the {@link #Section} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.app.luberack:indexPrefixes
+     */
+    public static final int Section_indexPrefixes=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#noIndex}
+     * attribute's value can be found in the {@link #Section} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.app.luberack:noIndex
+     */
+    public static final int Section_noIndex=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#schemaOrgProperty}
+     * attribute's value can be found in the {@link #Section} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:schemaOrgProperty
+     */
+    public static final int Section_schemaOrgProperty=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#sectionFormat}
+     * attribute's value can be found in the {@link #Section} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>date</td><td>4</td><td></td></tr>
+     * <tr><td>html</td><td>1</td><td></td></tr>
+     * <tr><td>plain</td><td>0</td><td></td></tr>
+     * <tr><td>rfc822</td><td>2</td><td></td></tr>
+     * <tr><td>url</td><td>3</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.app.luberack:sectionFormat
+     */
+    public static final int Section_sectionFormat=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#sectionId}
+     * attribute's value can be found in the {@link #Section} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:sectionId
+     */
+    public static final int Section_sectionId=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#sectionWeight}
+     * attribute's value can be found in the {@link #Section} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.app.luberack:sectionWeight
+     */
+    public static final int Section_sectionWeight=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#subsectionSeparator}
+     * attribute's value can be found in the {@link #Section} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.app.luberack:subsectionSeparator
+     */
+    public static final int Section_subsectionSeparator=6;
+    /**
      * Attributes that can be used with a SignInButton.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -16477,7 +16478,7 @@ public final class R {
         0x7f04004f, 0x7f040096, 0x7f04018e
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16499,7 +16500,7 @@ public final class R {
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16521,7 +16522,7 @@ public final class R {
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16566,7 +16567,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16579,7 +16580,7 @@ public final class R {
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16614,6 +16615,29 @@ public final class R {
         0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
         0x7f04017e
       };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
+     * attribute's value can be found in the {@link #Spinner} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:dropDownWidth
+     */
+    public static final int Spinner_android_dropDownWidth=3;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -16654,30 +16678,7 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
-     * attribute's value can be found in the {@link #Spinner} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:dropDownWidth
-     */
-    public static final int Spinner_android_dropDownWidth=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16732,16 +16733,6 @@ public final class R {
         0x7f0401f8, 0x7f0401f9
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textOn}
-     * attribute's value can be found in the {@link #SwitchCompat} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:textOn
-     */
-    public static final int SwitchCompat_android_textOn=0;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOff}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
@@ -16751,6 +16742,16 @@ public final class R {
      * @attr name android:textOff
      */
     public static final int SwitchCompat_android_textOff=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textOn}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:textOn
+     */
+    public static final int SwitchCompat_android_textOn=0;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
      * attribute's value can be found in the {@link #SwitchCompat} array.
@@ -16764,7 +16765,7 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -16774,7 +16775,7 @@ public final class R {
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -16784,7 +16785,7 @@ public final class R {
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16797,7 +16798,7 @@ public final class R {
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16810,7 +16811,7 @@ public final class R {
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16822,7 +16823,7 @@ public final class R {
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16835,7 +16836,7 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -16846,7 +16847,7 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16867,7 +16868,7 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16879,7 +16880,7 @@ public final class R {
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -16890,7 +16891,7 @@ public final class R {
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17010,7 +17011,7 @@ public final class R {
         0x7f0401ca, 0x7f0401cb, 0x7f0401cc, 0x7f0401cd
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17022,7 +17023,7 @@ public final class R {
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17035,7 +17036,7 @@ public final class R {
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17052,7 +17053,7 @@ public final class R {
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -17063,7 +17064,7 @@ public final class R {
      */
     public static final int TabLayout_tabIndicatorColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17076,7 +17077,7 @@ public final class R {
      */
     public static final int TabLayout_tabIndicatorHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17089,7 +17090,7 @@ public final class R {
      */
     public static final int TabLayout_tabMaxWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17102,7 +17103,7 @@ public final class R {
      */
     public static final int TabLayout_tabMinWidth=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17119,7 +17120,7 @@ public final class R {
      */
     public static final int TabLayout_tabMode=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17132,7 +17133,7 @@ public final class R {
      */
     public static final int TabLayout_tabPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17145,7 +17146,7 @@ public final class R {
      */
     public static final int TabLayout_tabPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17158,7 +17159,7 @@ public final class R {
      */
     public static final int TabLayout_tabPaddingEnd=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17171,7 +17172,7 @@ public final class R {
      */
     public static final int TabLayout_tabPaddingStart=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17184,7 +17185,7 @@ public final class R {
      */
     public static final int TabLayout_tabPaddingTop=12;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -17195,7 +17196,7 @@ public final class R {
      */
     public static final int TabLayout_tabSelectedTextColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17207,7 +17208,7 @@ public final class R {
      */
     public static final int TabLayout_tabTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -17259,55 +17260,53 @@ public final class R {
         0x7f0401ce
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textSize}
+     * <p>This symbol is the offset where the {@link android.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name android:textSize
+     * @attr name android:fontFamily
      */
-    public static final int TextAppearance_android_textSize=0;
+    public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#typeface}
+     * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>monospace</td><td>3</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * <tr><td>sans</td><td>1</td><td></td></tr>
-     * <tr><td>serif</td><td>2</td><td></td></tr>
-     * </table>
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name android:typeface
+     * @attr name android:shadowColor
      */
-    public static final int TextAppearance_android_typeface=1;
+    public static final int TextAppearance_android_shadowColor=6;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textStyle}
+     * <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bold</td><td>1</td><td></td></tr>
-     * <tr><td>italic</td><td>2</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
+     * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name android:textStyle
+     * @attr name android:shadowDx
      */
-    public static final int TextAppearance_android_textStyle=2;
+    public static final int TextAppearance_android_shadowDx=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
+     * attribute's value can be found in the {@link #TextAppearance} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:shadowDy
+     */
+    public static final int TextAppearance_android_shadowDy=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
+     * attribute's value can be found in the {@link #TextAppearance} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:shadowRadius
+     */
+    public static final int TextAppearance_android_shadowRadius=9;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColor}
      * attribute's value can be found in the {@link #TextAppearance} array.
@@ -17354,55 +17353,57 @@ public final class R {
      */
     public static final int TextAppearance_android_textColorLink=5;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
+     * <p>This symbol is the offset where the {@link android.R.attr#textSize}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
      *
-     * @attr name android:shadowColor
+     * @attr name android:textSize
      */
-    public static final int TextAppearance_android_shadowColor=6;
+    public static final int TextAppearance_android_textSize=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
+     * <p>This symbol is the offset where the {@link android.R.attr#textStyle}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bold</td><td>1</td><td></td></tr>
+     * <tr><td>italic</td><td>2</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
      *
-     * @attr name android:shadowDx
+     * @attr name android:textStyle
      */
-    public static final int TextAppearance_android_shadowDx=7;
+    public static final int TextAppearance_android_textStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
+     * <p>This symbol is the offset where the {@link android.R.attr#typeface}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>monospace</td><td>3</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>sans</td><td>1</td><td></td></tr>
+     * <tr><td>serif</td><td>2</td><td></td></tr>
+     * </table>
      *
-     * @attr name android:shadowDy
+     * @attr name android:typeface
      */
-    public static final int TextAppearance_android_shadowDy=8;
+    public static final int TextAppearance_android_typeface=1;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:shadowRadius
-     */
-    public static final int TextAppearance_android_shadowRadius=9;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontFamily}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:fontFamily
-     */
-    public static final int TextAppearance_android_fontFamily=10;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -17412,7 +17413,7 @@ public final class R {
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17473,6 +17474,16 @@ public final class R {
         0x7f040178, 0x7f040179, 0x7f04017a, 0x7f04017b
       };
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#hint}
+     * attribute's value can be found in the {@link #TextInputLayout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:hint
+     */
+    public static final int TextInputLayout_android_hint=1;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
@@ -17488,17 +17499,7 @@ public final class R {
      */
     public static final int TextInputLayout_android_textColorHint=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#hint}
-     * attribute's value can be found in the {@link #TextInputLayout} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:hint
-     */
-    public static final int TextInputLayout_android_hint=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -17508,7 +17509,7 @@ public final class R {
      */
     public static final int TextInputLayout_counterEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -17517,7 +17518,7 @@ public final class R {
      */
     public static final int TextInputLayout_counterMaxLength=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17529,7 +17530,7 @@ public final class R {
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17541,7 +17542,7 @@ public final class R {
      */
     public static final int TextInputLayout_counterTextAppearance=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -17551,7 +17552,7 @@ public final class R {
      */
     public static final int TextInputLayout_errorEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17563,7 +17564,7 @@ public final class R {
      */
     public static final int TextInputLayout_errorTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -17573,7 +17574,7 @@ public final class R {
      */
     public static final int TextInputLayout_hintAnimationEnabled=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -17583,7 +17584,7 @@ public final class R {
      */
     public static final int TextInputLayout_hintEnabled=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17595,7 +17596,7 @@ public final class R {
      */
     public static final int TextInputLayout_hintTextAppearance=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -17605,7 +17606,7 @@ public final class R {
      */
     public static final int TextInputLayout_passwordToggleContentDescription=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17617,7 +17618,7 @@ public final class R {
      */
     public static final int TextInputLayout_passwordToggleDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -17627,7 +17628,7 @@ public final class R {
      */
     public static final int TextInputLayout_passwordToggleEnabled=13;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -17638,7 +17639,7 @@ public final class R {
      */
     public static final int TextInputLayout_passwordToggleTint=14;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17777,7 +17778,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -17794,7 +17795,7 @@ public final class R {
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -17804,7 +17805,7 @@ public final class R {
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17816,7 +17817,7 @@ public final class R {
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17829,7 +17830,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17842,7 +17843,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17855,7 +17856,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17868,7 +17869,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17881,7 +17882,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17894,7 +17895,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17906,7 +17907,7 @@ public final class R {
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -17916,7 +17917,7 @@ public final class R {
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17929,7 +17930,7 @@ public final class R {
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -17939,7 +17940,7 @@ public final class R {
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17951,7 +17952,7 @@ public final class R {
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17963,7 +17964,7 @@ public final class R {
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -17973,7 +17974,7 @@ public final class R {
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17985,7 +17986,7 @@ public final class R {
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -17996,7 +17997,7 @@ public final class R {
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -18006,7 +18007,7 @@ public final class R {
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18019,7 +18020,7 @@ public final class R {
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18032,7 +18033,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18045,7 +18046,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18058,7 +18059,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18071,7 +18072,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18084,7 +18085,7 @@ public final class R {
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18096,7 +18097,7 @@ public final class R {
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -18129,74 +18130,6 @@ public final class R {
         0x01010000, 0x010100da, 0x7f04016f, 0x7f040170, 
         0x7f0401da
       };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#theme}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:theme
-     */
-    public static final int View_android_theme=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>auto</td><td>10</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:focusable
-     */
-    public static final int View_android_focusable=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#paddingEnd}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:paddingEnd
-     */
-    public static final int View_paddingEnd=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#paddingStart}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.app.luberack:paddingStart
-     */
-    public static final int View_paddingStart=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#theme}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.app.luberack:theme
-     */
-    public static final int View_theme=4;
     /**
      * Attributes that can be used with a ViewBackgroundHelper.
      * <p>Includes the following attributes:</p>
@@ -18231,7 +18164,7 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -18242,7 +18175,7 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18293,6 +18226,18 @@ public final class R {
      */
     public static final int ViewStubCompat_android_id=0;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:inflatedId
+     */
+    public static final int ViewStubCompat_android_inflatedId=2;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
      * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
@@ -18305,17 +18250,73 @@ public final class R {
      */
     public static final int ViewStubCompat_android_layout=1;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
-     * attribute's value can be found in the {@link #ViewStubCompat} array.
+     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>auto</td><td>10</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:focusable
+     */
+    public static final int View_android_focusable=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name android:inflatedId
+     * @attr name android:theme
      */
-    public static final int ViewStubCompat_android_inflatedId=2;
+    public static final int View_android_theme=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#paddingEnd}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:paddingEnd
+     */
+    public static final int View_paddingEnd=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#paddingStart}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.app.luberack:paddingStart
+     */
+    public static final int View_paddingStart=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.app.luberack:theme
+     */
+    public static final int View_theme=4;
     /**
      * Attributes that can be used with a WalletFragmentOptions.
      * <p>Includes the following attributes:</p>
@@ -18337,7 +18338,7 @@ public final class R {
         0x7f04002e, 0x7f0400c2, 0x7f0400e1, 0x7f0400e2
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#appTheme}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#appTheme}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18354,7 +18355,7 @@ public final class R {
      */
     public static final int WalletFragmentOptions_appTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#environment}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#environment}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18373,7 +18374,7 @@ public final class R {
      */
     public static final int WalletFragmentOptions_environment=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fragmentMode}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fragmentMode}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18390,7 +18391,7 @@ public final class R {
      */
     public static final int WalletFragmentOptions_fragmentMode=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#fragmentStyle}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#fragmentStyle}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18438,7 +18439,7 @@ public final class R {
         0x7f040155, 0x7f040156, 0x7f040157
       };
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buyButtonAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buyButtonAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18462,7 +18463,7 @@ public final class R {
      */
     public static final int WalletFragmentStyle_buyButtonAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buyButtonHeight}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buyButtonHeight}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18484,7 +18485,7 @@ public final class R {
      */
     public static final int WalletFragmentStyle_buyButtonHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buyButtonText}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buyButtonText}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18506,7 +18507,7 @@ public final class R {
      */
     public static final int WalletFragmentStyle_buyButtonText=2;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#buyButtonWidth}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#buyButtonWidth}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18528,7 +18529,7 @@ public final class R {
      */
     public static final int WalletFragmentStyle_buyButtonWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#maskedWalletDetailsBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#maskedWalletDetailsBackground}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18543,7 +18544,7 @@ public final class R {
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsBackground=4;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#maskedWalletDetailsButtonBackground}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#maskedWalletDetailsButtonBackground}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18558,7 +18559,7 @@ public final class R {
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#maskedWalletDetailsButtonTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#maskedWalletDetailsButtonTextAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18570,7 +18571,7 @@ public final class R {
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance=6;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#maskedWalletDetailsHeaderTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#maskedWalletDetailsHeaderTextAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18582,7 +18583,7 @@ public final class R {
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#maskedWalletDetailsLogoImageType}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#maskedWalletDetailsLogoImageType}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18602,7 +18603,7 @@ public final class R {
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType=8;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#maskedWalletDetailsLogoTextColor}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#maskedWalletDetailsLogoTextColor}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -18613,7 +18614,7 @@ public final class R {
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor=9;
     /**
-     * <p>This symbol is the offset where the {@link com.app.giftfcard.R.attr#maskedWalletDetailsTextAppearance}
+     * <p>This symbol is the offset where the {@link com.app.luberack.R.attr#maskedWalletDetailsTextAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form

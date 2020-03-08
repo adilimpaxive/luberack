@@ -201,61 +201,34 @@
                 android:textSize="16sp" />
         </LinearLayout>
 
-        <LinearLayout
+        <RelativeLayout
             android:visibility="visible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear1"
-            android:orientation="vertical">
+            >
 
-            <RelativeLayout
-                android:id="@+id/largeLabel"
-                android:visibility="gone"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/linear1"
-                android:layout_margin="10dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="20dp"
-                    android:text="Common Pair Estimate"
-                    android:textColor="#000" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginRight="30dp"
-                    android:text="View History"
-                    android:textColor="#000" />
-
-
-            </RelativeLayout>
 
             <android.support.v7.widget.RecyclerView
                 android:visibility="visible"
                 android:id="@+id/RecyclerView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="180dp"
                 android:layout_below="@id/largeLabel"
                 android:textColor="#000" />
-        </LinearLayout>
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_background"
+                android:text="Next"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textColorHint="@color/hint"
+                android:textSize="16sp" />
+        </RelativeLayout>
 
-        <Button
-            android:id="@+id/buttonNext"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/button_background"
-            android:src="@drawable/edittext_background"
-            android:text="Next"
-            android:textAlignment="center"
-            android:textColor="#fff"
-            android:textColorHint="@color/hint"
-            android:textSize="16sp" />
     </RelativeLayout>
 </LinearLayout>

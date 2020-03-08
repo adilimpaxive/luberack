@@ -45,7 +45,7 @@
             android:id="@+id/tv_profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Signin to get started"
+            android:text="Sign In to get started"
             android:textAlignment="center"
             android:textColor="@color/hint"
             android:textSize="17sp" />

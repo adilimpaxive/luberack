@@ -1,4 +1,4 @@
-package com.app.giftfcard.Fragments;
+package com.app.luberack.Fragments;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -32,17 +32,18 @@ import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.StringRequestListener;
 import com.androidnetworking.interfaces.UploadProgressListener;
-import com.app.giftfcard.Adapter.VehicleAdapter;
-import com.app.giftfcard.Adapter.VehicleImagesAdapter;
-import com.app.giftfcard.Adapter.ViewPagerAdapter;
-import com.app.giftfcard.Adapter.get_estimate_adapter;
-import com.app.giftfcard.Home;
-import com.app.giftfcard.ModelClasses.AlignmentData;
-import com.app.giftfcard.ModelClasses.VehicleData;
-import com.app.giftfcard.MyEvent;
-import com.app.giftfcard.Profile_management.SessionManager;
-import com.app.giftfcard.R;
-import com.app.giftfcard.utility.Config;
+import com.app.luberack.Adapter.VehicleAdapter;
+import com.app.luberack.Adapter.VehicleImagesAdapter;
+import com.app.luberack.Adapter.ViewPagerAdapter;
+import com.app.luberack.Adapter.get_estimate_adapter;
+import com.app.luberack.Home;
+import com.app.luberack.ModelClasses.AlignmentData;
+import com.app.luberack.ModelClasses.VehicleData;
+import com.app.luberack.MyEvent;
+import com.app.luberack.Profile_management.SessionManager;
+import com.app.luberack.Profile_management.UserInteractionListener;
+import com.app.luberack.R;
+import com.app.luberack.utility.Config;
 
 import org.greenrobot.eventbus.EventBus;
 import org.json.JSONArray;
@@ -60,7 +61,7 @@ import static android.app.Activity.RESULT_OK;
  * Created by ahmad on 5/2/2018.
  */
 
-public class Activity_Vehicles_Details extends Fragment {
+public class Activity_Vehicles_Details extends Fragment implements com.app.luberack.Profile_management.UserInteractionListener {
     private List cList = new ArrayList<>();
     private RecyclerView recyclerView,recyclerViewAlert;
     VehicleAdapter adapterTop;
@@ -76,7 +77,7 @@ public class Activity_Vehicles_Details extends Fragment {
     EditText etEngineSize,etFw,etVin;
     Button buttonSave,buttonNext,buttonGo;
     public int select=0;
-    public int start = 1;
+    public int start = 1,startModel=1;
     VehicleImagesAdapter adapterImage;
    // AlignmentData data;
     ArrayList<VehicleData> vehicleImagesDataList;
@@ -84,7 +85,9 @@ public class Activity_Vehicles_Details extends Fragment {
     public static Dialog dialog;
     public static ArrayAdapter<CharSequence> nAdapter,mAdapter,yAdapter;
     ViewPager viewPager;
-
+    private boolean userIsInteracting;
+    private UserInteractionListener userInteractionListener;
+    int c=0,show_dialouge=0;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -103,7 +106,7 @@ public class Activity_Vehicles_Details extends Fragment {
         sp_vin = view.findViewById(R.id.sp_vin);
         viewPager = view.findViewById(R.id.cra_iv);
 
-        et_year.setEnabled(false);
+      //  et_year.setEnabled(false);
 
         spinnerVin();
 
@@ -124,6 +127,7 @@ public class Activity_Vehicles_Details extends Fragment {
 
         oilChangeDataList=new ArrayList<>();
         vehicleImagesDataList = new ArrayList<>();
+
 
         //////////////////////////
         ///////////////Honda
@@ -155,6 +159,8 @@ public class Activity_Vehicles_Details extends Fragment {
 
         retrieveAlignedShops();
 
+         this.setUserInteractionListener(userInteractionListener);
+
         buttonGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -162,6 +168,7 @@ public class Activity_Vehicles_Details extends Fragment {
                     Toast.makeText(getContext(),"Choose VIN!",Toast.LENGTH_LONG).show();
                 }else {
                     ShowVin("Yes");
+                    et_year.setSelection(0);
                    // getVehicleVin(sp_vin.getSelectedItem().toString());
                 }
             }
@@ -188,6 +195,10 @@ public class Activity_Vehicles_Details extends Fragment {
                     etFw.setFocusable(true);
                     return;
                 }
+                if(et_year.getSelectedItem().toString().equals("Select Year")){
+                    Toast.makeText(getContext(),"Alert: Select year!",Toast.LENGTH_LONG).show();
+                    return;
+                }
                 signup();
             }
         });
@@ -198,84 +209,48 @@ public class Activity_Vehicles_Details extends Fragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if(select==0 && start==0) {
                     Make = String.valueOf(parent.getItemAtPosition(position));
+                    et_year.setSelection(0);
                     ShowVin("No");
-                    /*if (Make.equals("Acura")) {
-                        et_model.setEnabled(true);
-                        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),
-                                R.layout.spinner_model_item, acura);
-                        adapter.setDropDownViewResource(R.layout.spinner_item);
-                        et_model.setAdapter(adapter);
-                    }
-                    if (Make.equals("Honda")) {
-                        et_model.setEnabled(true);
-                        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),
-                                R.layout.spinner_model_item, honda);
-                        adapter.setDropDownViewResource(R.layout.spinner_item);
-                        et_model.setAdapter(adapter);
-                    }
-                    if (Make.equals("Ford")) {
-                        et_model.setEnabled(true);
-                        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),
-                                R.layout.spinner_model_item, ford);
-                        adapter.setDropDownViewResource(R.layout.spinner_item);
-                        et_model.setAdapter(adapter);
-                    }
-                    if (Make.equals("Plymouth")) {
-                        et_model.setEnabled(true);
-                        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),
-                                R.layout.spinner_model_item, plymouth);
-                        adapter.setDropDownViewResource(R.layout.spinner_item);
-                        et_model.setAdapter(adapter);
-                    }*/
                 }
+                if(start==parent.getCount()) start=0;
 
 //                Toast.makeText(getContext(), "dddsfsdffsf"+Make, Toast.LENGTH_SHORT).show();
             }
-
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
+                start=0;
             }
         });
+
         et_year.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Year= String.valueOf(parent.getItemAtPosition(position));
 //               Toast.makeText(getContext(), Year, Toast.LENGTH_SHORT).show();
             }
-
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
             }
         });
+
         et_model.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Model= String.valueOf(parent.getItemAtPosition(position));
-                if(!Model.equals("Select model")) {
-                   /* if(sp_vin.getSelectedItem().toString().equals("VIN(Optional)")) {
-                        ShowVin("No");
-                    }else ShowVin("Yes");*/
-                  /*  VehicleImagesFragment signupMapFragment = new VehicleImagesFragment();
-                    Bundle b = new Bundle();
-                    b.putString("Name", Make);
-                    b.putString("Model", Model);
-                    signupMapFragment.setArguments(b);
-                    signupMapFragment.setTargetFragment(Activity_Vehicles_Details.this, 123);
-                    getActivity().getSupportFragmentManager().beginTransaction()
-                            .add(R.id.home_frame, signupMapFragment)
-                            .addToBackStack("customtag")
-                            .commit();*/
+                et_year.setSelection(0);
 
-                }
+               // if(select==0 && startModel==0) {
+                  //  getVehicleYears(Make,Model);
+                   // ShowVin("No");
+               // }
+              //  if(startModel==parent.getCount()) startModel=0;
 //                Toast.makeText(getContext(), Model, Toast.LENGTH_SHORT).show();
               //  ((TextView) et_model.getSelectedView()).setTextColor(getResources().getColor(R.color.black));
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
+                startModel=0;
             }
         });
 
@@ -376,7 +351,7 @@ public class Activity_Vehicles_Details extends Fragment {
 
 
     private void retrieveAlignedShops() {
-
+        oilChangeDataList=new ArrayList<>();
         sweetProgressDialog.setMessage("Fetching Vehicle...");
         RequestQueue queue = Volley.newRequestQueue(getContext());
 
@@ -418,7 +393,7 @@ public class Activity_Vehicles_Details extends Fragment {
                         // Error occurred in registration. Get the error
                         // message
                         String errorMsg = jObj.getString("error_msg");
-                        Toast.makeText(getContext(), "Server Error", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(), "No vehicle exist!", Toast.LENGTH_SHORT).show();
                     }
 
                 } catch (JSONException e) {
@@ -464,7 +439,23 @@ public class Activity_Vehicles_Details extends Fragment {
     }
 
     public void ShowVin(final String vin){
-
+//        if(vin.equalsIgnoreCase("yes"))
+//        {
+//            alertDialog = new AlertDialog.Builder(getContext());
+//            View convertView = LayoutInflater.from(getContext()).inflate(R.layout.fragment_vehicle_images, null);
+//            alertDialog.setView(convertView);
+//            //alertDialog.setTitle(getContext().getResources().getString(R.string.memberList));
+//            dialog = alertDialog.create();
+//            recyclerViewAlert = (RecyclerView) convertView.findViewById(R.id.RecyclerView);
+//            recyclerViewAlert.setLayoutManager(new LinearLayoutManager(getContext()));
+//            recyclerViewAlert.setHasFixedSize(true);
+//            getVehicleVin(sp_vin.getSelectedItem().toString());
+//            dialog.show();
+//        }
+//        else
+//        {
+//            getVehicleModel(Make);
+//        }
         alertDialog = new AlertDialog.Builder(getContext());
         View convertView = LayoutInflater.from(getContext()).inflate(R.layout.fragment_vehicle_images, null);
         alertDialog.setView(convertView);
@@ -473,11 +464,15 @@ public class Activity_Vehicles_Details extends Fragment {
         recyclerViewAlert = (RecyclerView) convertView.findViewById(R.id.RecyclerView);
         recyclerViewAlert.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerViewAlert.setHasFixedSize(true);
+
         if(vin.equals("No")) {
             getVehicleModel(Make);
+            dialog.show();
            // retrieveImages();
-        }else getVehicleVin(sp_vin.getSelectedItem().toString());
-        dialog.show();
+        }else {
+            getVehicleVin(sp_vin.getSelectedItem().toString());
+            dialog.show();
+        }
     }
 
     public void spinnerVin(){
@@ -513,7 +508,7 @@ public class Activity_Vehicles_Details extends Fragment {
 
                     if (success == 1) {
                         et_model.setEnabled(false);
-                        et_year.setEnabled(false);
+                       // et_year.setEnabled(false);
                         et_make.setEnabled(false);
                         select=1;
                         /*JSONObject temp = jObj.getJSONObject("home");
@@ -535,10 +530,10 @@ public class Activity_Vehicles_Details extends Fragment {
 
                             nAdapter = new ArrayAdapter<CharSequence>(getContext(),R.layout.spinner_item,name);
                             mAdapter = new ArrayAdapter<CharSequence>(getContext(),R.layout.spinner_item,model);
-                            yAdapter = new ArrayAdapter<CharSequence>(getContext(),R.layout.spinner_item,year);
+                         //   yAdapter = new ArrayAdapter<CharSequence>(getContext(),R.layout.spinner_item,year);
 
                            et_make.setAdapter(nAdapter);
-                           et_year.setAdapter(yAdapter);
+                          // et_year.setAdapter(yAdapter);
                            et_model.setAdapter(mAdapter);
                             vehicleImagesDataList.add(new VehicleData(homeObj.getString("id"), homeObj.getString("image"), Make, homeObj.getString("model"), homeObj.getString("year"), homeObj.getString("year"), homeObj.getString("year"), homeObj.getString("year")));
                         }
@@ -549,7 +544,7 @@ public class Activity_Vehicles_Details extends Fragment {
                         // Error occurred in registration. Get the error
                         // message
                         String errorMsg = jObj.getString("error_msg");
-                        Toast.makeText(getContext(), "Server Error", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(getContext(), "Server Error", Toast.LENGTH_SHORT).show();
                     }
 
                 } catch (JSONException e) {
@@ -623,8 +618,10 @@ public class Activity_Vehicles_Details extends Fragment {
                             vehicleCompanies[i] = homeObj.getString("cmp_name");
                         }
                         nAdapter = new ArrayAdapter<CharSequence>(getContext(),R.layout.spinner_item,vehicleCompanies);
+                      //  et_make.setSelected(false);  // must
+                     //   et_make.setSelection(0,true);  //must
                         et_make.setAdapter(nAdapter);
-                        start=0;
+                        start=homesArray.length();
 
                     } else {
                         // Error occurred in registration. Get the error
@@ -651,7 +648,7 @@ public class Activity_Vehicles_Details extends Fragment {
                         if (sweetProgressDialog.isShowing()) {
                             sweetProgressDialog.dismiss();
                         }
-                        Toast.makeText(getContext(), "Server Error", Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(getContext(), "Server Error", Toast.LENGTH_SHORT).show();
                     }
                 }) {
 
@@ -697,32 +694,39 @@ public class Activity_Vehicles_Details extends Fragment {
                     if (success == 1) {
 
                         JSONArray homesArray = jObj.getJSONArray("list");
-                        String vehicleCompanies[] = new String[homesArray.length()];
-                        String vehicleYears[] = new String[homesArray.length()];
+                        String vehicleCompanies[] = new String[homesArray.length()+1];
+                        String vehicleYears[] = new String[homesArray.length()+1];
                         for (int i = 0; i < homesArray.length(); i++) {
                             JSONObject homeObj = homesArray.getJSONObject(i);
-                            vehicleCompanies[i] = homeObj.getString("model");
-                            vehicleYears[i] = homeObj.getString("year");
+
+                            if(i==0){
+                                vehicleCompanies[i] ="Select Model";
+                                vehicleYears[i] = "Select Year";
+                            }
+
+                            vehicleCompanies[i+1] = homeObj.getString("model");
+                            vehicleYears[i+1] = homeObj.getString("year");
                             vehicleImagesDataList.add(new VehicleData(homeObj.getString("id"), homeObj.getString("image"), Make, homeObj.getString("model"), homeObj.getString("year"), homeObj.getString("year"), homeObj.getString("year"), homeObj.getString("year")));
                         }
 
                     adapterImage = new VehicleImagesAdapter(getContext(), vehicleImagesDataList);
-
+                        startModel=homesArray.length();
+                        VehicleImagesAdapter.modelClick="1";
                     recyclerViewAlert.setAdapter(adapterImage);
                         mAdapter = new ArrayAdapter<CharSequence>(getContext(),R.layout.spinner_item,vehicleCompanies);
                         et_model.setAdapter(mAdapter);
-                        yAdapter = new ArrayAdapter<CharSequence>(getContext(),R.layout.spinner_item,vehicleYears);
+                     //   yAdapter = new ArrayAdapter<CharSequence>(getContext(),R.layout.spinner_item,vehicleYears);
                         et_model.setAdapter(mAdapter);
-                        et_year.setAdapter(yAdapter);
+                    //    et_year.setAdapter(yAdapter);
 
-                        et_model.setEnabled(false);
-                        et_year.setEnabled(false);
+                        et_model.setEnabled(true);
+                       // et_year.setEnabled(true);
 
                     } else {
                         // Error occurred in registration. Get the error
                         // message
                         String errorMsg = jObj.getString("error_msg");
-                        Toast.makeText(getContext(), "Server Error", Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(getContext(), "Server Error", Toast.LENGTH_SHORT).show();
                     }
 
                 } catch (JSONException e) {
@@ -766,5 +770,112 @@ public class Activity_Vehicles_Details extends Fragment {
         queue.add(myReq);
         sweetProgressDialog.show();
     }
+
+
+    private void getVehicleYears(final String make,final String model) {
+        vehicleImagesDataList = new ArrayList<>();
+        sweetProgressDialog.setMessage("Fetching Vehicle Years...");
+        RequestQueue queue = Volley.newRequestQueue(getContext());
+
+        final StringRequest myReq = new StringRequest(Request.Method.POST,
+                Config.URL, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                if (sweetProgressDialog.isShowing()) {
+                    sweetProgressDialog.dismiss();
+                }
+                try {
+                    Log.e("tag", "response " + response);
+                    JSONObject jObj = new JSONObject(response);
+                    int success = jObj.getInt("success");
+                   /*// jsonArray.length();
+                    jsonArray.getJSONObject(0).getString("user_name");*/
+
+                    if (success == 1) {
+
+                        JSONArray homesArray = jObj.getJSONArray("list");
+                        String vehicleCompanies[] = new String[homesArray.length()+1];
+                        String vehicleYears[] = new String[homesArray.length()+1];
+                        for (int i = 0; i < homesArray.length(); i++) {
+                            JSONObject homeObj = homesArray.getJSONObject(i);
+
+                            if(i==0)vehicleYears[i] = "Select Year";
+
+                            vehicleCompanies[i+1] = homeObj.getString("model");
+
+                            vehicleYears[i+1] = homeObj.getString("year");
+
+                            vehicleImagesDataList.add(new VehicleData(homeObj.getString("id"), homeObj.getString("image"), Make, homeObj.getString("model"), homeObj.getString("year"), homeObj.getString("year"), homeObj.getString("year"), homeObj.getString("year")));
+                        }
+
+                      //  adapterImage = new VehicleImagesAdapter(getContext(), vehicleImagesDataList);
+                      //  startModel=homesArray.length();
+                      //  recyclerViewAlert.setAdapter(adapterImage);
+                      //  mAdapter = new ArrayAdapter<CharSequence>(getContext(),R.layout.spinner_item,vehicleCompanies);
+                      //  et_model.setAdapter(mAdapter);
+                        yAdapter = new ArrayAdapter<CharSequence>(getContext(),R.layout.spinner_item,vehicleYears);
+                        et_year.setAdapter(yAdapter);
+
+                       // et_model.setEnabled(true);
+                        et_year.setEnabled(true);
+
+                    } else {
+                        // Error occurred in registration. Get the error
+                        // message
+                        String errorMsg = jObj.getString("error_msg");
+//                        Toast.makeText(getContext(), "Server Error", Toast.LENGTH_SHORT).show();
+                    }
+
+                } catch (JSONException e) {
+                    if (sweetProgressDialog.isShowing()) {
+                        sweetProgressDialog.dismiss();
+                    }
+                    Log.i("myTag", e.toString());
+                    Toast.makeText(getContext(), "No vehicle exist!", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+
+        },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Log.i("myTag", error.toString());
+                        if (sweetProgressDialog.isShowing()) {
+                            sweetProgressDialog.dismiss();
+                        }
+                        Toast.makeText(getContext(), "Server Error", Toast.LENGTH_SHORT).show();
+                    }
+                }) {
+
+            @Override
+            protected Map<String, String> getParams() {
+                // Posting params to getFeatured url
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("tag", "VehicleYear");
+                params.put("id", make);
+                params.put("year", model);
+
+
+                return params;
+            }
+        };
+
+        myReq.setRetryPolicy(new DefaultRetryPolicy(
+                20000, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
+        ));
+        myReq.setShouldCache(false);
+        queue.add(myReq);
+        sweetProgressDialog.show();
+    }
+    public void setUserInteractionListener(UserInteractionListener userInteractionListener) {
+        this.userInteractionListener = userInteractionListener;
+    }
+    @Override
+    public void onUserInteraction() {
+        //  super.onUserInteraction();
+        userIsInteracting = true;
+    }
+
 
 }

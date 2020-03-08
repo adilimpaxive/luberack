@@ -1,4 +1,4 @@
-package com.app.giftfcard.utility;
+package com.app.luberack.utility;
 
 import android.annotation.TargetApi;
 import android.content.ContentUris;

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">666095884518-6q7lc233rck1oot71p41cju4jqg2vdfa.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://luberack-6823d.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">666095884518</string>
+    <string name="google_api_key" translatable="false">AIzaSyAUdVtM4ZzHX1nnbPX4Al5ui4ZkXOSyAl8</string>
+    <string name="google_app_id" translatable="false">1:666095884518:android:77b8a0ebe5b960e1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAUdVtM4ZzHX1nnbPX4Al5ui4ZkXOSyAl8</string>
+    <string name="google_storage_bucket" translatable="false">luberack-6823d.appspot.com</string>
+    <string name="project_id" translatable="false">luberack-6823d</string>
+</resources>

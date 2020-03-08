@@ -5,4 +5,5 @@ package com.app.luberack.Profile_management;
  */
 
 public interface UserInteractionListener {
+    void onUserInteraction();
 }

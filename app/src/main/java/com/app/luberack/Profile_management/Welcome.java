@@ -1,4 +1,4 @@
-package com.app.giftfcard.Profile_management;
+package com.app.luberack.Profile_management;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.app.giftfcard.Fragments.Activity_Vehicles_Details;
-import com.app.giftfcard.Home;
-import com.app.giftfcard.R;
+import com.app.luberack.Fragments.Activity_Vehicles_Details;
+import com.app.luberack.Home;
+import com.app.luberack.R;
 
 public class Welcome extends Fragment {
 

@@ -62,6 +62,7 @@ public class VehicleDetail extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_vehicle_detail, container, false);
         recyclerView = (RecyclerView) view.findViewById(R.id.RecyclerView);
+
         et_make = view.findViewById(R.id.et_make);
         et_year = view.findViewById(R.id.et_year);
         et_model = view.findViewById(R.id.et_model);

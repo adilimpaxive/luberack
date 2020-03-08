@@ -1,4 +1,4 @@
-package com.app.giftfcard.ModelClasses;
+package com.app.luberack.ModelClasses;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,8 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.app.giftfcard.Adapter.get_estimate_adapter;
-import com.app.giftfcard.R;
+import com.app.luberack.Adapter.get_estimate_adapter;
+import com.app.luberack.R;
 
 import java.util.ArrayList;
 import java.util.List;

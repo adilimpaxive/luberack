@@ -1,4 +1,4 @@
-package com.app.giftfcard.Fragments;
+package com.app.luberack.Fragments;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -18,10 +18,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.app.giftfcard.Adapter.CarTyreAdapter;
-import com.app.giftfcard.ModelClasses.CarTyreData;
-import com.app.giftfcard.R;
-import com.app.giftfcard.utility.Config;
+import com.app.luberack.Adapter.CarTyreAdapter;
+import com.app.luberack.ModelClasses.CarTyreData;
+import com.app.luberack.R;
+import com.app.luberack.utility.Config;
 
 import org.json.JSONArray;
 import org.json.JSONException;

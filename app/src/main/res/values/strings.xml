@@ -21,6 +21,7 @@
     <string name="open_location_settings">Open Location Settings</string>
     <string name="cancel">Cancel</string>
     <string name="searching_data">Searching data...</string>
+    <string name="Cancel">cancel</string>
 
     <string-array name="oil_change_make">
         <item>Select make</item>
@@ -51,8 +52,14 @@
         <item>Breeze</item>
     </string-array>
     <string-array name="oil_change_year">
-        <item>Select year</item>
+        <item>Select Year</item>
         <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
         <item>2010</item>
         <item>2011</item>
         <item>2012</item>
@@ -62,6 +69,7 @@
         <item>2016</item>
         <item>2017</item>
         <item>2018</item>
+        <item>2019</item>
     </string-array>
 
 

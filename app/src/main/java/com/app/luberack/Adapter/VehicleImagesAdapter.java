@@ -1,4 +1,4 @@
-package com.app.giftfcard.Adapter;
+package com.app.luberack.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,9 +9,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.app.giftfcard.Fragments.Activity_Vehicles_Details;
-import com.app.giftfcard.ModelClasses.VehicleData;
-import com.app.giftfcard.R;
+import com.app.luberack.Fragments.Activity_Vehicles_Details;
+import com.app.luberack.ModelClasses.VehicleData;
+import com.app.luberack.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ public  class VehicleImagesAdapter extends RecyclerView.Adapter<VehicleImagesAda
     private final LayoutInflater inflater;
     List<VehicleData> productList= Collections.emptyList();
     Context _context;
-    public static String imgUrl,imgYear,model;
+    public static String imgUrl,imgYear,model,modelClick="";
 
     public VehicleImagesAdapter(Context context, ArrayList<VehicleData> products) {
 
@@ -101,8 +101,9 @@ public  class VehicleImagesAdapter extends RecyclerView.Adapter<VehicleImagesAda
                     imgUrl = events.getImage();
                     imgYear = events.getReviews();
                     model = events.getLocation();
+                    modelClick="1";
                    // ArrayAdapter<CharSequence> yAdapter = ArrayAdapter.createFromResource(_context, R.array.oil_change_year, android.R.layout.simple_spinner_item);
-                    Activity_Vehicles_Details.et_year.setSelection(Activity_Vehicles_Details.yAdapter.getPosition(imgYear));
+                 //   Activity_Vehicles_Details.et_year.setSelection(Activity_Vehicles_Details.yAdapter.getPosition(imgYear));
                     Activity_Vehicles_Details.et_model.setSelection(Activity_Vehicles_Details.mAdapter.getPosition(model));
                     Activity_Vehicles_Details.dialog.dismiss();
                 }

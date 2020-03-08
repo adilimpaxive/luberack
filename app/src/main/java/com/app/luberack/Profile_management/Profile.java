@@ -1,4 +1,4 @@
-package com.app.giftfcard.Profile_management;
+package com.app.luberack.Profile_management;
 
 import android.graphics.Color;
 import android.support.v4.app.Fragment;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.app.giftfcard.R;
+import com.app.luberack.R;
 
 public class Profile extends AppCompatActivity {
 
